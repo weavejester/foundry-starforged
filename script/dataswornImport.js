@@ -16,7 +16,7 @@ function renderHtml (text) {
 async function doit () {
   // Assets
   const assetsJson = await fetch(
-    'https://raw.githubusercontent.com/rsek/datasworn/master/ironsworn_assets.json'
+    'https://raw.githubusercontent.com/rsek/dataforged/main/assets.json'
   ).then(x => x.json())
   const assets = []
   for (const asset of assetsJson.Assets) {
@@ -28,16 +28,16 @@ async function doit () {
     }
     if (asset['Asset Track']) {
       track.enabled = true
-      track.name = asset['Asset Track'].Name
-      track.max = asset['Asset Track'].Max
-      track.current = asset['Asset Track']['Starting Value'] ?? track.max
+      track.name = asset['Track'].Name
+      track.max = asset['Track'].Value
+      track.current = asset['Track']['Starts At'] ?? track.max
     }
 
     assets.push({
-      name: `${asset['Asset Type']} / ${asset.Name}`,
+      name: `${asset['Category']} / ${asset.Name}`,
       data: {
         description: asset.Description,
-        fields: (asset['Input Fields'] || []).map(x => ({
+        fields: (asset['Fields'] || []).map(x => ({
           name: x,
           value: ''
         })),
