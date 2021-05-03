@@ -15,28 +15,28 @@
   ],
   "packs": [
     {
-      "name": "ironsworntables",
+      "name": "ironsworn-tables",
       "label": "Ironsworn Tables",
       "system": "foundry-starforged",
       "path": "packs/tables.db",
       "entity": "RollTable"
     },
     {
-      "name": "ironswornitems",
+      "name": "ironsworn-items",
       "label": "Ironsworn Moves",
       "system": "foundry-starforged",
       "path": "packs/items.db",
       "entity": "Item"
     },
     {
-      "name": "ironswornassets",
+      "name": "ironsworn-assets",
       "label": "Ironsworn Assets",
       "system": "foundry-starforged",
       "path": "packs/assets.db",
       "entity": "Item"
     },
     {
-      "name": "ironswornscenes",
+      "name": "ironsworn-scenes",
       "label": "Ironsworn Maps",
       "system": "foundry-starforged",
       "path": "packs/scenes.db",

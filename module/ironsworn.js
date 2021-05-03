@@ -16,14 +16,14 @@ import { importFromDatasworn } from './datasworn.js'
 /* -------------------------------------------- */
 
 Hooks.once('init', async function () {
-  console.log(`Initializing Ironsworn System`)
+  console.log(`Initializing Starforged System`)
 
   // Define custom Entity classes
   CONFIG.Actor.entityClass = IronswornActor
   CONFIG.Item.entityClass = IronswornItem
-  CONFIG.Dice.template = 'systems/foundry-ironsworn/templates/chat/roll.hbs'
+  CONFIG.Dice.template = 'systems/foundry-starforged/templates/chat/roll.hbs'
   // CONFIG.RollTable.resultTemplate =
-  //   'systems/foundry-ironsworn/templates/chat/table-draw.hbs'
+  //   'systems/foundry-starforged/templates/chat/table-draw.hbs'
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet)
@@ -146,7 +146,7 @@ export async function ironswornMoveRoll (bonusExpr = '0', values = {}, title) {
 }
 
 export async function ironswornRollDialog (data, stat, title) {
-  const template = 'systems/foundry-ironsworn/templates/roll-dialog.hbs'
+  const template = 'systems/foundry-starforged/templates/roll-dialog.hbs'
   const templateData = { data, stat }
   const html = await renderTemplate(template, templateData)
   let d = new IronswornRollDialog({

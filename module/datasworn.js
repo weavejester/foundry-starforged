@@ -1,6 +1,6 @@
 export async function importFromDatasworn () {
   // Empty out the packs
-  for (const key of ['world.ironsworn-items', 'world.ironsworn-assets']) {
+  for (const key of ['foundry-starforged.ironsworn-items', 'foundry-starforged.ironsworn-assets']) {
     const pack = game.packs.get(key)
     await pack.render(true)
     const idsToDelete = pack.index.map(x => x._id)
@@ -10,9 +10,9 @@ export async function importFromDatasworn () {
   }
 
   // Moves
-  const movesPack = game.packs.get('world.ironsworn-items')
+  const movesPack = game.packs.get('foundry-starforged.ironsworn-items')
   const movesJson = await fetch(
-    '/systems/foundry-ironsworn/assets/moves.json'
+    '/systems/foundry-starforged/assets/moves.json'
   ).then(x => x.json())
   for (const move of movesJson) {
     await movesPack.createEntity({
@@ -22,9 +22,9 @@ export async function importFromDatasworn () {
   }
 
   // Assets
-  const assetsPack = game.packs.get('world.ironsworn-assets')
+  const assetsPack = game.packs.get('foundry-starforged.ironsworn-assets')
   const assetsJson = await fetch(
-    '/systems/foundry-ironsworn/assets/assets.json'
+    '/systems/foundry-starforged/assets/assets.json'
   ).then(x => x.json())
   for (const asset of assetsJson) {
     await assetsPack.createEntity({

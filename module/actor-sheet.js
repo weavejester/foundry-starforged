@@ -17,7 +17,7 @@ export class IronswornActorSheet extends ActorSheet {
 
   /** @override */
   get template () {
-    const path = 'systems/foundry-ironsworn/templates/actor'
+    const path = 'systems/foundry-starforged/templates/actor'
     return `${path}/${this.actor.data.type}.hbs`
   }
 
@@ -68,10 +68,10 @@ export class IronswornActorSheet extends ActorSheet {
 
     // Enable editing stats
     html.find('#edit-stats').click(async ev => {
-      if (this.actor.getFlag('foundry-ironsworn', 'editStats')) {
-        await this.actor.unsetFlag('foundry-ironsworn', 'editStats')
+      if (this.actor.getFlag('foundry-starforged', 'editStats')) {
+        await this.actor.unsetFlag('foundry-starforged', 'editStats')
       } else {
-        await this.actor.setFlag('foundry-ironsworn', 'editStats', 'true')
+        await this.actor.setFlag('foundry-starforged', 'editStats', 'true')
       }
     })
 
@@ -194,8 +194,8 @@ export class IronswornActorSheet extends ActorSheet {
     const item = this.actor.getOwnedItem(li.data('id'))
 
     const flagKey = `expanded-${item._id}`
-    const value = this.actor.getFlag('foundry-ironsworn', flagKey)
-    this.actor.setFlag('foundry-ironsworn', flagKey, !value)
+    const value = this.actor.getFlag('foundry-starforged', flagKey)
+    this.actor.setFlag('foundry-starforged', flagKey, !value)
   }
 
   _parseRollPlus (text) {
@@ -245,7 +245,7 @@ export class IronswornActorSheet extends ActorSheet {
       // Clicked an oracle, roll from the table
       let table = game.tables.find(x => x.name === tableName)
       if (!table) {
-        const pack = game.packs.get('foundry-ironsworn.ironsworntables')
+        const pack = game.packs.get('foundry-starforged.ironsworntables')
         const index = await pack.getIndex()
         const entry = index.find(x => x.name == tableName)
         if (entry) table = await pack.getEntity(entry._id)
@@ -257,7 +257,7 @@ export class IronswornActorSheet extends ActorSheet {
   async _rollDialog (key) {
     const move = MOVES[key]
     const html = await renderTemplate(
-      'systems/foundry-ironsworn/templates/move-dialog.hbs',
+      'systems/foundry-starforged/templates/move-dialog.hbs',
       move
     )
 
