@@ -1,12 +1,12 @@
 {
-  "name": "foundry-ironsworn",
-  "title": "Ironsworn",
-  "description": "An implementation of the Ironsworn system. Based entirely on the Simple Worldbuilding System for Foundry designed by Atropos.",
+  "name": "foundry-starforged",
+  "title": "Ironsworn: Starforged",
+  "description": "A WIP implementation of the Ironsworn: Starforged system. Based on the Ironsworn foundry module by Ben Straub.",
   "version": "0.2.4",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,
-  "author": "Ben Straub",
+  "author": "James Reeves",
   "esmodules": [
     "module/ironsworn.js"
   ],
@@ -17,28 +17,28 @@
     {
       "name": "ironsworntables",
       "label": "Ironsworn Tables",
-      "system": "foundry-ironsworn",
+      "system": "foundry-starforged",
       "path": "packs/tables.db",
       "entity": "RollTable"
     },
     {
       "name": "ironswornitems",
       "label": "Ironsworn Moves",
-      "system": "foundry-ironsworn",
+      "system": "foundry-starforged",
       "path": "packs/items.db",
       "entity": "Item"
     },
     {
       "name": "ironswornassets",
       "label": "Ironsworn Assets",
-      "system": "foundry-ironsworn",
+      "system": "foundry-starforged",
       "path": "packs/assets.db",
       "entity": "Item"
     },
     {
       "name": "ironswornscenes",
       "label": "Ironsworn Maps",
-      "system": "foundry-ironsworn",
+      "system": "foundry-starforged",
       "path": "packs/scenes.db",
       "entity": "Scene"
     }
@@ -64,8 +64,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://github.com/ben/foundry-ironsworn",
-  "manifest": "https://raw.githubusercontent.com/ben/foundry-ironsworn/main/system.json",
-  "download": "http://github.com/ben/foundry-ironsworn/archive/0.2.4.zip",
+  "url": "https://github.com/weavejester/foundry-starforged",
+  "manifest": "https://raw.githubusercontent.com/weavejester/foundry-starforged/main/system.json",
+  "download": "http://github.com/weavejester/foundry-starforged/archive/0.2.4.zip",
   "license": "LICENSE.txt"
 }
