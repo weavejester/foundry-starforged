@@ -245,7 +245,7 @@ export class IronswornActorSheet extends ActorSheet {
       // Clicked an oracle, roll from the table
       let table = game.tables.find(x => x.name === tableName)
       if (!table) {
-        const pack = game.packs.get('foundry-starforged.ironsworntables')
+        const pack = game.packs.get('foundry-starforged.starforged-tables')
         const index = await pack.getIndex()
         const entry = index.find(x => x.name == tableName)
         if (entry) table = await pack.getEntity(entry._id)

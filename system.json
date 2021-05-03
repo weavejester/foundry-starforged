@@ -15,29 +15,29 @@
   ],
   "packs": [
     {
-      "name": "ironsworn-tables",
-      "label": "Ironsworn Tables",
+      "name": "starforged-tables",
+      "label": "Starforged Tables",
       "system": "foundry-starforged",
       "path": "packs/tables.db",
       "entity": "RollTable"
     },
     {
-      "name": "ironsworn-items",
-      "label": "Ironsworn Moves",
+      "name": "starforged-items",
+      "label": "Starforged Moves",
       "system": "foundry-starforged",
       "path": "packs/items.db",
       "entity": "Item"
     },
     {
-      "name": "ironsworn-assets",
-      "label": "Ironsworn Assets",
+      "name": "starforged-assets",
+      "label": "Starforged Assets",
       "system": "foundry-starforged",
       "path": "packs/assets.db",
       "entity": "Item"
     },
     {
-      "name": "ironsworn-scenes",
-      "label": "Ironsworn Maps",
+      "name": "starforged-scenes",
+      "label": "Starforged Maps",
       "system": "foundry-starforged",
       "path": "packs/scenes.db",
       "entity": "Scene"
