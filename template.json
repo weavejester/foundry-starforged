@@ -18,15 +18,17 @@
       "supply": 5,
       "experience": 0,
       "momentum": 2,
-      "debility": {
-        "corrupted": false,
-        "cursed": false,
-        "encumbered": false,
-        "maimed": false,
+      "impact": {
+        "wounded": false,
         "shaken": false,
-        "tormented": false,
         "unprepared": false,
-        "wounded": false
+        "permanently harmed": false,
+        "traumatized": false,
+        "doomed": false,
+        "tormented": false,
+        "indebted": false,
+        "battered": false,
+        "cursed": false
       },
       "xp": 0
     },

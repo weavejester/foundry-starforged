@@ -209,32 +209,37 @@
                     </section>-->
 
                     <section class="sheet-area" style="flex-grow: 0;">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Debilities'}}</h1>
+                        <h1 style="text-align:center">{{localize 'IRONSWORN.Impacts'}}</h1>
 
-                        {{#*inline "debility"}}
+                        {{#*inline "impact"}}
                         <label class="checkbox">
-                            <input type="checkbox" name="data.debility.{{name}}" {{checked (lookup data.debility
-                                name)}}>
+                            <input type="checkbox" name="data.impact.{{name}}" {{checked (lookup data.impact name)}}>
                             {{capitalize name}}
                         </label>
                         {{/inline}}
 
                         <div class="flexrow">
                             <div class="flexcol">
-                                <h3>{{localize 'IRONSWORN.Conditions'}}</h3>
-                                {{>debility name="wounded"}}
-                                {{>debility name="unprepared"}}
-                                {{>debility name="shaken"}}
-                                {{>debility name="encumbered"}}
+                                <h3>{{localize 'IRONSWORN.Misfortunes'}}</h3>
+                                {{>impact name="wounded"}}                               
+                                {{>impact name="shaken"}}
+                                {{>impact name="unprepared"}}
                             </div>
                             <div class="flexcol">
-                                <h3>{{localize 'IRONSWORN.Banes'}}</h3>
-                                {{>debility name="maimed"}}
-                                {{>debility name="corrupted"}}
-
+                                <h3>{{localize 'IRONSWORN.LastingEffects'}}</h3>
+                                {{>impact name="permanently harmed"}}
+                                {{>impact name="traumatized"}}
+                            </div>
+                            <div class="flexcol">                
                                 <h3>{{localize 'IRONSWORN.Burdens'}}</h3>
-                                {{>debility name="cursed"}}
-                                {{>debility name="tormented"}}
+                                {{>impact name="doomed"}}
+                                {{>impact name="tormented"}}
+                                {{>impact name="indebted"}}
+                            </div>
+                            <div class="flexcol">                
+                                <h3>{{localize 'IRONSWORN.CurrentVehicle'}}</h3>
+                                {{>impact name="battered"}}
+                                {{>impact name="cursed"}}
                             </div>
                         </div>
                     </section>
@@ -283,7 +288,7 @@
                 </ol>
             </div>
 
-            <h1 style="flex: 0 0 auto">{{localize 'IRONSWORN.Oracles'}}</h1>
+            <!--<h1 style="flex: 0 0 auto">{{localize 'IRONSWORN.Oracles'}}</h1>
             <div class="flexcol item-list">
 
                 {{#*inline "oracle"}}
@@ -333,9 +338,8 @@
                     {{> oracle name="Choice (50/50)"}}
                     {{> oracle name="Choice (Unlikely)"}}
                     {{> oracle name="Choice (Small Chance)"}}
-                    <!-- TODO: Delve oracles? -->
                 </ol>
-            </div>
+            </div>-->
         </div>
     </div>
 </form>

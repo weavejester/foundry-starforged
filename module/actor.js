@@ -11,12 +11,12 @@ export class IronswornActor extends Actor {
 
   /** @override */
   prepareDerivedData () {
-    // Calculate momentum max/reset from debilities
-    const numDebilitiesMarked = Object.values(this.data.data.debility).filter(
+    // Calculate momentum max/reset from impacts
+    const numImpactsMarked = Object.values(this.data.data.impact).filter(
       x => x
     ).length
-    this.data.data.momentumMax = 10 - numDebilitiesMarked
-    this.data.data.momentumReset = Math.max(0, 2 - numDebilitiesMarked)
+    this.data.data.momentumMax = 10 - numImpactsMarked
+    this.data.data.momentumReset = Math.max(0, 2 - numImpactsMarked)
   }
 
   async addDefaultItems () {
