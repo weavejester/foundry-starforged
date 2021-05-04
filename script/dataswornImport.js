@@ -26,18 +26,18 @@ async function doit () {
       max: 0,
       current: 0
     }
-    if (asset['Asset Track']) {
+    if (asset.Track) {
       track.enabled = true
-      track.name = asset['Track'].Name
-      track.max = asset['Track'].Value
-      track.current = asset['Track']['Starts At'] ?? track.max
+      track.name = asset.Track.Name
+      track.max = asset.Track.Value
+      track.current = asset.Track['Starts At'] ?? track.max
     }
 
     assets.push({
-      name: `${asset['Category']} / ${asset.Name}`,
+      name: `${asset.Category} / ${asset.Name}`,
       data: {
         description: asset.Description,
-        fields: (asset['Fields'] || []).map(x => ({
+        fields: (asset.Fields || []).map(x => ({
           name: x,
           value: ''
         })),

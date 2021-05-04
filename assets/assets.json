@@ -194,10 +194,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 4,
+        "current": 4
       }
     }
   },
@@ -305,10 +305,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 5,
+        "current": 5
       }
     }
   },
@@ -357,10 +357,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Safety",
+        "max": 5,
+        "current": 5
       }
     }
   },
@@ -501,10 +501,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Integrity",
+        "max": 6,
+        "current": 6
       }
     }
   },
@@ -527,9 +527,9 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
+        "enabled": true,
+        "name": "Cargo",
+        "max": 3,
         "current": 0
       }
     }
@@ -605,9 +605,9 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
+        "enabled": true,
+        "name": "Fire",
+        "max": 5,
         "current": 0
       }
     }
@@ -662,10 +662,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 3,
+        "current": 3
       }
     }
   },
@@ -857,10 +857,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Integrity",
+        "max": 3,
+        "current": 3
       }
     }
   },
@@ -1045,10 +1045,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Ammo",
+        "max": 5,
+        "current": 5
       }
     }
   },
@@ -1291,10 +1291,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 5,
+        "current": 5
       }
     }
   },
@@ -1322,10 +1322,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Integrity",
+        "max": 5,
+        "current": 5
       }
     }
   },
@@ -1457,10 +1457,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Integrity",
+        "max": 4,
+        "current": 4
       }
     }
   },
@@ -1509,9 +1509,9 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
+        "enabled": true,
+        "name": "Shields",
+        "max": 4,
         "current": 0
       }
     }
@@ -1540,10 +1540,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Integrity",
+        "max": 4,
+        "current": 4
       }
     }
   },
@@ -1575,10 +1575,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 4,
+        "current": 4
       }
     }
   },
@@ -1659,10 +1659,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Integrity",
+        "max": 4,
+        "current": 4
       }
     }
   },
@@ -1690,10 +1690,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Integrity",
+        "max": 5,
+        "current": 5
       }
     }
   },
@@ -1747,10 +1747,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 3,
+        "current": 3
       }
     }
   },
@@ -1778,10 +1778,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 2,
+        "current": 2
       }
     }
   },
@@ -1861,10 +1861,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 4,
+        "current": 4
       }
     }
   },
@@ -2028,10 +2028,10 @@
         }
       ],
       "track": {
-        "enabled": false,
-        "name": "",
-        "max": 0,
-        "current": 0
+        "enabled": true,
+        "name": "Health",
+        "max": 4,
+        "current": 4
       }
     }
   },
