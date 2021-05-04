@@ -81,7 +81,7 @@
   position: relative;
 }
 .ironsworn .margin-right {
-  flex: 0 0 250px;
+  flex: 0;
   border-left: 1px solid black;
   margin-left: 5px;
   padding-left: 10px;
@@ -103,6 +103,7 @@
 .ironsworn .item-list {
   flex: 1 0 100px;
   overflow-y: scroll;
+  max-height: 400px;
 }
 .ironsworn .item-list .move {
   overflow-x: hidden;
