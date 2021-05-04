@@ -22,6 +22,11 @@
     }
     margin: 5px;
 
+    h1 {
+      text-align: center;
+      flex: 0;
+    }
+
     h1,
     h2,
     h3 {
@@ -80,6 +85,14 @@
     }
   }
 
+  .moves, .assets {
+    position: relative;
+
+    .item-list {
+      height: 100%;
+    }
+  }
+
   .items, .impacts {
     flex: 0 1 140px;
   }
@@ -123,7 +136,6 @@
   .item-list {
     flex: 1 0 100px;
     overflow-y: scroll;
-    max-height: 400px;
 
     .move {
       overflow-x: hidden;

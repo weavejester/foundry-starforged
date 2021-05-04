@@ -24,6 +24,10 @@
 .ironsworn .sheet-area:first-child {
   border-top: none;
 }
+.ironsworn .sheet-area h1 {
+  text-align: center;
+  flex: 0;
+}
 .ironsworn .sheet-area h1,
 .ironsworn .sheet-area h2,
 .ironsworn .sheet-area h3 {
@@ -73,6 +77,14 @@
   line-height: 13px;
   text-align: center;
 }
+.ironsworn .moves,
+.ironsworn .assets {
+  position: relative;
+}
+.ironsworn .moves .item-list,
+.ironsworn .assets .item-list {
+  height: 100%;
+}
 .ironsworn .items,
 .ironsworn .impacts {
   flex: 0 1 140px;
@@ -110,7 +122,6 @@
 .ironsworn .item-list {
   flex: 1 0 100px;
   overflow-y: scroll;
-  max-height: 400px;
 }
 .ironsworn .item-list .move {
   overflow-x: hidden;

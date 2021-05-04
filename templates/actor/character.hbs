@@ -124,9 +124,9 @@
 
             <div class="flexrow">
                 <div class="flexcol">
-                    <section class="sheet-area moves">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Moves'}}</h1>
-                        <div class="flexcol item-list">
+                    <section class="sheet-area moves flexcol">
+                        <h1>{{localize 'IRONSWORN.Moves'}}</h1>
+                        <div class="item-list">
                             <ol>
                                 {{#each builtInMoves}}
                                 {{#if separator}}
@@ -143,7 +143,7 @@
                     </section>
 
                     <section class="sheet-area impacts" style="flex-grow: 0;">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Impacts'}}</h1>
+                        <h1>{{localize 'IRONSWORN.Impacts'}}</h1>
 
                         {{#*inline "impact"}}
                         <label class="checkbox">
@@ -203,8 +203,8 @@
                 </div>
 
                 <div class="flexcol">
-                    <section class="sheet-area assets">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Assets'}}</h1>
+                    <section class="sheet-area assets flexcol">
+                        <h1>{{localize 'IRONSWORN.Assets'}}</h1>
                         <div class="flexcol item-list">
                             <ol>
                                 {{#each assets}}
@@ -273,7 +273,7 @@
                     </section>-->
 
                     <section class="sheet-area items">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.PersonalItems'}}</h1>
+                        <h1>{{localize 'IRONSWORN.PersonalItems'}}</h1>
                         <textarea name="data.personalitems">{{actor.data.personalitems}}</textarea>                          
                     </section>
 
