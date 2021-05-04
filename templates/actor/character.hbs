@@ -40,15 +40,15 @@
     <header class="sheet-header">        
         <div class="flexcol">
             <div class="flexrow">
-                <label for="name">{{localize 'IRONSWORN.Name'}}</label>
+                <label class="details" for="name">{{localize 'IRONSWORN.Name'}}</label>
                 <input name="name" type="text" value="{{actor.name}}" />
             </div>
             <div class="flexrow">
-                <label for="data.pronouns">{{localize 'IRONSWORN.Pronouns'}}</label>
+                <label class="details" for="data.pronouns">{{localize 'IRONSWORN.Pronouns'}}</label>
                 <input name="data.pronouns" type="text" value="{{actor.data.pronouns}}" />    
             </div>
             <div class="flexrow">
-                <label for="data.callsign">{{localize 'IRONSWORN.Callsign'}}</label>
+                <label class="details" for="data.callsign">{{localize 'IRONSWORN.Callsign'}}</label>
                 <input name="data.callsign" type="text" value="{{actor.data.callsign}}" />    
             </div>
         </div>
@@ -123,9 +123,87 @@
             </div>
 
             <div class="flexrow">
+                <div class="flexcol">
+                    <section class="sheet-area moves">
+                        <h1 style="text-align:center">{{localize 'IRONSWORN.Moves'}}</h1>
+                        <div class="flexcol item-list">
+                            <ol>
+                                {{#each builtInMoves}}
+                                {{#if separator}}
+                                <h2>{{title}}</h2>
+                                {{else}}
+                                <li class="item-row" data-name="{{title}}">
+                                    <div class="built-in-move-entry">{{title}}</div>
+                                    <div class="move-summary" style="display: none;">{{{enrichHtml description}}}</div>
+                                </li>
+                                {{/if}}
+                                {{/each}}
+                            </ol>                        
+                        </div>
+                    </section>
+
+                    <section class="sheet-area impacts" style="flex-grow: 0;">
+                        <h1 style="text-align:center">{{localize 'IRONSWORN.Impacts'}}</h1>
+
+                        {{#*inline "impact"}}
+                        <label class="checkbox">
+                            <input type="checkbox" name="data.impact.{{name}}" {{checked (lookup data.impact name)}}>
+                            {{capitalize name}}
+                        </label>
+                        {{/inline}}
+
+                        <div class="flexrow">
+                            <div class="flexcol">
+                                <h3>{{localize 'IRONSWORN.Misfortunes'}}</h3>
+                                {{>impact name="wounded"}}                               
+                                {{>impact name="shaken"}}
+                                {{>impact name="unprepared"}}
+                            </div>
+                            <div class="flexcol">
+                                <h3>{{localize 'IRONSWORN.LastingEffects'}}</h3>
+                                {{>impact name="permanently harmed"}}
+                                {{>impact name="traumatized"}}
+                            </div>
+                            <div class="flexcol">                
+                                <h3>{{localize 'IRONSWORN.Burdens'}}</h3>
+                                {{>impact name="doomed"}}
+                                {{>impact name="tormented"}}
+                                {{>impact name="indebted"}}
+                            </div>
+                            <div class="flexcol">                
+                                <h3>{{localize 'IRONSWORN.CurrentVehicle'}}</h3>
+                                {{>impact name="battered"}}
+                                {{>impact name="cursed"}}
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
+                    <!--<section class="sheet-area progresses">
+                        <h1 style="text-align:center">{{localize 'IRONSWORN.Vows'}}</h1>
+                        {{#each vows}}
+                        {{>progress}}
+                        {{/each}}
+                        <div class="block clickable add-item" data-type="vow">
+                            <i class="fas fa-plus"></i>
+                        </div>
+
+                    </section>
+                    <section class="sheet-area progresses">
+                        <h1 style="text-align:center">{{localize 'IRONSWORN.Progress'}}</h1>
+                        {{#each progresses}}
+                        {{>progress}}
+                        {{/each}}
+                        <div class="block clickable add-item" data-type="progress">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </section>-->
+                </div>
 
                 <div class="flexcol">
-                    <section class="sheet-area">
+                    <section class="sheet-area assets">
                         <h1 style="text-align:center">{{localize 'IRONSWORN.Assets'}}</h1>
                         <div class="flexcol item-list">
                             <ol>
@@ -194,85 +272,12 @@
                         </div>
                     </section>-->
 
-                    <section class="sheet-area" style="flex-grow: 0;">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Impacts'}}</h1>
-
-                        {{#*inline "impact"}}
-                        <label class="checkbox">
-                            <input type="checkbox" name="data.impact.{{name}}" {{checked (lookup data.impact name)}}>
-                            {{capitalize name}}
-                        </label>
-                        {{/inline}}
-
-                        <div class="flexrow">
-                            <div class="flexcol">
-                                <h3>{{localize 'IRONSWORN.Misfortunes'}}</h3>
-                                {{>impact name="wounded"}}                               
-                                {{>impact name="shaken"}}
-                                {{>impact name="unprepared"}}
-                            </div>
-                            <div class="flexcol">
-                                <h3>{{localize 'IRONSWORN.LastingEffects'}}</h3>
-                                {{>impact name="permanently harmed"}}
-                                {{>impact name="traumatized"}}
-                            </div>
-                            <div class="flexcol">                
-                                <h3>{{localize 'IRONSWORN.Burdens'}}</h3>
-                                {{>impact name="doomed"}}
-                                {{>impact name="tormented"}}
-                                {{>impact name="indebted"}}
-                            </div>
-                            <div class="flexcol">                
-                                <h3>{{localize 'IRONSWORN.CurrentVehicle'}}</h3>
-                                {{>impact name="battered"}}
-                                {{>impact name="cursed"}}
-                            </div>
-                        </div>
+                    <section class="sheet-area items">
+                        <h1 style="text-align:center">{{localize 'IRONSWORN.PersonalItems'}}</h1>
+                        <textarea name="data.personalitems">{{actor.data.personalitems}}</textarea>                          
                     </section>
 
                 </div>
-
-                <div class="flexcol">
-                    <section class="sheet-area">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Moves'}}</h1>
-                        <div class="flexcol item-list">
-                            <ol>
-                                {{#each builtInMoves}}
-                                {{#if separator}}
-                                <h2>{{title}}</h2>
-                                {{else}}
-                                <li class="item-row" data-name="{{title}}">
-                                    <div class="built-in-move-entry">{{title}}</div>
-                                    <div class="move-summary" style="display: none;">{{{enrichHtml description}}}</div>
-                                </li>
-                                {{/if}}
-                                {{/each}}
-                            </ol>                        
-                        </div>
-                    </section>
-
-
-                    <!--<section class="sheet-area progresses">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Vows'}}</h1>
-                        {{#each vows}}
-                        {{>progress}}
-                        {{/each}}
-                        <div class="block clickable add-item" data-type="vow">
-                            <i class="fas fa-plus"></i>
-                        </div>
-
-                    </section>
-                    <section class="sheet-area progresses">
-                        <h1 style="text-align:center">{{localize 'IRONSWORN.Progress'}}</h1>
-                        {{#each progresses}}
-                        {{>progress}}
-                        {{/each}}
-                        <div class="block clickable add-item" data-type="progress">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </section>-->
-                </div>
-
             </div>
         </div>
         <div class="flexcol margin-right">

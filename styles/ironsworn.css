@@ -73,6 +73,13 @@
   line-height: 13px;
   text-align: center;
 }
+.ironsworn .items,
+.ironsworn .impacts {
+  flex: 0 1 140px;
+}
+.ironsworn .details {
+  flex: 0 1 70px;
+}
 .ironsworn .margin-left {
   flex: 0;
   border-right: 1px solid black;
@@ -178,13 +185,14 @@
   text-align: center;
 }
 .ironsworn .stats .stat h3 {
-  margin: 0;
-  margin-bottom: 5px;
+  display: inline;
+  margin: 0 0 5px 0;
   font-weight: bold;
   font-size: 22px;
 }
 .ironsworn .stats .stat h4 {
-  margin: 0;
+  display: inline;
+  margin: 0 5px 0 0;
   font-weight: bold;
 }
 .ironsworn .stats .stat input {
