@@ -5,7 +5,9 @@
       "shared"
     ],
     "character": {
-      "biography": "",
+      "pronouns": "",
+      "callsign": "",
+      "characteristics": "",
       "edge": 1,
       "heart": 1,
       "iron": 1,

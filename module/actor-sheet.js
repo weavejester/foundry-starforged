@@ -49,6 +49,8 @@ export class IronswornActorSheet extends ActorSheet {
     data.progresses = this.actor.items.filter(x => x.type === 'progress')
     data.bonds = this.actor.items.find(x => x.type === 'bondset')
 
+    console.log(data)
+
     return data
   }
 

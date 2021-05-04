@@ -37,11 +37,28 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
     <!-- Header row -->
-    <header class="sheet-header">
+    <header class="sheet-header">        
+        <div class="flexcol">
+            <div class="flexrow">
+                <label for="name">{{localize 'IRONSWORN.Name'}}</label>
+                <input name="name" type="text" value="{{actor.name}}" />
+            </div>
+            <div class="flexrow">
+                <label for="data.pronouns">{{localize 'IRONSWORN.Pronouns'}}</label>
+                <input name="data.pronouns" type="text" value="{{actor.data.pronouns}}" />    
+            </div>
+            <div class="flexrow">
+                <label for="data.callsign">{{localize 'IRONSWORN.Callsign'}}</label>
+                <input name="data.callsign" type="text" value="{{actor.data.callsign}}" />    
+            </div>
+        </div>
+        <div class="flexcol">
+            <label for="data.characteristics">{{localize 'IRONSWORN.Characteristics'}}</label>
+            <textarea name="data.characteristics">{{actor.data.characteristics}}</textarea>   
+        </div>
+        </div>
         <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="50" width="50" />
-        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}"
-                placeholder="{{localize 'IRONSWORN.Name'}}" /></h1>
-        <div class="flexrow xp">
+        <!-- <div class="flexrow xp">
             <h4 style="flex-grow: 0; margin: 5px;">{{localize 'IRONSWORN.XP'}}</h4>
             <div class="flexrow">
                 {{#rangeEach from=1 to=9 current=data.xp}}
@@ -52,7 +69,7 @@
                 {{/rangeEach}}
                 <div class="clickable block xp clear" data-resource="xp" data-value="0">×</div>
             </div>
-        </div>
+        </div>-->
     </header>
 
     <div class="flexrow">
@@ -98,7 +115,7 @@
                 </div>
                 {{/inline}}
 
-                {{#if actor.flags.foundry-ironsworn.editStats}}
+                {{#if actor.flags.foundry-starforged.editStats}}
                 {{>statEdit stat="edge"}}
                 {{>statEdit stat="heart"}}
                 {{>statEdit stat="iron"}}
@@ -179,7 +196,7 @@
                             </ol>
                         </div>
                     </section>
-                    <section class="sheet-area" style="flex-grow: 0;">
+                    <!--<section class="sheet-area" style="flex-grow: 0;">
                         <h1 style="text-align:center">{{localize 'IRONSWORN.Bonds'}}</h1>
                         <div class="flexrow">
                             {{#each (progressCharacters bonds.count)}}
@@ -189,7 +206,7 @@
                                 <i class="edit-bonds fas fa-edit" data-id="{{bonds._id}}"></i>
                             </div>
                         </div>
-                    </section>
+                    </section>-->
 
                     <section class="sheet-area" style="flex-grow: 0;">
                         <h1 style="text-align:center">{{localize 'IRONSWORN.Debilities'}}</h1>
