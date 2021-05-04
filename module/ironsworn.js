@@ -201,10 +201,10 @@ Handlebars.registerHelper('capitalize', txt => {
 })
 
 Handlebars.registerHelper('progressCharacters', current => {
-  const tickChar = [' ', '-', '+', '*'][current % 4]
+  const tickChar = ['', '—', '⨉', '🞶'][current % 4]
   let characters = []
   for (let i = 0; i < Math.floor(current / 4); i++) {
-    characters.push('#')
+    characters.push('🞼')
   }
   if (characters.length < 10) {
     characters.push(tickChar)
