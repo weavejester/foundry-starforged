@@ -55,12 +55,25 @@ async function doit () {
   await fs.writeFile('assets/assets.json', JSON.stringify(assets, null, 2))
 
   // Moves
-  const movesJson = await fetch(
-    'https://raw.githubusercontent.com/rsek/datasworn/master/ironsworn_moves.json'
-  ).then(x => x.json())
+  const moveURLs = [
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/adventure.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/combat.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/connection.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/exploration.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/fate.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/legacy.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/quest.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/recover.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/suffer.json',
+    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/threshold.json'
+  ]
+
   const moves = []
-  for (const category of movesJson.Categories) {
-    for (const move of category.Moves) {
+
+  for (const url of moveURLs)
+  {
+    const movesJson = await fetch(url).then(x => x.json())   
+    for (const move of movesJson.Moves) {
       moves.push({
         name: move.Name,
         data: { description: renderHtml(move.Text) }
