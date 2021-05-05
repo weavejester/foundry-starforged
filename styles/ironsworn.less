@@ -96,17 +96,15 @@
 
   .margin-left {
     flex: 0;
-    border-right: 1px solid black;
-    margin-right: 5px;
-    padding-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
   }
 
   .margin-right {
     flex: 0 0 75px;
-    border-left: 1px solid black;
-    margin-left: 5px;
-    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
 
     h1 {
@@ -153,26 +151,56 @@
     margin-bottom: 20px;
     flex-grow: 0;
 
-    h4.vertical {
-      transform: rotate(90deg);
-      transform-origin: 0 0;
-      float: right;
-      position: absolute;
-      left: 78px;
-      padding-left: 5px;
+    h4 {
+      float: left;
+      background: black;
+      color: white;
+      border-radius: 5px 5px 0 0;
+      text-align: center;
+      font-size: 22px;
+      width: 70px;
+      height: 30px;
+      margin-bottom: 0;
+
+      &.momentum {
+        font-size: 14px;
+        padding: 5px 0;
+      }
     }
 
     .stack-row {
       flex: 0 0 auto;
-      width: 50px;
-      border: 1px solid black;
-      margin-bottom: -1px;
+      width: 70px;
+      margin-bottom: 2px;
       text-align: center;
       line-height: 28px;
       font-size: 18px;
+      background: #e1e8ec;
 
       input[type="radio"] {
         appearance: none;
+      }
+    }
+
+    .max {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    #burn {
+      background: #b44;
+      color: white;
+      border-radius: 5px;
+      box-shadow: black 2px 2px;
+    
+      .burn {
+        display: block;
+        font-size: 18px;
+      }
+    
+      .reset {
+        display: block;
+        font-size: 14px;
       }
     }
   }
@@ -206,18 +234,25 @@
     }
 
     &.selected {
-      color: white;
-      background: black;
+      background: #afbcc3;
     }
   }
 
   .stats {
     flex: 0;
     justify-content: space-around;
+    margin: 10px auto 0 auto;
 
     .stat {
-      flex: 0 0 100px;
       border: 1px solid black;
+      text-align: center;
+      width: 130px;
+      display: inline-block;
+      height: 38px;
+      line-height: 38px;
+      border-radius: 5px;
+      box-shadow: black 3px 3px;
+      margin: 0 10px;
       text-align: center;
 
       h3 {
@@ -234,7 +269,7 @@
       }
 
       input {
-        width: 50%;
+        width: 30px;
         margin-bottom: 5px;
         font-weight: bold;
         font-size: 18px;
@@ -243,11 +278,11 @@
     }
 
     .edit {
-      flex: 0 0 30px;
       justify-items: center;
       align-items: center;
-      border: 1px solid black;
       transition: 0.5s ease;
+      display: inline-block;
+      height: 38px;
 
       &.editing {
         background: gray;
@@ -321,11 +356,22 @@
       line-height: 40px;
       font-weight: bold;
       background: #ccc;
+      border-left: 1px solid #bbb;
+      border-bottom: 1px solid #bbb;
+      font-variant: small-caps;
+      font-weight: normal;
+      font-size: 20px;
+      letter-spacing: 0.4px;
+    }
+
+    .item:first-child {
+      border-left: none;
     }
 
     .item.active {
       text-shadow: none;
       background: #eee;
+      border-bottom: 1px solid #eee;
     }
   }
 
@@ -427,6 +473,10 @@
     margin: 2px;
     text-align: center;
   }
+}
+
+a:hover {
+  text-shadow: none;
 }
 
 .nogrow {

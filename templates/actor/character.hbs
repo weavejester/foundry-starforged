@@ -44,18 +44,18 @@
         <div class="tab flexrow" data-tab="actions" data-group="primary-tabs">
             <div class="flexcol margin-left">
                 <div class="flexcol stack momentum">
-                    <h4 class="vertical">{{localize 'IRONSWORN.Momentum'}}</h4>
+                    <h4 class="momentum">{{localize 'IRONSWORN.Momentum'}}</h4>
                     {{>stack stat="momentum" from=10 to=-6}}
                     <hr />
+                    <div class="max">{{localize 'IRONSWORN.Max'}}: {{data.momentumMax}}</div>
                     <div class="clickable block stack-row" id="burn">
-                        {{localize 'IRONSWORN.Burn'}}
+                        <span class="burn">{{localize 'IRONSWORN.Burn'}}</span>
+                        <span class="reset">{{localize 'IRONSWORN.Reset'}}: {{data.momentumReset}}</span>
                     </div>
-                    {{localize 'IRONSWORN.Reset'}}: {{data.momentumReset}}
-                    {{localize 'IRONSWORN.Max'}}: {{data.momentumMax}}
                 </div>
             </div>
             <div class="flexcol">
-                <div class="flexrow stats">
+                <div class="stats">
                     {{#*inline "stat"}}
                     <div class="stat clickable block" data-stat="{{stat}}">
                         <h4>{{localize (concat 'IRONSWORN.' (capitalize stat))}}</h4>
@@ -251,15 +251,15 @@
             </div>
             <div class="flexcol margin-right">
                 <div class="flexcol stack health">
-                    <h4 class="vertical clickable text" data-stat="health">{{localize 'IRONSWORN.Health'}}</h4>
+                    <h4 class="health clickable text" data-stat="health">{{localize 'IRONSWORN.Health'}}</h4>
                     {{>stack stat="health" from=5 to=0}}
                 </div>
                 <div class="flexcol stack spirit">
-                    <h4 class="vertical clickable text" data-stat="spirit">{{localize 'IRONSWORN.Spirit'}}</h4>
+                    <h4 class="spirit clickable text" data-stat="spirit">{{localize 'IRONSWORN.Spirit'}}</h4>
                     {{>stack stat="spirit" from=5 to=0}}
                 </div>
                 <div class="flexcol stack supply">
-                    <h4 class="vertical clickable text" data-stat="supply">{{localize 'IRONSWORN.Supply'}}</h4>
+                    <h4 class="supply clickable text" data-stat="supply">{{localize 'IRONSWORN.Supply'}}</h4>
                     {{>stack stat="supply" from=5 to=0}}
                 </div>
 
