@@ -283,9 +283,8 @@
                 </div>-->
             </div>
         </div>
-        <div class="tab flexrow" data-tab="background" data-group="primary-tabs">
-            <!-- Header row -->
-            <div class="flexrow">
+        <div class="tab flexcol" data-tab="background" data-group="primary-tabs">
+            <section class="sheet-area flexrow profile">
                 <div class="flexcol">
                     <div class="flexrow">
                         <label class="details" for="name">{{localize 'IRONSWORN.Name'}}</label>
@@ -301,7 +300,7 @@
                     </div>
                 </div>
                 <div class="flexcol">
-                    <label for="data.characteristics">{{localize 'IRONSWORN.Characteristics'}}</label>
+                    <label class="characteristics" for="data.characteristics">{{localize 'IRONSWORN.Characteristics'}}</label>
                     <textarea name="data.characteristics">{{actor.data.characteristics}}</textarea>   
                 </div>
                 <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="50" width="50" />
@@ -317,10 +316,10 @@
                         <div class="clickable block xp clear" data-resource="xp" data-value="0">×</div>
                     </div>
                 </div>-->
-            </div>
+            </section>
 
             <section class="sheet-area" style="flex-grow: 0;">
-                <h1 style="text-align:center">{{localize 'IRONSWORN.Bonds'}}</h1>
+                <h1><span>{{localize 'IRONSWORN.Bonds'}}</span></h1>
                 <div class="flexrow">
                     {{#each (progressCharacters bonds.count)}}
                     <div class="progress">{{{this}}}</div>
@@ -332,7 +331,7 @@
             </section>
 
             <section class="sheet-area progresses">
-                <h1 style="text-align:center">{{localize 'IRONSWORN.Vows'}}</h1>
+                <h1><span>{{localize 'IRONSWORN.Vows'}}</span></h1>
                 {{#each vows}}
                 {{>progress}}
                 {{/each}}
@@ -342,7 +341,7 @@
 
             </section>
             <section class="sheet-area progresses">
-                <h1 style="text-align:center">{{localize 'IRONSWORN.Progress'}}</h1>
+                <h1><span>{{localize 'IRONSWORN.Progress'}}</span></h1>
                 {{#each progresses}}
                 {{>progress}}
                 {{/each}}
