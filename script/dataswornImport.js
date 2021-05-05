@@ -91,6 +91,53 @@ async function doit () {
   await fs.writeFile('lang/en.json', JSON.stringify(en, null, 2))
 }
 
+// Oracles
+const oracleURLs = [
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/campaign.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/character.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/core.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/creature.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/exterior.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/interior.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/access.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/community.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/engineering.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/living.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/medical.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/operations.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/production.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/derelict/zone/research.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/chaotic.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/fortified.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/haunted.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/infested.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/inhabited.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/location_theme.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/ruined.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/location_theme/sacred.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/desert.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/furnace.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/grave.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/ice.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/jovian.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/jungle.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/ocean.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/planet.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/rocky.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/shattered.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/tainted.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/planet/vital.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/precursor_vault/exterior.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/precursor_vault/interior.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/precursor_vault/sanctum.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/misc.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/move.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/setting_truths.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/settlement.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/space.json',
+  'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/starship.json'
+]
+
 doit().then(
   () => process.exit(),
   err => {
