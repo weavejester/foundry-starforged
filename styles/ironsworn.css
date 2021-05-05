@@ -18,20 +18,37 @@
   overflow-y: scroll;
 }
 .ironsworn .sheet-area {
-  border-top: 2px solid darkgray;
   margin: 5px;
-}
-.ironsworn .sheet-area:first-child {
-  border-top: none;
-}
-.ironsworn .sheet-area h1 {
-  text-align: center;
-  flex: 0;
 }
 .ironsworn .sheet-area h1,
 .ironsworn .sheet-area h2,
 .ironsworn .sheet-area h3 {
   border: none;
+}
+.ironsworn .sheet-area h1 {
+  flex: 0;
+  border-top: 3px solid #444;
+  position: relative;
+  top: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+.ironsworn .sheet-area h1 span {
+  position: relative;
+  top: -18px;
+  background: #eee;
+  padding: 0 10px;
+}
+.ironsworn .sheet-area h3 {
+  background: black;
+  color: white;
+  border-radius: 3px;
+  display: block;
+  margin: 0 3px 5px 3px;
+  padding: 0 5px;
+  text-align: center;
 }
 .ironsworn .sheet-header {
   overflow: hidden;
@@ -88,6 +105,9 @@
 .ironsworn .items,
 .ironsworn .impacts {
   flex: 0 1 140px;
+}
+.ironsworn .impacts .flexcol {
+  padding-right: 5px;
 }
 .ironsworn .details {
   flex: 0 1 70px;

@@ -94,7 +94,7 @@
                 <div class="flexrow">
                     <div class="flexcol">
                         <section class="sheet-area moves flexcol">
-                            <h1>{{localize 'IRONSWORN.Moves'}}</h1>
+                            <h1><span>{{localize 'IRONSWORN.Moves'}}</span></h1>
                             <div class="item-list">
                                 <ol>
                                     {{#each builtInMoves}}
@@ -112,7 +112,7 @@
                         </section>
 
                         <section class="sheet-area impacts" style="flex-grow: 0;">
-                            <h1>{{localize 'IRONSWORN.Impacts'}}</h1>
+                            <h1><span>{{localize 'IRONSWORN.Impacts'}}</span></h1>
 
                             {{#*inline "impact"}}
                             <label class="checkbox">
@@ -146,34 +146,11 @@
                                 </div>
                             </div>
                         </section>
-
-
-
-
-                        <!--<section class="sheet-area progresses">
-                            <h1 style="text-align:center">{{localize 'IRONSWORN.Vows'}}</h1>
-                            {{#each vows}}
-                            {{>progress}}
-                            {{/each}}
-                            <div class="block clickable add-item" data-type="vow">
-                                <i class="fas fa-plus"></i>
-                            </div>
-
-                        </section>
-                        <section class="sheet-area progresses">
-                            <h1 style="text-align:center">{{localize 'IRONSWORN.Progress'}}</h1>
-                            {{#each progresses}}
-                            {{>progress}}
-                            {{/each}}
-                            <div class="block clickable add-item" data-type="progress">
-                                <i class="fas fa-plus"></i>
-                            </div>
-                        </section>-->
                     </div>
 
                     <div class="flexcol">
                         <section class="sheet-area assets flexcol">
-                            <h1>{{localize 'IRONSWORN.Assets'}}</h1>
+                            <h1><span>{{localize 'IRONSWORN.Assets'}}</span></h1>
                             <div class="flexcol item-list">
                                 <ol>
                                     {{#each assets}}
@@ -229,20 +206,8 @@
                                 </ol>
                             </div>
                         </section>
-                        <!--<section class="sheet-area" style="flex-grow: 0;">
-                            <h1 style="text-align:center">{{localize 'IRONSWORN.Bonds'}}</h1>
-                            <div class="flexrow">
-                                {{#each (progressCharacters bonds.count)}}
-                                <div class="progress">{{{this}}}</div>
-                                {{/each}}
-                                <div class="block clickable" style="flex-grow: 0; padding: 5px; margin: 2px;">
-                                    <i class="edit-bonds fas fa-edit" data-id="{{bonds._id}}"></i>
-                                </div>
-                            </div>
-                        </section>-->
-
                         <section class="sheet-area items">
-                            <h1>{{localize 'IRONSWORN.PersonalItems'}}</h1>
+                            <h1><span>{{localize 'IRONSWORN.PersonalItems'}}</span></h1>
                             <textarea name="data.personalitems">{{actor.data.personalitems}}</textarea>                          
                         </section>
 
@@ -353,6 +318,38 @@
                     </div>
                 </div>-->
             </div>
+
+            <section class="sheet-area" style="flex-grow: 0;">
+                <h1 style="text-align:center">{{localize 'IRONSWORN.Bonds'}}</h1>
+                <div class="flexrow">
+                    {{#each (progressCharacters bonds.count)}}
+                    <div class="progress">{{{this}}}</div>
+                    {{/each}}
+                    <div class="block clickable" style="flex-grow: 0; padding: 5px; margin: 2px;">
+                        <i class="edit-bonds fas fa-edit" data-id="{{bonds._id}}"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sheet-area progresses">
+                <h1 style="text-align:center">{{localize 'IRONSWORN.Vows'}}</h1>
+                {{#each vows}}
+                {{>progress}}
+                {{/each}}
+                <div class="block clickable add-item" data-type="vow">
+                    <i class="fas fa-plus"></i>
+                </div>
+
+            </section>
+            <section class="sheet-area progresses">
+                <h1 style="text-align:center">{{localize 'IRONSWORN.Progress'}}</h1>
+                {{#each progresses}}
+                {{>progress}}
+                {{/each}}
+                <div class="block clickable add-item" data-type="progress">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </section>
         </div>
     </section>
 </form>
