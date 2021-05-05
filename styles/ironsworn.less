@@ -1,17 +1,12 @@
 .ironsworn {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     font-variant: all-small-caps;
   }
 
   .window-content {
     background: #eee;
     height: 100%;
-    padding: 5px;
+    padding: 0;
     overflow-y: scroll;
   }
 
@@ -27,9 +22,7 @@
       flex: 0;
     }
 
-    h1,
-    h2,
-    h3 {
+    h1, h2, h3 {
       border: none;
     }
   }
@@ -110,7 +103,7 @@
   }
 
   .margin-right {
-    flex: 0;
+    flex: 0 0 75px;
     border-left: 1px solid black;
     margin-left: 5px;
     padding-left: 10px;
@@ -134,7 +127,7 @@
   }
 
   .item-list {
-    flex: 1 0 100px;
+    flex: 1 0 0;
     overflow-y: scroll;
 
     .move {
@@ -323,27 +316,27 @@
   /* Sheet Tabs */
   .tabs {
     height: 40px;
-    border-top: 1px solid #aaa;
-    border-bottom: 1px solid #aaa;
 
     .item {
       line-height: 40px;
       font-weight: bold;
+      background: #ccc;
     }
 
     .item.active {
-      text-decoration: underline;
       text-shadow: none;
+      background: #eee;
     }
   }
 
   .sheet-body {
-    height: 100%;
+    height: calc(100% - 40px);
     overflow: hidden;
 
     .tab {
       height: 100%;
       overflow-y: auto;
+      padding: 5px;
     }
   }
 

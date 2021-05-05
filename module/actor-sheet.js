@@ -11,7 +11,8 @@ export class IronswornActorSheet extends ActorSheet {
       classes: ['ironsworn', 'sheet', 'actor'],
       width: 1200,
       height: 800,
-      dragDrop: [{ dragSelector: '.item-list .item', dropSelector: null }]
+      dragDrop: [{ dragSelector: '.item-list .item', dropSelector: null }],
+      tabs: [{ navSelector: ".tabs", contentSelector: ".sheet-body", initial: "actions" }]
     })
   }
 
