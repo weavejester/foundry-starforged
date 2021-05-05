@@ -325,6 +325,25 @@
   font-size: smaller;
   margin: 5px;
 }
+.ironsworn .legacy .eraseLegacy,
+.ironsworn .legacy .markLegacy {
+  flex: 0;
+  font-size: 20px;
+  line-height: 44px;
+  padding: 0 10px;
+}
+.ironsworn .progress {
+  flex: 0 0 40px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: black 2px 2px;
+  background: white;
+}
 .ironsworn .resource {
   width: 50%;
   height: 40px;
@@ -431,14 +450,7 @@
   line-height: 28px;
   border: none;
 }
-.ironsworn .progress {
-  flex: 1;
-  border: 1px solid black;
-  padding: 5px;
-  margin: 2px;
-  text-align: center;
-}
-a:hover {
+.ironsworn a:hover {
   text-shadow: none;
 }
 .nogrow {

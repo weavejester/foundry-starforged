@@ -380,6 +380,28 @@
     }
   }
 
+  .legacy {
+    .eraseLegacy, .markLegacy {
+      flex: 0;
+      font-size: 20px;
+      line-height: 44px;
+      padding: 0 10px;
+    }
+  }
+
+  .progress {
+    flex: 0 0 40px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: black 2px 2px;
+    background: white;
+  }
+
   .resource {
     width: 50%;
     height: 40px;
@@ -511,17 +533,9 @@
     }
   }
 
-  .progress {
-    flex: 1;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 2px;
-    text-align: center;
+  a:hover {
+    text-shadow: none;
   }
-}
-
-a:hover {
-  text-shadow: none;
 }
 
 .nogrow {

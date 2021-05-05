@@ -38,13 +38,13 @@
 <div class="flexrow item-row" data-id="{{name}}">
     <h2>{{name}}</h2>
     <div class="clickable block eraseLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
-        <i class="fas fa-play"></i>
+        <i class="fas fa-chevron-circle-left"></i>
     </div>
     {{#each (progressCharacters progress)}}
     <div class="progress">{{{this}}}</div>
     {{/each}}
     <div class="clickable block markLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
-        <i class="fas fa-play"></i>
+        <i class="fas fa-chevron-circle-right"></i>
     </div>
 </div>
 {{/inline}}
