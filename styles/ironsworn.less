@@ -8,6 +8,7 @@
     height: 100%;
     padding: 0;
     overflow-y: scroll;
+    scrollbar-color: #afbcc3 #e1e8ec;
   }
 
   .sheet-area {
@@ -85,11 +86,9 @@
     }
   }
 
-  .items, .impacts {
-    flex: 0 1 140px;
-  }
-
   .impacts {
+    flex: 0 1 140px;
+
     .flexcol {
       padding-right: 5px;
     }
@@ -255,6 +254,7 @@
       box-shadow: black 3px 3px;
       margin: 0 10px;
       text-align: center;
+      background: white;
 
       h3 {
         display: inline;
@@ -381,11 +381,23 @@
   }
 
   .legacy {
+    flex: 0;
+
     .eraseLegacy, .markLegacy {
       flex: 0;
       font-size: 20px;
       line-height: 44px;
       padding: 0 10px;
+    }
+
+    h2 {
+      margin: 0 0 0 42px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .item-row {
+      border: none;
     }
   }
 

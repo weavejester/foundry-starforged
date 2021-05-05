@@ -16,6 +16,7 @@
   height: 100%;
   padding: 0;
   overflow-y: scroll;
+  scrollbar-color: #afbcc3 #e1e8ec;
 }
 .ironsworn .sheet-area {
   margin: 5px;
@@ -85,7 +86,6 @@
 .ironsworn .assets .item-list {
   height: 100%;
 }
-.ironsworn .items,
 .ironsworn .impacts {
   flex: 0 1 140px;
 }
@@ -223,6 +223,7 @@
   box-shadow: black 3px 3px;
   margin: 0 10px;
   text-align: center;
+  background: white;
 }
 .ironsworn .stats .stat h3 {
   display: inline;
@@ -325,12 +326,23 @@
   font-size: smaller;
   margin: 5px;
 }
+.ironsworn .legacy {
+  flex: 0;
+}
 .ironsworn .legacy .eraseLegacy,
 .ironsworn .legacy .markLegacy {
   flex: 0;
   font-size: 20px;
   line-height: 44px;
   padding: 0 10px;
+}
+.ironsworn .legacy h2 {
+  margin: 0 0 0 42px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.ironsworn .legacy .item-row {
+  border: none;
 }
 .ironsworn .progress {
   flex: 0 0 40px;

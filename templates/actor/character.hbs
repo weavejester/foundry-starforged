@@ -35,16 +35,20 @@
 {{/inline}}
 
 {{#*inline "legacy"}}
-<div class="flexrow item-row" data-id="{{name}}">
-    <h2>{{name}}</h2>
-    <div class="clickable block eraseLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
-        <i class="fas fa-chevron-circle-left"></i>
+<div class="flexcol item-row" data-id="{{name}}">
+    <div class="flexrow">
+        <h2>{{name}}</h2>
     </div>
-    {{#each (progressCharacters progress)}}
-    <div class="progress">{{{this}}}</div>
-    {{/each}}
-    <div class="clickable block markLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
-        <i class="fas fa-chevron-circle-right"></i>
+    <div class="flexrow">
+        <div class="clickable block eraseLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
+            <i class="fas fa-chevron-circle-left"></i>
+        </div>
+        {{#each (progressCharacters progress)}}
+        <div class="progress">{{{this}}}</div>
+        {{/each}}
+        <div class="clickable block markLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
+            <i class="fas fa-chevron-circle-right"></i>
+        </div>
     </div>
 </div>
 {{/inline}}
@@ -345,32 +349,36 @@
                 </div>
             </section>-->
 
-            <section class="sheet-area legacy">
-                <h1><span>{{localize 'IRONSWORN.Legacy'}}</span></h1>
-                {{>legacy name="quests" progress=data.legacy.quests}}
-                {{>legacy name="bonds" progress=data.legacy.bonds}}
-                {{>legacy name="discoveries" progress=data.legacy.discoveries}}
-            </section>
+            <div class="flexrow">
+                <div class="flexcol">
+                    <section class="sheet-area legacy">
+                        <h1><span>{{localize 'IRONSWORN.Legacy'}}</span></h1>
+                        {{>legacy name="quests" progress=data.legacy.quests}}
+                        {{>legacy name="bonds" progress=data.legacy.bonds}}
+                        {{>legacy name="discoveries" progress=data.legacy.discoveries}}
+                    </section>
 
-            <section class="sheet-area progresses">
-                <h1><span>{{localize 'IRONSWORN.Vows'}}</span></h1>
-                {{#each vows}}
-                {{>progress}}
-                {{/each}}
-                <div class="block clickable add-item" data-type="vow">
-                    <i class="fas fa-plus"></i>
+                    <section class="sheet-area progresses">
+                        <h1><span>{{localize 'IRONSWORN.Vows'}}</span></h1>
+                        {{#each vows}}
+                        {{>progress}}
+                        {{/each}}
+                        <div class="block clickable add-item" data-type="vow">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </section>
                 </div>
-            </section>
 
-            <section class="sheet-area progresses">
-                <h1><span>{{localize 'IRONSWORN.Progress'}}</span></h1>
-                {{#each progresses}}
-                {{>progress}}
-                {{/each}}
-                <div class="block clickable add-item" data-type="progress">
-                    <i class="fas fa-plus"></i>
-                </div>
-            </section>
+                <section class="sheet-area progresses">
+                    <h1><span>{{localize 'IRONSWORN.Bonds'}}</span></h1>
+                    {{#each progresses}}
+                    {{>progress}}
+                    {{/each}}
+                    <div class="block clickable add-item" data-type="progress">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </section>
+            </div>
         </div>
     </section>
 </form>
