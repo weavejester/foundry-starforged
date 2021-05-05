@@ -34,6 +34,21 @@
 </div>
 {{/inline}}
 
+{{#*inline "legacy"}}
+<div class="flexrow item-row" data-id="{{name}}">
+    <h2>{{name}}</h2>
+    <div class="clickable block eraseLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
+        <i class="fas fa-play"></i>
+    </div>
+    {{#each (progressCharacters progress)}}
+    <div class="progress">{{{this}}}</div>
+    {{/each}}
+    <div class="clickable block markLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
+        <i class="fas fa-play"></i>
+    </div>
+</div>
+{{/inline}}
+
 <form class="{{cssClass}}" autocomplete="off">
     <nav class="tabs" data-group="primary-tabs">
         <a class="item" data-tab="actions">Actions</a>
@@ -318,7 +333,7 @@
                 </div>-->
             </section>
 
-            <section class="sheet-area" style="flex-grow: 0;">
+            <!--<section class="sheet-area" style="flex-grow: 0;">
                 <h1><span>{{localize 'IRONSWORN.Bonds'}}</span></h1>
                 <div class="flexrow">
                     {{#each (progressCharacters bonds.count)}}
@@ -328,6 +343,13 @@
                         <i class="edit-bonds fas fa-edit" data-id="{{bonds._id}}"></i>
                     </div>
                 </div>
+            </section>-->
+
+            <section class="sheet-area legacy">
+                <h1><span>{{localize 'IRONSWORN.Legacy'}}</span></h1>
+                {{>legacy name="quests" progress=data.legacy.quests}}
+                {{>legacy name="bonds" progress=data.legacy.bonds}}
+                {{>legacy name="discoveries" progress=data.legacy.discoveries}}
             </section>
 
             <section class="sheet-area progresses">
@@ -338,8 +360,8 @@
                 <div class="block clickable add-item" data-type="vow">
                     <i class="fas fa-plus"></i>
                 </div>
-
             </section>
+
             <section class="sheet-area progresses">
                 <h1><span>{{localize 'IRONSWORN.Progress'}}</span></h1>
                 {{#each progresses}}

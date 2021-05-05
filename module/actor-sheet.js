@@ -95,6 +95,14 @@ export class IronswornActorSheet extends ActorSheet {
         { renderSheet: true }
       )
     })
+    html.find('.markLegacy').click(ev => {
+      const legacyName = $(ev.target).parents('.item-row').data('id')
+      return this.actor.updateLegacy(legacyName, 1)
+    })
+    html.find('.eraseLegacy').click(ev => {
+      const legacyName = $(ev.target).parents('.item-row').data('id')
+      return this.actor.updateLegacy(legacyName, -1)
+    })
     html.find('.markProgress').click(ev => {
       const itemId = $(ev.target)
         .parents('.item-row')

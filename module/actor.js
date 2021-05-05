@@ -23,6 +23,11 @@ export class IronswornActor extends Actor {
     // Every character needs a bondset
     await this.createOwnedItem({ type: 'bondset', name: 'bonds' })
   }
+
+  updateLegacy (legacyName, delta) {
+    const newValue = Math.min(this.data.data.legacy[legacyName] + delta, 40)
+    return this.update({['data.legacy.' + legacyName]: newValue })
+  }
 }
 
 Hooks.on('createActor', async actor => {
