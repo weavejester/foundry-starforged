@@ -227,9 +227,26 @@
                         </section>
                         <section class="sheet-area items">
                             <h1><span>{{localize 'STARFORGED.PersonalItems'}}</span></h1>
-                            <textarea name="data.personalitems">{{actor.data.personalitems}}</textarea>                          
+                            <div class="flexcol item-list">
+                                <ol>
+                                    {{#each personalItems}}
+                                    <li class="item-row" data-id="{{_id}}">
+                                        <div class="personalitem-entry">
+                                            <div class="flexrow">
+                                                <strong>{{name}}</strong>
+                                                <div class="block clickable" style="flex-grow: 0;">
+                                                    <i class="edit-item fas fa-edit"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    {{/each}}
+                                </ol>
+                            </div> 
+                             <div class="block clickable add-item" data-type="personal_item">
+                                <i class="fas fa-plus"></i>
+                            </div>                      
                         </section>
-
                     </div>
                 </div>
             </div>
@@ -370,11 +387,11 @@
                 </div>
 
                 <section class="sheet-area progresses">
-                    <h1><span>{{localize 'STARFORGED.Bonds'}}</span></h1>
-                    {{#each progresses}}
+                    <h1><span>{{localize 'STARFORGED.Connections'}}</span></h1>
+                    {{#each connections}}
                     {{>progress}}
                     {{/each}}
-                    <div class="block clickable add-item" data-type="progress">
+                    <div class="block clickable add-item" data-type="connection">
                         <i class="fas fa-plus"></i>
                     </div>
                 </section>

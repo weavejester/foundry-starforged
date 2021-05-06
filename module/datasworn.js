@@ -1,6 +1,5 @@
 export async function importFromDatasworn () {
   const packs = [
-    'foundry-starforged.starforged-items',
     'foundry-starforged.starforged-assets',
     'foundry-starforged.starforged-tables'
   ]
@@ -13,18 +12,6 @@ export async function importFromDatasworn () {
     for (const id of idsToDelete) {
       await pack.deleteEntity(id)
     }
-  }
-
-  // Moves
-  const movesPack = game.packs.get('foundry-starforged.starforged-items')
-  const movesJson = await fetch(
-    '/systems/foundry-starforged/assets/moves.json'
-  ).then(x => x.json())
-  for (const move of movesJson) {
-    await movesPack.createEntity({
-      type: 'move',
-      ...move
-    })
   }
 
   // Assets

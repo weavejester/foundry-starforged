@@ -22,13 +22,6 @@
       "entity": "RollTable"
     },
     {
-      "name": "starforged-items",
-      "label": "Starforged Moves",
-      "system": "foundry-starforged",
-      "path": "packs/items.db",
-      "entity": "Item"
-    },
-    {
       "name": "starforged-assets",
       "label": "Starforged Assets",
       "system": "foundry-starforged",

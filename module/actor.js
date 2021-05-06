@@ -20,8 +20,7 @@ export class IronswornActor extends Actor {
   }
 
   async addDefaultItems () {
-    // Every character needs a bondset
-    await this.createOwnedItem({ type: 'bondset', name: 'bonds' })
+    await this.createOwnedItem({ type: 'vow', name: 'Background Vow', rank: "epic" })
   }
 
   updateLegacy (legacyName, delta) {

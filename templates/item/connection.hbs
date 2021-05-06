@@ -1,0 +1,33 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header">
+    <h1>
+      <input name="name" type="text" value="{{item.name}}" placeholder="Name" />
+    </h1>
+  </header>
+
+  <section class="flexrow nogrow">
+    <label>{{localize 'STARFORGED.Rank'}}:</label>
+    <select name="data.rank">
+      {{selectOptions ranks selected=data.rank localize=true}}
+    </select>
+  </section>
+
+  <div class="flexrow nogrow">
+    {{#each (progressCharacters data.current)}}
+    <div class="progress block">{{{this}}}</div>
+    {{/each}}
+  </div>
+
+  <div class="flexrow nogrow">
+    <button class="markProgress">{{localize 'STARFORGED.Mark'}}</button>
+    <button class="fulfillProgress">{{localize 'STARFORGED.Fulfill'}}</button>
+  </div>
+  <div class="flexrow nogrow">
+    <hr>
+  </div>
+  <div class="flexrow nogrow">
+    <button class="clearProgress">{{localize 'STARFORGED.Clear'}}</button>
+    <button class="delete"><i class="fas fa-trash"></i></button>
+  </div>
+
+</form>

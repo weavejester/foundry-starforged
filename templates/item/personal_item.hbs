@@ -1,0 +1,12 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header">
+    <h1>
+      <input name="name" type="text" value="{{item.name}}" placeholder="Name" />
+    </h1>
+  </header>
+
+  <section class="flexrow">
+    <label for="data.description">{{localize 'STARFORGED.Description'}}</label>
+     <textarea name="data.description">{{item.data.description}}</textarea>
+  </section>
+</form>

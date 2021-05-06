@@ -44,9 +44,8 @@
       "asset",
       "progress",
       "vow",
-      "bondset",
-      "site",
-      "move"
+      "connection",
+      "personal_item"
     ],
     "templates": {
       "progress": {
@@ -68,20 +67,16 @@
       "threat": "",
       "menace": 0
     },
-    "bondset": {
-      "bonds": [{
-        "name": "A community",
-        "notes": ""
-      }]
-    },
-    "site": {
+    "connection": {
       "templates": [
         "progress"
       ],
-      "objective": "",
-      "theme": "",
-      "domain": "",
-      "notes": ""
+      "role1": "",
+      "role2": "",
+      "description": ""
+    },
+    "personalitem": {
+      "description": ""
     },
     "asset": {
       "templates": [],
@@ -126,9 +121,6 @@
           "selecteed": false
         }
       ]
-    },
-    "move": {
-      "description": "When you <strong>do a thing</strong>, ((rollplus iron))"
     }
   }
 }
