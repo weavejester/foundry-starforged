@@ -1085,7 +1085,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>When you <strong>Set a Course</strong>, choose one.</p>\n<ul>\n<li>Follow the fastest path: Take +2 momentum on a hit.</li>\n<li>Follow the safest path: Add +1 On a strong hit with a match, you charted a new path during the journey; mark 1 tick on your discoveries legacy track.</li>\n</ul>\n"
+          "description": "<p>When you <strong>Set a Course</strong>, choose one.</p>\n<ul>\n<li>Follow the fastest path: Take +2 momentum on a hit.</li>\n<li>Follow the safest path: Add +1</li>\n</ul>\n<p>On a strong hit with a match, you charted a new path during the journey; mark 1 tick on your discoveries legacy track.</p>\n"
         },
         {
           "enabled": false,
