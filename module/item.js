@@ -1,4 +1,4 @@
-import { RANKS, RANK_INCREMENTS } from './ironsworn.js'
+import { RANKS, RANK_INCREMENTS } from './starforged.js'
 
 /**
  * Extend the base Iteem entity

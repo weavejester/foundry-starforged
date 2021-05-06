@@ -3,7 +3,7 @@ import {
   ironswornRollDialog,
   RANKS,
   RANK_INCREMENTS
-} from './ironsworn.js'
+} from './starforged.js'
 
 /**
  * Extend the basic ItemSheet with some very simple modifications

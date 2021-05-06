@@ -8,10 +8,10 @@
   "templateVersion": 2,
   "author": "James Reeves",
   "esmodules": [
-    "module/ironsworn.js"
+    "module/starforged.js"
   ],
   "styles": [
-    "styles/ironsworn.css"
+    "styles/starforged.css"
   ],
   "packs": [
     {

@@ -1,4 +1,4 @@
-import { ironswornRollDialog } from './ironsworn.js'
+import { ironswornRollDialog } from './starforged.js'
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
