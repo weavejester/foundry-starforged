@@ -104,8 +104,8 @@ export class IronswornItemSheet extends ItemSheet {
     html.find('.delete').click(async ev => {
       ev.preventDefault()
       await Dialog.confirm({
-        title: game.i18n.localize('IRONSWORN.DeleteItem'),
-        content: `<p>${game.i18n.localize('IRONSWORN.ConfirmDelete')}</p>`,
+        title: game.i18n.localize('STARFORGED.DeleteItem'),
+        content: `<p>${game.i18n.localize('STARFORGED.ConfirmDelete')}</p>`,
         yes: () => this.item.delete(),
         defaultYes: false
       })

@@ -37,8 +37,8 @@ export class IronswornActorSheet extends ActorSheet {
         })
       } else {
         data.builtInMoves.push({
-          title: game.i18n.localize(`IRONSWORN.Moves:${moveName}:title`),
-          description: game.i18n.localize(`IRONSWORN.Moves:${moveName}:description`),
+          title: game.i18n.localize(`STARFORGED.Moves:${moveName}:title`),
+          description: game.i18n.localize(`STARFORGED.Moves:${moveName}:description`),
         })
       }
     }
@@ -216,7 +216,7 @@ export class IronswornActorSheet extends ActorSheet {
       `
     <a class='inline-roll' data-param='$1'>
       <i class='fas fa-dice-d6'></i>
-      ${game.i18n.localize('IRONSWORN.Roll')} +$1
+      ${game.i18n.localize('STARFORGED.Roll')} +$1
     </a>`
     )
   }
@@ -278,7 +278,7 @@ export class IronswornActorSheet extends ActorSheet {
       buttons: {
         roll: {
           icon: '<i class="roll die d10"></i>',
-          label: game.i18n.localize('IRONSWORN.Roll'),
+          label: game.i18n.localize('STARFORGED.Roll'),
           callback: function () {
             console.log(this, 'Chose One')
           }

@@ -24,10 +24,10 @@
         {{#each (progressCharacters data.data.current)}}
         <div class="progress">{{{this}}}</div>
         {{/each}}
-        <div class="clickable block markProgress" title="{{localize 'IRONSWORN.MarkProgress'}}">
+        <div class="clickable block markProgress" title="{{localize 'STARFORGED.MarkProgress'}}">
             <i class="fas fa-play"></i>
         </div>
-        <div class="clickable block fulfillProgress" title="{{localize 'IRONSWORN.FulfillVow'}}">
+        <div class="clickable block fulfillProgress" title="{{localize 'STARFORGED.FulfillVow'}}">
             <i class="fas fa-check"></i>
         </div>
     </div>
@@ -40,13 +40,13 @@
         <h2>{{name}}</h2>
     </div>
     <div class="flexrow">
-        <div class="clickable block eraseLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
+        <div class="clickable block eraseLegacy" title="{{localize 'STARFORGED.MarkProgress'}}">
             <i class="fas fa-chevron-circle-left"></i>
         </div>
         {{#each (progressCharacters progress)}}
         <div class="progress">{{{this}}}</div>
         {{/each}}
-        <div class="clickable block markLegacy" title="{{localize 'IRONSWORN.MarkProgress'}}">
+        <div class="clickable block markLegacy" title="{{localize 'STARFORGED.MarkProgress'}}">
             <i class="fas fa-chevron-circle-right"></i>
         </div>
     </div>
@@ -63,13 +63,13 @@
         <div class="tab flexrow" data-tab="actions" data-group="primary-tabs">
             <div class="flexcol margin-left">
                 <div class="flexcol stack momentum">
-                    <h4 class="momentum">{{localize 'IRONSWORN.Momentum'}}</h4>
+                    <h4 class="momentum">{{localize 'STARFORGED.Momentum'}}</h4>
                     {{>stack stat="momentum" from=10 to=-6}}
                     <hr />
-                    <div class="max">{{localize 'IRONSWORN.Max'}}: {{data.momentumMax}}</div>
+                    <div class="max">{{localize 'STARFORGED.Max'}}: {{data.momentumMax}}</div>
                     <div class="clickable block stack-row" id="burn">
-                        <span class="burn">{{localize 'IRONSWORN.Burn'}}</span>
-                        <span class="reset">{{localize 'IRONSWORN.Reset'}}: {{data.momentumReset}}</span>
+                        <span class="burn">{{localize 'STARFORGED.Burn'}}</span>
+                        <span class="reset">{{localize 'STARFORGED.Reset'}}: {{data.momentumReset}}</span>
                     </div>
                 </div>
             </div>
@@ -77,14 +77,14 @@
                 <div class="stats">
                     {{#*inline "stat"}}
                     <div class="stat clickable block" data-stat="{{stat}}">
-                        <h4>{{localize (concat 'IRONSWORN.' (capitalize stat))}}</h4>
+                        <h4>{{localize (concat 'STARFORGED.' (capitalize stat))}}</h4>
                         <h3>{{lookup data stat}}</h3>
                     </div>
                     {{/inline}}
 
                     {{#*inline "statEdit"}}
                     <div class="stat block">
-                        <h4>{{localize (concat 'IRONSWORN.' (capitalize stat))}}</h4>
+                        <h4>{{localize (concat 'STARFORGED.' (capitalize stat))}}</h4>
                         <input name="data.{{stat}}" value="{{lookup data stat}}" />
                     </div>
                     {{/inline}}
@@ -113,7 +113,7 @@
                 <div class="flexrow">
                     <div class="flexcol">
                         <section class="sheet-area moves flexcol">
-                            <h1><span>{{localize 'IRONSWORN.Moves'}}</span></h1>
+                            <h1><span>{{localize 'STARFORGED.Moves'}}</span></h1>
                             <div class="item-list">
                                 <ol>
                                     {{#each builtInMoves}}
@@ -131,7 +131,7 @@
                         </section>
 
                         <section class="sheet-area impacts" style="flex-grow: 0;">
-                            <h1><span>{{localize 'IRONSWORN.Impacts'}}</span></h1>
+                            <h1><span>{{localize 'STARFORGED.Impacts'}}</span></h1>
 
                             {{#*inline "impact"}}
                             <label class="checkbox">
@@ -142,24 +142,24 @@
 
                             <div class="flexrow">
                                 <div class="flexcol">
-                                    <h3>{{localize 'IRONSWORN.Misfortunes'}}</h3>
+                                    <h3>{{localize 'STARFORGED.Misfortunes'}}</h3>
                                     {{>impact name="wounded"}}                               
                                     {{>impact name="shaken"}}
                                     {{>impact name="unprepared"}}
                                 </div>
                                 <div class="flexcol">
-                                    <h3>{{localize 'IRONSWORN.LastingEffects'}}</h3>
+                                    <h3>{{localize 'STARFORGED.LastingEffects'}}</h3>
                                     {{>impact name="permanently harmed"}}
                                     {{>impact name="traumatized"}}
                                 </div>
                                 <div class="flexcol">                
-                                    <h3>{{localize 'IRONSWORN.Burdens'}}</h3>
+                                    <h3>{{localize 'STARFORGED.Burdens'}}</h3>
                                     {{>impact name="doomed"}}
                                     {{>impact name="tormented"}}
                                     {{>impact name="indebted"}}
                                 </div>
                                 <div class="flexcol">                
-                                    <h3>{{localize 'IRONSWORN.CurrentVehicle'}}</h3>
+                                    <h3>{{localize 'STARFORGED.CurrentVehicle'}}</h3>
                                     {{>impact name="battered"}}
                                     {{>impact name="cursed"}}
                                 </div>
@@ -169,7 +169,7 @@
 
                     <div class="flexcol">
                         <section class="sheet-area assets flexcol">
-                            <h1><span>{{localize 'IRONSWORN.Assets'}}</span></h1>
+                            <h1><span>{{localize 'STARFORGED.Assets'}}</span></h1>
                             <div class="flexcol item-list">
                                 <ol>
                                     {{#each assets}}
@@ -226,7 +226,7 @@
                             </div>
                         </section>
                         <section class="sheet-area items">
-                            <h1><span>{{localize 'IRONSWORN.PersonalItems'}}</span></h1>
+                            <h1><span>{{localize 'STARFORGED.PersonalItems'}}</span></h1>
                             <textarea name="data.personalitems">{{actor.data.personalitems}}</textarea>                          
                         </section>
 
@@ -235,20 +235,20 @@
             </div>
             <div class="flexcol margin-right">
                 <div class="flexcol stack health">
-                    <h4 class="health clickable text" data-stat="health">{{localize 'IRONSWORN.Health'}}</h4>
+                    <h4 class="health clickable text" data-stat="health">{{localize 'STARFORGED.Health'}}</h4>
                     {{>stack stat="health" from=5 to=0}}
                 </div>
                 <div class="flexcol stack spirit">
-                    <h4 class="spirit clickable text" data-stat="spirit">{{localize 'IRONSWORN.Spirit'}}</h4>
+                    <h4 class="spirit clickable text" data-stat="spirit">{{localize 'STARFORGED.Spirit'}}</h4>
                     {{>stack stat="spirit" from=5 to=0}}
                 </div>
                 <div class="flexcol stack supply">
-                    <h4 class="supply clickable text" data-stat="supply">{{localize 'IRONSWORN.Supply'}}</h4>
+                    <h4 class="supply clickable text" data-stat="supply">{{localize 'STARFORGED.Supply'}}</h4>
                     {{>stack stat="supply" from=5 to=0}}
                 </div>
 
 
-                <!--<h1 style="flex: 0 0 auto">{{localize 'IRONSWORN.Oracles'}}</h1>
+                <!--<h1 style="flex: 0 0 auto">{{localize 'STARFORGED.Oracles'}}</h1>
                 <div class="flexcol item-list">
 
                     {{#*inline "oracle"}}
@@ -258,7 +258,7 @@
                     {{/inline}}
 
                     <ol>
-                        <h2>{{localize 'IRONSWORN.Plot'}}</h2>
+                        <h2>{{localize 'STARFORGED.Plot'}}</h2>
                         {{> oracle name="Action"}}
                         {{> oracle name="Theme"}}
                         {{> oracle name="Combat Action"}}
@@ -266,7 +266,7 @@
                         {{> oracle name="Major Plot Twist"}}
                         {{> oracle name="Mystic Backlash"}}
                         {{> oracle name="Challenge Rank"}}
-                        <h2>{{localize 'IRONSWORN.Location'}}</h2>
+                        <h2>{{localize 'STARFORGED.Location'}}</h2>
                         {{> oracle name="Region"}}
                         {{> oracle name="Location"}}
                         {{> oracle name="Coastal Waters Location"}}
@@ -281,18 +281,18 @@
                         {{> oracle name="Settlement Name (Something Else)"}}
                         {{> oracle name="Quick Settlement Name (Prefix)"}}
                         {{> oracle name="Quick Settlement Name (Suffix)"}}
-                        <h2>{{localize 'IRONSWORN.Character'}}</h2>
+                        <h2>{{localize 'STARFORGED.Character'}}</h2>
                         {{> oracle name="Character Role"}}
                         {{> oracle name="Character Goal"}}
                         {{> oracle name="Character Descriptor"}}
                         {{> oracle name="Character Disposition"}}
-                        <h2>{{localize 'IRONSWORN.Names'}}</h2>
+                        <h2>{{localize 'STARFORGED.Names'}}</h2>
                         {{> oracle name="Ironlander Names"}}
                         {{> oracle name="Elf Names"}}
                         {{> oracle name="Giant Names"}}
                         {{> oracle name="Varou Names"}}
                         {{> oracle name="Troll Names"}}
-                        <h2>{{localize 'IRONSWORN.Moves'}}</h2>
+                        <h2>{{localize 'STARFORGED.Moves'}}</h2>
                         {{> oracle name="Choice (Almost Certain)"}}
                         {{> oracle name="Choice (Likely)"}}
                         {{> oracle name="Choice (50/50)"}}
@@ -306,25 +306,25 @@
             <section class="sheet-area flexrow profile">
                 <div class="flexcol">
                     <div class="flexrow">
-                        <label class="details" for="name">{{localize 'IRONSWORN.Name'}}</label>
+                        <label class="details" for="name">{{localize 'STARFORGED.Name'}}</label>
                         <input name="name" type="text" value="{{actor.name}}" />
                     </div>
                     <div class="flexrow">
-                        <label class="details" for="data.pronouns">{{localize 'IRONSWORN.Pronouns'}}</label>
+                        <label class="details" for="data.pronouns">{{localize 'STARFORGED.Pronouns'}}</label>
                         <input name="data.pronouns" type="text" value="{{actor.data.pronouns}}" />    
                     </div>
                     <div class="flexrow">
-                        <label class="details" for="data.callsign">{{localize 'IRONSWORN.Callsign'}}</label>
+                        <label class="details" for="data.callsign">{{localize 'STARFORGED.Callsign'}}</label>
                         <input name="data.callsign" type="text" value="{{actor.data.callsign}}" />    
                     </div>
                 </div>
                 <div class="flexcol">
-                    <label class="characteristics" for="data.characteristics">{{localize 'IRONSWORN.Characteristics'}}</label>
+                    <label class="characteristics" for="data.characteristics">{{localize 'STARFORGED.Characteristics'}}</label>
                     <textarea name="data.characteristics">{{actor.data.characteristics}}</textarea>   
                 </div>
                 <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="50" width="50" />
                 <!-- <div class="flexrow xp">
-                    <h4 style="flex-grow: 0; margin: 5px;">{{localize 'IRONSWORN.XP'}}</h4>
+                    <h4 style="flex-grow: 0; margin: 5px;">{{localize 'STARFORGED.XP'}}</h4>
                     <div class="flexrow">
                         {{#rangeEach from=1 to=9 current=data.xp}}
                         <div class="
@@ -338,7 +338,7 @@
             </section>
 
             <!--<section class="sheet-area" style="flex-grow: 0;">
-                <h1><span>{{localize 'IRONSWORN.Bonds'}}</span></h1>
+                <h1><span>{{localize 'STARFORGED.Bonds'}}</span></h1>
                 <div class="flexrow">
                     {{#each (progressCharacters bonds.count)}}
                     <div class="progress">{{{this}}}</div>
@@ -352,14 +352,14 @@
             <div class="flexrow">
                 <div class="flexcol">
                     <section class="sheet-area legacy">
-                        <h1><span>{{localize 'IRONSWORN.Legacy'}}</span></h1>
+                        <h1><span>{{localize 'STARFORGED.Legacy'}}</span></h1>
                         {{>legacy name="quests" progress=data.legacy.quests}}
                         {{>legacy name="bonds" progress=data.legacy.bonds}}
                         {{>legacy name="discoveries" progress=data.legacy.discoveries}}
                     </section>
 
                     <section class="sheet-area progresses">
-                        <h1><span>{{localize 'IRONSWORN.Vows'}}</span></h1>
+                        <h1><span>{{localize 'STARFORGED.Vows'}}</span></h1>
                         {{#each vows}}
                         {{>progress}}
                         {{/each}}
@@ -370,7 +370,7 @@
                 </div>
 
                 <section class="sheet-area progresses">
-                    <h1><span>{{localize 'IRONSWORN.Bonds'}}</span></h1>
+                    <h1><span>{{localize 'STARFORGED.Bonds'}}</span></h1>
                     {{#each progresses}}
                     {{>progress}}
                     {{/each}}

@@ -130,14 +130,14 @@ Handlebars.registerHelper('ironswornHitType', function () {
   const [challenge1, challenge2] = challengeRolls(this.roll).map(x => x.total)
   const match = challenge1 === challenge2
   if (actionTotal <= Math.min(challenge1, challenge2)) {
-    if (match) return game.i18n.localize('IRONSWORN.Complication')
-    return game.i18n.localize('IRONSWORN.Miss')
+    if (match) return game.i18n.localize('STARFORGED.Complication')
+    return game.i18n.localize('STARFORGED.Miss')
   }
   if (actionTotal > Math.max(challenge1, challenge2)) {
-    if (match) return game.i18n.localize('IRONSWORN.Opportunity')
-    return game.i18n.localize('IRONSWORN.StrongHit')
+    if (match) return game.i18n.localize('STARFORGED.Opportunity')
+    return game.i18n.localize('STARFORGED.StrongHit')
   }
-  return game.i18n.localize('IRONSWORN.WeakHit')
+  return game.i18n.localize('STARFORGED.WeakHit')
 })
 
 export async function ironswornMoveRoll (bonusExpr = '0', values = {}, title) {
@@ -155,7 +155,7 @@ export async function ironswornRollDialog (data, stat, title) {
     buttons: {
       roll: {
         icon: '<i class="fas fa-dice-d10"></i>',
-        label: game.i18n.localize('IRONSWORN.Roll'),
+        label: game.i18n.localize('STARFORGED.Roll'),
         callback: x => {
           const form = x[0].querySelector('form')
           const bonus = parseInt(form[0].value, 10)
@@ -219,16 +219,16 @@ Handlebars.registerHelper('enrichHtml', text => {
   const rendered = TextEditor.enrichHTML(text)
   return rendered.replace(
     /\(\(rollplus (.*?)\)\)/g,
-    `<a class='inline-roll' data-param='$1'><i class='fas fa-dice-d6'></i>${game.i18n.localize('IRONSWORN.Roll')} +$1</a>`
+    `<a class='inline-roll' data-param='$1'><i class='fas fa-dice-d6'></i>${game.i18n.localize('STARFORGED.Roll')} +$1</a>`
   )
 })
 
 export const RANKS = {
-  troublesome: 'IRONSWORN.Troublesome',
-  dangerous: 'IRONSWORN.Dangerous',
-  formidible: 'IRONSWORN.Formidible',
-  extreme: 'IRONSWORN.Extreme',
-  epic: 'IRONSWORN.Epic'
+  troublesome: 'STARFORGED.Troublesome',
+  dangerous: 'STARFORGED.Dangerous',
+  formidible: 'STARFORGED.Formidible',
+  extreme: 'STARFORGED.Extreme',
+  epic: 'STARFORGED.Epic'
 }
 
 export const RANK_INCREMENTS = {
