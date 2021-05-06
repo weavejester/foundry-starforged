@@ -12,10 +12,10 @@
   font-variant: all-small-caps;
 }
 .ironsworn .window-content {
-  background: #eee;
+  background: #f2f2f2;
   height: 100%;
   padding: 0;
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-color: #afbcc3 #e1e8ec;
 }
 .ironsworn .sheet-area {
@@ -89,19 +89,37 @@
 .ironsworn .impacts {
   flex: 0 1 140px;
 }
+.ironsworn .impacts h1 {
+  margin-bottom: 8px;
+}
+.ironsworn .impacts h3 {
+  flex: 0;
+  padding: 1px 0;
+}
 .ironsworn .impacts .flexcol {
   padding-right: 5px;
 }
+.ironsworn .impacts .checkbox-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ironsworn .impacts input[type="checkbox"] {
+  flex: 0;
+}
+.ironsworn .impacts label {
+  display: flex;
+  line-height: 13px;
+  align-items: center;
+}
 .ironsworn .margin-left {
   flex: 0;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px 10px 0 10px;
   position: relative;
 }
 .ironsworn .margin-right {
   flex: 0 0 75px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px 10px 0 5px;
   position: relative;
 }
 .ironsworn .margin-right h1 {
@@ -130,11 +148,15 @@
   padding: 0;
 }
 .ironsworn .item-list ol > h2 {
-  text-align: center;
-  border-width: 1px 0;
-  border-color: white;
-  background-color: #aaa;
-  color: white;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #999;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.ironsworn .item-list ol > h2:first-child {
+  margin-top: 0;
 }
 .ironsworn .stack {
   margin-bottom: 20px;
@@ -166,6 +188,12 @@
 }
 .ironsworn .stack .stack-row input[type="radio"] {
   appearance: none;
+}
+.ironsworn .stack .stack-row.momentum {
+  line-height: 30px;
+}
+.ironsworn .stack .stack-row:last-child {
+  border-radius: 0 0 5px 5px;
 }
 .ironsworn .stack .max {
   text-align: center;
@@ -268,14 +296,21 @@
   line-height: 26px;
 }
 .ironsworn .item-row {
-  border: 1px solid black;
-  border-radius: 2px;
-  padding: 3px;
-  margin: 3px 0;
+  margin: 4px 0;
 }
 .ironsworn .item-row .item-row-control {
   flex-grow: 0;
   padding: 5px;
+}
+.ironsworn .moves .item-row,
+.ironsworn .assets .item-row,
+.ironsworn .items .item-row {
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 4px 5px;
+  background: white;
+  box-shadow: #999 1px 1px;
 }
 .ironsworn .profile {
   flex-grow: 0;
@@ -288,22 +323,20 @@
   height: 90px;
   width: 90px;
 }
-.ironsworn .profile label {
+.ironsworn label {
   text-transform: uppercase;
   font-size: 11px;
   font-weight: bold;
   color: #444;
+  flex: 0 1 20px;
 }
-.ironsworn .profile label.details {
+.ironsworn label.details {
   flex: 0 1 65px;
   line-height: 26px;
   margin: 2px 0;
 }
-.ironsworn .profile label.characteristics {
-  flex: 0 1 20px;
-}
-.ironsworn .profile input[type="text"],
-.ironsworn .profile textarea {
+.ironsworn input[type="text"],
+.ironsworn textarea {
   margin: 2px 0;
   background: #e1e8ec;
   border: 1px solid #ced1d2;
@@ -311,7 +344,7 @@
   font-family: "Signika", sans-serif;
   font-size: 14px;
 }
-.ironsworn .profile textarea {
+.ironsworn textarea {
   resize: none;
 }
 .ironsworn .progresses .clickable {
@@ -368,14 +401,15 @@
   height: 28px;
 }
 .ironsworn .tabs {
-  height: 40px;
+  height: 36px;
 }
 .ironsworn .tabs .item {
-  line-height: 40px;
+  line-height: 36px;
   font-weight: bold;
   background: #ccc;
-  border-left: 1px solid #bbb;
-  border-bottom: 1px solid #bbb;
+  color: #444;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
   font-variant: small-caps;
   font-weight: normal;
   font-size: 20px;
@@ -386,7 +420,8 @@
 }
 .ironsworn .tabs .item.active {
   text-shadow: none;
-  background: #eee;
+  background: #f2f2f2;
+  color: black;
   border-bottom: 1px solid #eee;
 }
 .ironsworn .sheet-body {
@@ -410,6 +445,7 @@
   list-style: none;
   margin: 7px 0;
   padding: 0;
+  overflow-y: auto;
 }
 .ironsworn .item-list .item {
   height: 30px;

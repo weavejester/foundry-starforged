@@ -4,10 +4,10 @@
   }
 
   .window-content {
-    background: #eee;
+    background: #f2f2f2;
     height: 100%;
     padding: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-color: #afbcc3 #e1e8ec;
   }
 
@@ -89,22 +89,45 @@
   .impacts {
     flex: 0 1 140px;
 
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    h3 {
+      flex: 0;
+      padding: 1px 0;
+    }
+
     .flexcol {
       padding-right: 5px;
+    }
+
+    .checkbox-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    input[type="checkbox"]  {
+      flex: 0;
+    }
+
+    label {
+      display: flex;
+      line-height: 13px;
+      align-items: center;
     }
   }
 
   .margin-left {
     flex: 0;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 0 10px;
     position: relative;
   }
 
   .margin-right {
     flex: 0 0 75px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 0 5px;
     position: relative;
 
     h1 {
@@ -138,11 +161,15 @@
       padding: 0;
 
       & > h2 {
-        text-align: center;
-        border-width: 1px 0;
-        border-color: white;
-        background-color: #aaa;
-        color: white;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        border-bottom: 1px solid #999;
+        margin-right: 5px;
+        margin-top: 10px;
+        &:first-child {
+          margin-top: 0;
+        }
       }
     }
   }
@@ -179,6 +206,14 @@
 
       input[type="radio"] {
         appearance: none;
+      }
+
+      &.momentum {
+        line-height: 30px;
+      }
+
+      &:last-child {
+        border-radius: 0 0 5px 5px;
       }
     }
 
@@ -309,14 +344,22 @@
   }
 
   .item-row {
-    border: 1px solid black;
-    border-radius: 2px;
-    padding: 3px;
-    margin: 3px 0;
+    margin: 4px 0;
 
     .item-row-control {
       flex-grow: 0;
       padding: 5px;
+    }
+  }
+
+  .moves, .assets, .items {
+    .item-row {
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 4px;
+      margin: 4px 5px;
+      background: white;
+      box-shadow: #999 1px 1px;
     }
   }
 
@@ -332,36 +375,33 @@
       height: 90px;
       width: 90px;
     }
+  }
 
-    label {
-      text-transform: uppercase;
-      font-size: 11px;
-      font-weight: bold;
-      color: #444;
+  label {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: #444;
+    flex: 0 1 20px;
 
-      &.details {
-        flex: 0 1 65px;
-        line-height: 26px;
-        margin: 2px 0;
-      }
-
-      &.characteristics {
-        flex: 0 1 20px;
-      }
-    }
-
-    input[type="text"], textarea {
+    &.details {
+      flex: 0 1 65px;
+      line-height: 26px;
       margin: 2px 0;
-      background: #e1e8ec;
-      border: 1px solid #ced1d2;
-      border-radius: 3px;
-      font-family: "Signika", sans-serif;
-      font-size: 14px;
     }
+  }
 
-    textarea {
-      resize: none;
-    }
+  input[type="text"], textarea {
+    margin: 2px 0;
+    background: #e1e8ec;
+    border: 1px solid #ced1d2;
+    border-radius: 3px;
+    font-family: "Signika", sans-serif;
+    font-size: 14px;
+  }
+
+  textarea {
+    resize: none;
   }
 
   .progresses {
@@ -429,14 +469,15 @@
 
   /* Sheet Tabs */
   .tabs {
-    height: 40px;
+    height: 36px;
 
     .item {
-      line-height: 40px;
+      line-height: 36px;
       font-weight: bold;
       background: #ccc;
-      border-left: 1px solid #bbb;
-      border-bottom: 1px solid #bbb;
+      color: #444;
+      border-left: 1px solid #aaa;
+      border-bottom: 1px solid #aaa;
       font-variant: small-caps;
       font-weight: normal;
       font-size: 20px;
@@ -449,7 +490,8 @@
 
     .item.active {
       text-shadow: none;
-      background: #eee;
+      background: #f2f2f2;;
+      color: black;
       border-bottom: 1px solid #eee;
     }
   }
@@ -480,7 +522,7 @@
     list-style: none;
     margin: 7px 0;
     padding: 0;
-    // overflow-y: auto;
+    overflow-y: auto;
 
     .item {
       height: 30px;

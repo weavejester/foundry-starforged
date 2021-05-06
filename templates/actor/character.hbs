@@ -134,10 +134,11 @@
                             <h1><span>{{localize 'STARFORGED.Impacts'}}</span></h1>
 
                             {{#*inline "impact"}}
-                            <label class="checkbox">
-                                <input type="checkbox" name="data.impact.{{name}}" {{checked (lookup data.impact name)}}>
-                                {{capitalize name}}
-                            </label>
+                            <div class="checkbox-item">
+                                <input type="checkbox" name="data.impact.{{name}}" id="data.impact.{{name}}"
+                                    {{checked (lookup data.impact name)}}> 
+                                <label class="checkbox" for="data.impact.{{name}}">{{capitalize name}}</label>
+                            </div>
                             {{/inline}}
 
                             <div class="flexrow">
