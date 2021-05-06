@@ -1,7 +1,7 @@
 export async function importFromDatasworn () {
   const packs = [
-    //'foundry-starforged.starforged-items',
-    //'foundry-starforged.starforged-assets',
+    'foundry-starforged.starforged-items',
+    'foundry-starforged.starforged-assets',
     'foundry-starforged.starforged-tables'
   ]
 
@@ -9,14 +9,14 @@ export async function importFromDatasworn () {
   for (const key of packs) {
     const pack = game.packs.get(key)
     await pack.render(true)
-    const idsToDelete = pack.index.map(x => x._id)
+    const idsToDelete = await pack.getIndex().then(idx => idx.map(x => x._id))
     for (const id of idsToDelete) {
       await pack.deleteEntity(id)
     }
   }
 
   // Moves
-  /*const movesPack = game.packs.get('foundry-starforged.starforged-items')
+  const movesPack = game.packs.get('foundry-starforged.starforged-items')
   const movesJson = await fetch(
     '/systems/foundry-starforged/assets/moves.json'
   ).then(x => x.json())
@@ -37,7 +37,7 @@ export async function importFromDatasworn () {
       type: 'asset',
       ...asset
     })
-  }*/
+  }
 
   // Tables
   const tablesPack = game.packs.get('foundry-starforged.starforged-tables')
