@@ -404,31 +404,41 @@
     resize: none;
   }
 
-  .progresses {
+  .progresses, .legacy {
     .clickable {
-      padding: 5px;
-      margin: 2px;
-      text-align: center;
-    }
-
-    .item {
-      border: 1px solid gray;
-      border-radius: 3px;
-      padding: 5px;
-      font-size: smaller;
-      margin: 5px;
-    }
-  }
-
-  .legacy {
-    flex: 0;
-
-    .eraseLegacy, .markLegacy {
       flex: 0;
       font-size: 20px;
       line-height: 44px;
       padding: 0 10px;
     }
+  }
+
+  .progresses {
+    h2 {
+      margin: 0 0 0 42px;
+      font-size: 19px;
+      font-weight: normal;
+      display: inline-block;
+    }
+
+    .fulfillProgress {
+      padding-left: 2px;
+    }
+
+    .edit {
+      display: inline-block;
+      margin-left: 10px;
+      line-height: 30px;
+      font-size: 16px;
+    }
+
+    .item-row {
+      margin-bottom: 18px;  
+    }
+  }
+
+  .legacy {
+    flex: 0;
 
     h2 {
       margin: 0 0 0 42px;

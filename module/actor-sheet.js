@@ -116,6 +116,13 @@ export class IronswornActorSheet extends ActorSheet {
       const item = this.actor.items.find(x => x._id === itemId)
       return item.fulfill()
     })
+    html.find('.clearProgress').click(ev => {
+      const itemId = $(ev.target)
+        .parents('.item-row')
+        .data('id')
+      const item = this.actor.items.find(x => x._id === itemId)
+      return item.clearProgress()
+    })
     html.find('.edit-item').click(ev => {
       const itemId = $(ev.target)
         .parents('.item-row')

@@ -347,27 +347,33 @@
 .ironsworn textarea {
   resize: none;
 }
-.ironsworn .progresses .clickable {
-  padding: 5px;
-  margin: 2px;
-  text-align: center;
-}
-.ironsworn .progresses .item {
-  border: 1px solid gray;
-  border-radius: 3px;
-  padding: 5px;
-  font-size: smaller;
-  margin: 5px;
-}
-.ironsworn .legacy {
-  flex: 0;
-}
-.ironsworn .legacy .eraseLegacy,
-.ironsworn .legacy .markLegacy {
+.ironsworn .progresses .clickable,
+.ironsworn .legacy .clickable {
   flex: 0;
   font-size: 20px;
   line-height: 44px;
   padding: 0 10px;
+}
+.ironsworn .progresses h2 {
+  margin: 0 0 0 42px;
+  font-size: 19px;
+  font-weight: normal;
+  display: inline-block;
+}
+.ironsworn .progresses .fulfillProgress {
+  padding-left: 2px;
+}
+.ironsworn .progresses .edit {
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.ironsworn .progresses .item-row {
+  margin-bottom: 18px;
+}
+.ironsworn .legacy {
+  flex: 0;
 }
 .ironsworn .legacy h2 {
   margin: 0 0 0 42px;

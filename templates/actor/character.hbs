@@ -14,21 +14,24 @@
 
 {{#*inline "progress"}}
 <div class="flexcol item-row" data-id="{{_id}}">
-    <div class="flexrow">
+    <div class="title">
         <h2>{{name}} ({{data.data.rank}})</h2>
-        <div class="block clickable" style="flex-grow: 0;">
+        <div class="block clickable edit">
             <i class="edit-item fas fa-edit"></i>
         </div>
     </div>
     <div class="flexrow">
+        <div class="clickable block clearProgress" title="{{localize 'STARFORGED.ClearProgress'}}">
+            <i class="fas fa-times-circle"></i>
+        </div>
         {{#each (progressCharacters data.data.current)}}
         <div class="progress">{{{this}}}</div>
         {{/each}}
         <div class="clickable block markProgress" title="{{localize 'STARFORGED.MarkProgress'}}">
-            <i class="fas fa-play"></i>
+            <i class="fas fa-chevron-circle-right"></i>
         </div>
         <div class="clickable block fulfillProgress" title="{{localize 'STARFORGED.FulfillVow'}}">
-            <i class="fas fa-check"></i>
+            <i class="fas fa-check-circle"></i>
         </div>
     </div>
 </div>
@@ -40,14 +43,14 @@
         <h2>{{name}}</h2>
     </div>
     <div class="flexrow">
-        <div class="clickable block eraseLegacy" title="{{localize 'STARFORGED.MarkProgress'}}">
-            <i class="fas fa-chevron-circle-left"></i>
+        <div class="clickable block eraseLegacy" title="{{localize 'STARFORGED.EraseProgress'}}">
+            <i class="fas fa-minus-circle"></i>
         </div>
         {{#each (progressCharacters progress)}}
         <div class="progress">{{{this}}}</div>
         {{/each}}
         <div class="clickable block markLegacy" title="{{localize 'STARFORGED.MarkProgress'}}">
-            <i class="fas fa-chevron-circle-right"></i>
+            <i class="fas fa-plus-circle"></i>
         </div>
     </div>
 </div>
