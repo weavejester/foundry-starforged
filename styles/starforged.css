@@ -314,6 +314,7 @@
 }
 .ironsworn .profile {
   flex-grow: 0;
+  font-size: 14px;
 }
 .ironsworn .profile .flexcol {
   margin-right: 10px;
@@ -330,7 +331,7 @@
   color: #444;
   flex: 0 1 20px;
 }
-.ironsworn label.details {
+.ironsworn label.left-label {
   flex: 0 1 65px;
   line-height: 26px;
   margin: 2px 0;
@@ -342,7 +343,6 @@
   border: 1px solid #ced1d2;
   border-radius: 3px;
   font-family: "Signika", sans-serif;
-  font-size: 14px;
 }
 .ironsworn textarea {
   resize: none;
