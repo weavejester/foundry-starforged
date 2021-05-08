@@ -37,7 +37,8 @@ Hooks.once('init', async function () {
 
   // Load partials
   loadTemplates([
-    "systems/ironsworn-starforged/templates/actor/partial/assets.hbs"
+    "systems/ironsworn-starforged/templates/actor/partial/assets.hbs",
+    "systems/ironsworn-starforged/templates/actor/partial/progress.hbs"
   ])
 })
 

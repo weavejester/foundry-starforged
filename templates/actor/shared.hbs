@@ -8,4 +8,34 @@
   <section class="sheet-area assets">
     {{> "systems/ironsworn-starforged/templates/actor/partial/assets.hbs"}}
   </section>
+
+  <section class="sheet-area connections">
+    <h1><span>{{localize 'STARFORGED.Connections'}}</span></h1>
+    {{#each connections}}
+    {{> "systems/ironsworn-starforged/templates/actor/partial/progress.hbs"}}
+    {{/each}}
+    <div class="block clickable add-item" data-type="connection">
+        <i class="fas fa-plus"></i>
+    </div>
+  </section>
+
+  <section class="sheet-area progresses">
+    <h1><span>{{localize 'STARFORGED.Progress'}}</span></h1>
+    {{#each progresses}}
+    {{> "systems/ironsworn-starforged/templates/actor/partial/progress.hbs"}}
+    {{/each}}
+    <div class="block clickable add-item" data-type="progress">
+        <i class="fas fa-plus"></i>
+    </div>
+  </section>
+
+  <section class="sheet-area vows">
+    <h1><span>{{localize 'STARFORGED.Vows'}}</span></h1>
+    {{#each vows}}
+    {{> "systems/ironsworn-starforged/templates/actor/partial/progress.hbs"}}
+    {{/each}}
+    <div class="block clickable add-item" data-type="vow">
+        <i class="fas fa-plus"></i>
+    </div>
+  </section>
 </form>
