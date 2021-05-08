@@ -1,6 +1,6 @@
 import {
-  ironswornMoveRoll,
-  ironswornRollDialog,
+  starforgedMoveRoll,
+  starforgedRollDialog,
   RANKS,
   RANK_INCREMENTS
 } from './starforged.js'
@@ -60,7 +60,7 @@ export class StarforgedItemSheet extends ItemSheet {
       const el = ev.currentTarget
       const moveTitle = `${this.object.name} (${el.dataset.param})`
       const actor = this.object.actor || {}
-      return ironswornRollDialog(actor.data?.data, el.dataset.param, moveTitle)
+      return starforgedRollDialog(actor.data?.data, el.dataset.param, moveTitle)
     })
 
     // Everything below here is only needed if the sheet is editable

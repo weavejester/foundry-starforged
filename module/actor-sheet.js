@@ -1,4 +1,4 @@
-import { ironswornRollDialog } from './starforged.js'
+import { starforgedRollDialog } from './starforged.js'
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -166,7 +166,7 @@ export class StarforgedActorSheet extends ActorSheet {
         ...this.getData(),
         track: item.data.data.track.current
       }
-      ironswornRollDialog(data, 'track', `${item.name}`)
+      starforgedRollDialog(data, 'track', `${item.name}`)
     })
   }
 
@@ -228,7 +228,7 @@ export class StarforgedActorSheet extends ActorSheet {
       const el = ev.currentTarget
       const moveTitle = `${item?.name || html.data('name')} (${el.dataset.param})`
       const actor = this.actor || {}
-      return ironswornRollDialog(actor.data?.data, el.dataset.param, moveTitle)
+      return starforgedRollDialog(actor.data?.data, el.dataset.param, moveTitle)
     })
   }
 
@@ -239,7 +239,7 @@ export class StarforgedActorSheet extends ActorSheet {
     const stat = el.dataset.stat
     if (stat) {
       // Clicked a non-edit stat; trigger a roll
-      ironswornRollDialog(this.actor.data.data, stat, `Roll +${stat}`)
+      starforgedRollDialog(this.actor.data.data, stat, `Roll +${stat}`)
     }
 
     const resource = el.dataset.resource

@@ -145,12 +145,12 @@ Handlebars.registerHelper('starforgedHitType', function () {
   return game.i18n.localize('STARFORGED.WeakHit')
 })
 
-export async function ironswornMoveRoll (bonusExpr = '0', values = {}, title) {
-  const r = new Roll(`{d6+${bonusExpr}, d10,d10}`, values).roll()
+export async function starforgedMoveRoll (bonusExpr = '0', values = {}, title) {
+  const r = new Roll(`{d6+${bonusExpr},d10,d10}`, values).roll()
   r.toMessage({ flavor: `<div class="move-title">${title}</div>` })
 }
 
-export async function ironswornRollDialog (data, stat, title) {
+export async function starforgedRollDialog (data, stat, title) {
   const template = 'systems/ironsworn-starforged/templates/roll-dialog.hbs'
   const templateData = { data, stat }
   const html = await renderTemplate(template, templateData)
@@ -164,7 +164,7 @@ export async function ironswornRollDialog (data, stat, title) {
         callback: x => {
           const form = x[0].querySelector('form')
           const bonus = parseInt(form[0].value, 10)
-          ironswornMoveRoll(`@${stat}+${bonus || 0}`, data, title)
+          starforgedMoveRoll(`@${stat}+${bonus || 0}`, data, title)
         }
       }
     },
