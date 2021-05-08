@@ -5,31 +5,30 @@
     </h1>
   </header>
 
-  <section class="flexrow nogrow">
-    <label>{{localize 'STARFORGED.Rank'}}:</label>
-    <select name="data.rank">
+  <section class="flexrow nogrow sheet-area">
+    <label class="left-label" for="data.rank">{{localize 'STARFORGED.Rank'}}:</label>
+    <select id="data.rank" name="data.rank">
       {{selectOptions ranks selected=data.rank localize=true}}
     </select>
   </section>
 
-  <div class="flexrow nogrow">
+  <div class="flexrow nogrow progresses sheet-area">
+    <div class="clickable block clearProgress" title="{{localize 'STARFORGED.ClearProgress'}}">
+      <i class="fas fa-times-circle"></i>
+    </div>
     {{#each (progressCharacters data.current)}}
     <div class="progress block">{{{this}}}</div>
     {{/each}}
+    <div class="clickable block markProgress" title="{{localize 'STARFORGED.MarkProgress'}}">
+      <i class="fas fa-chevron-circle-right"></i>
+    </div>
+    <div class="clickable block fulfillProgress" title="{{localize 'STARFORGED.FulfillVow'}}">
+      <i class="fas fa-check-circle"></i>
+    </div>
   </div>
 
-  <div class="flexrow nogrow">
-    <button class="markProgress">{{localize 'STARFORGED.Mark'}}</button>
-    <button class="fulfillProgress">{{localize 'STARFORGED.Fulfill'}}</button>
+  <div class="flexrow nogrow sheet-area">
+    <button class="delete"><i class="fas fa-trash"></i> Delete</button>
   </div>
-  <div class="flexrow nogrow">
-    <hr>
-  </div>
-  <div class="flexrow nogrow">
-    <button class="clearProgress">{{localize 'STARFORGED.Clear'}}</button>
-    <button class="delete"><i class="fas fa-trash"></i></button>
-  </div>
-
-  {{editor content=data.description target="data.description" button=true owner=owner editable=true}}
 
 </form>
