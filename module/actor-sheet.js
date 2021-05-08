@@ -18,7 +18,7 @@ export class StarforgedActorSheet extends ActorSheet {
 
   /** @override */
   get template () {
-    const path = 'systems/foundry-starforged/templates/actor'
+    const path = 'systems/ironsworn-starforged/templates/actor'
     return `${path}/${this.actor.data.type}.hbs`
   }
 
@@ -70,10 +70,10 @@ export class StarforgedActorSheet extends ActorSheet {
 
     // Enable editing stats
     html.find('#edit-stats').click(async ev => {
-      if (this.actor.getFlag('foundry-starforged', 'editStats')) {
-        await this.actor.unsetFlag('foundry-starforged', 'editStats')
+      if (this.actor.getFlag('ironsworn-starforged', 'editStats')) {
+        await this.actor.unsetFlag('ironsworn-starforged', 'editStats')
       } else {
-        await this.actor.setFlag('foundry-starforged', 'editStats', 'true')
+        await this.actor.setFlag('ironsworn-starforged', 'editStats', 'true')
       }
     })
 
@@ -206,8 +206,8 @@ export class StarforgedActorSheet extends ActorSheet {
     const item = this.actor.getOwnedItem(li.data('id'))
 
     const flagKey = `expanded-${item._id}`
-    const value = this.actor.getFlag('foundry-starforged', flagKey)
-    this.actor.setFlag('foundry-starforged', flagKey, !value)
+    const value = this.actor.getFlag('ironsworn-starforged', flagKey)
+    this.actor.setFlag('ironsworn-starforged', flagKey, !value)
   }
 
   _parseRollPlus (text) {
@@ -257,7 +257,7 @@ export class StarforgedActorSheet extends ActorSheet {
       // Clicked an oracle, roll from the table
       let table = game.tables.find(x => x.name === tableName)
       if (!table) {
-        const pack = game.packs.get('foundry-starforged.starforged-tables')
+        const pack = game.packs.get('ironsworn-starforged.starforged-tables')
         const index = await pack.getIndex()
         const entry = index.find(x => x.name == tableName)
         if (entry) table = await pack.getEntity(entry._id)
@@ -269,7 +269,7 @@ export class StarforgedActorSheet extends ActorSheet {
   async _rollDialog (key) {
     const move = MOVES[key]
     const html = await renderTemplate(
-      'systems/foundry-starforged/templates/move-dialog.hbs',
+      'systems/ironsworn-starforged/templates/move-dialog.hbs',
       move
     )
 

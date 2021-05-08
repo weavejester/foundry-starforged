@@ -22,7 +22,7 @@ export class StarforgedItemSheet extends ItemSheet {
   /* -------------------------------------------- */
   /** @override */
   get template () {
-    const path = 'systems/foundry-starforged/templates/item'
+    const path = 'systems/ironsworn-starforged/templates/item'
     return `${path}/${this.item.data.type}.hbs`
   }
 

@@ -1,8 +1,8 @@
 {
-  "name": "foundry-starforged",
+  "name": "ironsworn-starforged",
   "title": "Ironsworn: Starforged",
   "description": "A WIP implementation of the Ironsworn: Starforged system. Based on the Ironsworn foundry module by Ben Straub.",
-  "version": "0.2.4",
+  "version": "0.0.1",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,
@@ -17,21 +17,21 @@
     {
       "name": "starforged-tables",
       "label": "Starforged Tables",
-      "system": "foundry-starforged",
+      "system": "ironsworn-starforged",
       "path": "packs/tables.db",
       "entity": "RollTable"
     },
     {
       "name": "starforged-assets",
       "label": "Starforged Assets",
-      "system": "foundry-starforged",
+      "system": "ironsworn-starforged",
       "path": "packs/assets.db",
       "entity": "Item"
     },
     {
       "name": "starforged-scenes",
       "label": "Starforged Maps",
-      "system": "foundry-starforged",
+      "system": "ironsworn-starforged",
       "path": "packs/scenes.db",
       "entity": "Scene"
     }
@@ -49,6 +49,6 @@
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/weavejester/foundry-starforged",
   "manifest": "https://raw.githubusercontent.com/weavejester/foundry-starforged/main/system.json",
-  "download": "http://github.com/weavejester/foundry-starforged/archive/0.2.4.zip",
+  "download": "http://github.com/weavejester/foundry-starforged/archive/0.0.1.zip",
   "license": "LICENSE.txt"
 }

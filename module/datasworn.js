@@ -1,7 +1,7 @@
 export async function importFromDatasworn () {
   const packs = [
-    'foundry-starforged.starforged-assets',
-    'foundry-starforged.starforged-tables'
+    'ironsworn-starforged.starforged-assets',
+    'ironsworn-starforged.starforged-tables'
   ]
 
   // Empty out the packs
@@ -15,9 +15,9 @@ export async function importFromDatasworn () {
   }
 
   // Assets
-  const assetsPack = game.packs.get('foundry-starforged.starforged-assets')
+  const assetsPack = game.packs.get('ironsworn-starforged.starforged-assets')
   const assetsJson = await fetch(
-    '/systems/foundry-starforged/assets/assets.json'
+    '/systems/ironsworn-starforged/assets/assets.json'
   ).then(x => x.json())
   for (const asset of assetsJson) {
     await assetsPack.createEntity({
@@ -27,9 +27,9 @@ export async function importFromDatasworn () {
   }
 
   // Tables
-  const tablesPack = game.packs.get('foundry-starforged.starforged-tables')
+  const tablesPack = game.packs.get('ironsworn-starforged.starforged-tables')
   const tablesJson = await fetch(
-    '/systems/foundry-starforged/assets/oracles.json'
+    '/systems/ironsworn-starforged/assets/oracles.json'
   ).then(x => x.json())
   for (const table of tablesJson) {
     await tablesPack.createEntity(table)

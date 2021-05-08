@@ -21,9 +21,9 @@ Hooks.once('init', async function () {
   // Define custom Entity classes
   CONFIG.Actor.entityClass = StarforgedActor
   CONFIG.Item.entityClass = StarforgedItem
-  CONFIG.Dice.template = 'systems/foundry-starforged/templates/chat/roll.hbs'
+  CONFIG.Dice.template = 'systems/ironsworn-starforged/templates/chat/roll.hbs'
   // CONFIG.RollTable.resultTemplate =
-  //   'systems/foundry-starforged/templates/chat/table-draw.hbs'
+  //   'systems/ironsworn-starforged/templates/chat/table-draw.hbs'
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet)
@@ -37,7 +37,7 @@ Hooks.once('init', async function () {
 
   // Load partials
   loadTemplates([
-    "systems/foundry-starforged/templates/actor/partial/assets.hbs"
+    "systems/ironsworn-starforged/templates/actor/partial/assets.hbs"
   ])
 })
 
@@ -151,7 +151,7 @@ export async function ironswornMoveRoll (bonusExpr = '0', values = {}, title) {
 }
 
 export async function ironswornRollDialog (data, stat, title) {
-  const template = 'systems/foundry-starforged/templates/roll-dialog.hbs'
+  const template = 'systems/ironsworn-starforged/templates/roll-dialog.hbs'
   const templateData = { data, stat }
   const html = await renderTemplate(template, templateData)
   let d = new StarforgedRollDialog({
