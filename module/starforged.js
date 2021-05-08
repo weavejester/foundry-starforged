@@ -34,6 +34,11 @@ Hooks.once('init', async function () {
   game.Ironsworn = {
     importFromDatasworn
   }
+
+  // Load partials
+  loadTemplates([
+    "systems/foundry-starforged/templates/actor/partial/assets.hbs"
+  ])
 })
 
 Hooks.once('setup', () => {
