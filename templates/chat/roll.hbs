@@ -1,10 +1,10 @@
 <div class="dice-roll">
-  {{#ifIsIronswornRoll}}
+  {{#ifIsStarforgedRoll}}
 
   <div class="dice-result ironsworn-roll">
 
     <div class="dice-formula">
-      <p class="hit-type">{{ironswornHitType}}</p>
+      <p class="hit-type">{{starforgedHitType}}</p>
       <p>{{{actionDieFormula}}} {{localize 'STARFORGED.Versus'}} {{{challengeDice}}}</p>
     </div>
   </div>
@@ -20,5 +20,5 @@
     <h4 class="dice-total">{{total}}</h4>
   </div>
 
-  {{/ifIsIronswornRoll}}
+  {{/ifIsStarforgedRoll}}
 </div>

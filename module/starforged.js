@@ -5,10 +5,10 @@
  */
 
 // Import Modules
-import { IronswornActor } from './actor.js'
-import { IronswornItem } from './item.js'
-import { IronswornItemSheet } from './item-sheet.js'
-import { IronswornActorSheet } from './actor-sheet.js'
+import { StarforgedActor } from './actor.js'
+import { StarforgedItem } from './item.js'
+import { StarforgedItemSheet } from './item-sheet.js'
+import { StarforgedActorSheet } from './actor-sheet.js'
 import { importFromDatasworn } from './datasworn.js'
 
 /* -------------------------------------------- */
@@ -19,19 +19,19 @@ Hooks.once('init', async function () {
   console.log(`Initializing Starforged System`)
 
   // Define custom Entity classes
-  CONFIG.Actor.entityClass = IronswornActor
-  CONFIG.Item.entityClass = IronswornItem
+  CONFIG.Actor.entityClass = StarforgedActor
+  CONFIG.Item.entityClass = StarforgedItem
   CONFIG.Dice.template = 'systems/foundry-starforged/templates/chat/roll.hbs'
   // CONFIG.RollTable.resultTemplate =
   //   'systems/foundry-starforged/templates/chat/table-draw.hbs'
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet)
-  Actors.registerSheet('ironsworn', IronswornActorSheet, { makeDefault: true })
+  Actors.registerSheet('starforged', StarforgedActorSheet, { makeDefault: true })
   Items.unregisterSheet('core', ItemSheet)
-  Items.registerSheet('ironsworn', IronswornItemSheet, { makeDefault: true })
+  Items.registerSheet('starforged', StarforgedItemSheet, { makeDefault: true })
 
-  game.Ironsworn = {
+  game.Starforged = {
     importFromDatasworn
   }
 
@@ -70,8 +70,8 @@ Hooks.once('setup', () => {
 })
 
 // Autofucus on input box when rolling
-class IronswornRollDialog extends Dialog {}
-Hooks.on('renderIronswornRollDialog', async (dialog, html, data) => {
+class StarforgedRollDialog extends Dialog {}
+Hooks.on('renderStarforgedRollDialog', async (dialog, html, data) => {
   html.find('input').focus()
 })
 
@@ -83,7 +83,7 @@ Handlebars.registerHelper('json', function (context) {
   return JSON.stringify(context, null, 2)
 })
 
-Handlebars.registerHelper('ifIsIronswornRoll', function (options) {
+Handlebars.registerHelper('ifIsStarforgedRoll', function (options) {
   if (
     (this.roll.dice.length === 3 &&
       this.roll.dice.filter(x => x.faces === 6).length === 1 &&
@@ -130,7 +130,7 @@ Handlebars.registerHelper('challengeDice', function () {
   return `${c1span} ${c2span}`
 })
 
-Handlebars.registerHelper('ironswornHitType', function () {
+Handlebars.registerHelper('starforgedHitType', function () {
   const actionTotal = actionRoll(this.roll).total
   const [challenge1, challenge2] = challengeRolls(this.roll).map(x => x.total)
   const match = challenge1 === challenge2
@@ -154,7 +154,7 @@ export async function ironswornRollDialog (data, stat, title) {
   const template = 'systems/foundry-starforged/templates/roll-dialog.hbs'
   const templateData = { data, stat }
   const html = await renderTemplate(template, templateData)
-  let d = new IronswornRollDialog({
+  let d = new StarforgedRollDialog({
     title: title || `Roll +${stat}`,
     content: html,
     buttons: {

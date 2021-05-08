@@ -9,7 +9,7 @@ import {
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
  */
-export class IronswornItemSheet extends ItemSheet {
+export class StarforgedItemSheet extends ItemSheet {
   /** @override */
   static get defaultOptions () {
     return mergeObject(super.defaultOptions, {

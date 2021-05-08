@@ -4,7 +4,7 @@ import { ironswornRollDialog } from './starforged.js'
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-export class IronswornActorSheet extends ActorSheet {
+export class StarforgedActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions () {
     return mergeObject(super.defaultOptions, {

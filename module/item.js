@@ -4,7 +4,7 @@ import { RANKS, RANK_INCREMENTS } from './starforged.js'
  * Extend the base Iteem entity
  * @extends {Item}
  */
-export class IronswornItem extends Item {
+export class StarforgedItem extends Item {
   /**
    * Progress methods
    */
