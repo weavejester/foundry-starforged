@@ -55,7 +55,7 @@ export class StarforgedItemSheet extends ItemSheet {
     super.activateListeners(html)
 
     // Activate roll links
-    html.find('a.inline-roll').on('click', ev => {
+    html.find('a.sf-inline-roll').on('click', ev => {
       ev.preventDefault()
       const el = ev.currentTarget
       const moveTitle = `${this.object.name} (${el.dataset.param})`

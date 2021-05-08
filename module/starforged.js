@@ -224,7 +224,7 @@ Handlebars.registerHelper('enrichHtml', text => {
   const rendered = TextEditor.enrichHTML(text)
   return rendered.replace(
     /\(\(rollplus (.*?)\)\)/g,
-    `<a class='inline-roll' data-param='$1'><i class='fas fa-dice-d6'></i>${game.i18n.localize('STARFORGED.Roll')} +$1</a>`
+    `<a class='sf-inline-roll' data-param='$1'><i class='fas fa-dice-d6'></i>${game.i18n.localize('STARFORGED.Roll')} +$1</a>`
   )
 })
 

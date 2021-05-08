@@ -215,7 +215,7 @@ export class StarforgedActorSheet extends ActorSheet {
     return rendered.replace(
       /\(\(rollplus (.*?)\)\)/g,
       `
-    <a class='inline-roll' data-param='$1'>
+    <a class='sf-inline-roll' data-param='$1'>
       <i class='fas fa-dice-d6'></i>
       ${game.i18n.localize('STARFORGED.Roll')} +$1
     </a>`
@@ -223,7 +223,7 @@ export class StarforgedActorSheet extends ActorSheet {
   }
 
   _attachInlineRollListeners (html, item) {
-    html.find('a.inline-roll').on('click', ev => {
+    html.find('a.sf-inline-roll').on('click', ev => {
       ev.preventDefault()
       const el = ev.currentTarget
       const moveTitle = `${item?.name || html.data('name')} (${el.dataset.param})`
