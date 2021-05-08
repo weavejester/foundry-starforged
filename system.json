@@ -41,16 +41,6 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch",
-      "path": "lang/de.json"
-    },
-    {
-      "lang": "cn",
-      "name": "中文",
-      "path": "lang/cn.json"
     }
   ],
   "gridDistance": 5,
