@@ -1,3 +1,9 @@
 <form class="{{cssClass}}" autocomplete="off">
-    {{> "systems/foundry-starforged/templates/actor/partial/assets.hbs"}}
+  <header class="sheet-header">
+    <h1>
+      <input name="name" type="text" value="{{actor.name}}" placeholder="Name" />
+    </h1>
+  </header>
+
+  {{> "systems/foundry-starforged/templates/actor/partial/assets.hbs"}}
 </form>
