@@ -9,6 +9,7 @@ import { StarforgedActor } from './actor.js'
 import { StarforgedItem } from './item.js'
 import { StarforgedItemSheet } from './item-sheet.js'
 import { StarforgedActorSheet } from './actor-sheet.js'
+import { StarforgedSharedSheet } from './shared-sheet.js'
 import { importFromDatasworn } from './datasworn.js'
 
 /* -------------------------------------------- */
@@ -27,7 +28,8 @@ Hooks.once('init', async function () {
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet)
-  Actors.registerSheet('starforged', StarforgedActorSheet, { makeDefault: true })
+  Actors.registerSheet('starforged', StarforgedActorSheet, { makeDefault: true, types: ["character"] })
+  Actors.registerSheet('starforged', StarforgedSharedSheet, { makeDefault: true, types: ["shared"] })
   Items.unregisterSheet('core', ItemSheet)
   Items.registerSheet('starforged', StarforgedItemSheet, { makeDefault: true })
 
