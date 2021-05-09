@@ -380,7 +380,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>You worship a god, power, or entity. Give it a name and choose one of your stats to represent its nature. When you <strong>Face Danger</strong> or <strong>Secure an Advantage</strong> by calling on it for guidance or blessings, roll +linked stat. On a hit, take +1 momentum or +1 spirit. On a strong hit with a match, a miracle or sign manifests; take another +1 momentum or +1 spirit.</p>\n"
+          "description": "<p>You worship a god, power, or entity. Give it a name and choose one of your stats to represent its nature. When you <strong>Secure an Advantage</strong> or <strong>Gain Ground</strong> by calling on it for guidance or blessings, roll +linked stat. On a hit, take +1 momentum or +1 spirit. On a strong hit with a match, a miracle or sign manifests; take another +1 momentum or +1 spirit.</p>\n"
         },
         {
           "enabled": false,
@@ -432,15 +432,15 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>When you read the intent, emotions, or memories of a being in your presence, ((rollplus heart)). On a strong hit, you glimpse a helpful aspect of their inner self. Envision what you learn, take +2 momentum, and add +1 as you make moves to interact with them in this scene. On a weak hit, the visions are murky; take +1 momentum. On a miss, you reveal a troubling motive or secret; <strong>Pay the Price</strong>.</p>\n"
+          "description": "<p>When you read the intent, emotions, or memories of a nearby being, ((rollplus heart)). On a strong hit, you glimpse a helpful aspect of their inner self. Envision what you learn, take +2 momentum, and add +1 if you use that insight while making a move to interact with them in this scene. On a weak hit, the visions are murky; take +1 momentum. On a miss, you reveal a troubling motive or secret; <strong>Pay the Price</strong>.</p>\n"
         },
         {
           "enabled": false,
-          "description": "<p>As above, and on a hit you may subtly influence their attitude or actions, such as making a hostile being hesitate. Take another +1 momentum. If in a fight, mark progress.</p>\n"
+          "description": "<p>As above, and if you score a hit as you read them, you may subtly influence their attitude or actions, such as making a hostile being hestitate. Take another +1 momentum. If in a fight, mark progress.</p>\n"
         },
         {
           "enabled": false,
-          "description": "<p>When you <strong>Face Danger</strong> to soothe a being’s emotional distress through an empathic bond, you may ((rollplus spirit)). If you do, take +1 momentum on a hit. If they are an ally, also give them +2 spirit on a hit.</p>\n"
+          "description": "<p>When you <strong>Face Danger</strong> to soothe a being’s distress by creating an empathic bond, ((rollplus spirit)) and take +1 momentum on a hit. If they are an ally, also give them +2 spirit on a hit.</p>\n"
         }
       ],
       "track": {
@@ -708,7 +708,7 @@
         },
         {
           "enabled": false,
-          "description": "<p>When you <strong>Gain Ground</strong> or <strong>React Under Fire</strong> by moving into cover, add +1. On a strong hit, you may then add +2 (one time only) if you pop out of cover to <strong>Strike</strong>.</p>\n"
+          "description": "<p>When you <strong>Gain Ground</strong> or <strong>React Under Fire</strong> by moving into cover, add +1. On a strong hit, this cover gives you leverage; add +1 when you make a move to attack or defend at range. If you then score a miss, the cover is lost or compromised.</p>\n"
         },
         {
           "enabled": false,
@@ -927,7 +927,7 @@
         },
         {
           "enabled": false,
-          "description": "<p>When any ally must <strong>Pay the Price</strong>, and you are in a position to suffer the the cost of that move, your ally may take +1 momentum.</p>\n"
+          "description": "<p>When an ally must <strong>Pay the Price</strong>, you may suffer the cost of the move in their place. If you do, your ally may take +1 momentum.</p>\n"
         },
         {
           "enabled": false,
@@ -1453,7 +1453,7 @@
         },
         {
           "enabled": false,
-          "description": "<p>When you make a move while controllingthe pod and push its capabilities to the limit, you may take an automatic strong hit. If you do, <strong>Withstand Damage</strong> (-2).</p>\n"
+          "description": "<p>When you make a move while controlling the pod and push its capabilities to the limit, you may take an automatic strong hit. If you do, <strong>Withstand Damage</strong> (-2).</p>\n"
         }
       ],
       "track": {

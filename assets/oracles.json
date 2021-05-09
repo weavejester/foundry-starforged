@@ -9606,7 +9606,7 @@
     "results": [
       {
         "type": 0,
-        "text": "Minuscule (bug-sized)",
+        "text": "Minuscule",
         "weight": 3,
         "range": [
           1,
@@ -9615,7 +9615,7 @@
       },
       {
         "type": 0,
-        "text": "Tiny (rodent-sized)",
+        "text": "Tiny",
         "weight": 7,
         "range": [
           4,
@@ -9624,7 +9624,7 @@
       },
       {
         "type": 0,
-        "text": "Small (dog-sized)",
+        "text": "Small",
         "weight": 15,
         "range": [
           11,
@@ -9633,7 +9633,7 @@
       },
       {
         "type": 0,
-        "text": "Medium (person-sized)",
+        "text": "Medium",
         "weight": 35,
         "range": [
           26,
@@ -9642,7 +9642,7 @@
       },
       {
         "type": 0,
-        "text": "Large (vehicle-sized)",
+        "text": "Large",
         "weight": 30,
         "range": [
           61,
@@ -9651,7 +9651,7 @@
       },
       {
         "type": 0,
-        "text": "Huge (whale-sized)",
+        "text": "Huge",
         "weight": 9,
         "range": [
           91,
@@ -9677,7 +9677,7 @@
     "results": [
       {
         "type": 0,
-        "text": "Titanic (hill-sized)",
+        "text": "Titanic",
         "weight": 89,
         "range": [
           1,
@@ -9686,7 +9686,7 @@
       },
       {
         "type": 0,
-        "text": "Colossal (mountain-sized)",
+        "text": "Colossal",
         "weight": 10,
         "range": [
           90,
@@ -9695,7 +9695,7 @@
       },
       {
         "type": 0,
-        "text": "Vast (planet-sized)",
+        "text": "Vast",
         "weight": 1,
         "range": [
           100,
@@ -10826,18 +10826,18 @@
       {
         "type": 0,
         "text": "Planetside",
-        "weight": 30,
+        "weight": 40,
         "range": [
           1,
-          30
+          40
         ]
       },
       {
         "type": 0,
         "text": "Orbital",
-        "weight": 30,
+        "weight": 20,
         "range": [
-          31,
+          41,
           60
         ]
       },
@@ -29455,6 +29455,922 @@
         "weight": 1,
         "range": [
           100,
+          100
+        ]
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true
+  },
+  {
+    "name": "Sector Name 1st word",
+    "results": [
+      {
+        "type": 0,
+        "text": "Accursed",
+        "weight": 2,
+        "range": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Ashen",
+        "weight": 2,
+        "range": [
+          3,
+          4
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Asteria",
+        "weight": 2,
+        "range": [
+          5,
+          6
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Bitter",
+        "weight": 2,
+        "range": [
+          7,
+          8
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Blighted",
+        "weight": 2,
+        "range": [
+          9,
+          10
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Bloodied",
+        "weight": 2,
+        "range": [
+          11,
+          12
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Boundless",
+        "weight": 2,
+        "range": [
+          13,
+          14
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Burning",
+        "weight": 2,
+        "range": [
+          15,
+          16
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Cortana",
+        "weight": 2,
+        "range": [
+          17,
+          18
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Corvus",
+        "weight": 2,
+        "range": [
+          19,
+          20
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Crimson",
+        "weight": 2,
+        "range": [
+          21,
+          22
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Cygnus",
+        "weight": 2,
+        "range": [
+          23,
+          24
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Delphi",
+        "weight": 2,
+        "range": [
+          25,
+          26
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Delphian",
+        "weight": 2,
+        "range": [
+          27,
+          28
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Devil's",
+        "weight": 2,
+        "range": [
+          29,
+          30
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Ebon",
+        "weight": 2,
+        "range": [
+          31,
+          32
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Essus",
+        "weight": 2,
+        "range": [
+          33,
+          34
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Fallen",
+        "weight": 2,
+        "range": [
+          35,
+          36
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Ferrous",
+        "weight": 2,
+        "range": [
+          37,
+          38
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Fool's",
+        "weight": 2,
+        "range": [
+          39,
+          40
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Forgotten",
+        "weight": 2,
+        "range": [
+          41,
+          42
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Haunted",
+        "weight": 2,
+        "range": [
+          43,
+          44
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Hidden",
+        "weight": 2,
+        "range": [
+          45,
+          46
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Hollow",
+        "weight": 2,
+        "range": [
+          47,
+          48
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Igneous",
+        "weight": 2,
+        "range": [
+          49,
+          50
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Infernal",
+        "weight": 2,
+        "range": [
+          51,
+          52
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Invidia",
+        "weight": 2,
+        "range": [
+          53,
+          54
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Iron",
+        "weight": 2,
+        "range": [
+          55,
+          56
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Kalidas",
+        "weight": 2,
+        "range": [
+          57,
+          58
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Kronos",
+        "weight": 2,
+        "range": [
+          59,
+          60
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Lacuna",
+        "weight": 2,
+        "range": [
+          61,
+          62
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Lumen",
+        "weight": 2,
+        "range": [
+          63,
+          64
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Mobius",
+        "weight": 2,
+        "range": [
+          65,
+          66
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Morien",
+        "weight": 2,
+        "range": [
+          67,
+          68
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Onyx",
+        "weight": 2,
+        "range": [
+          69,
+          70
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Outer",
+        "weight": 2,
+        "range": [
+          71,
+          72
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Sanguis",
+        "weight": 2,
+        "range": [
+          73,
+          74
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Scarred",
+        "weight": 2,
+        "range": [
+          75,
+          76
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Scorched",
+        "weight": 2,
+        "range": [
+          77,
+          78
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Shattered",
+        "weight": 2,
+        "range": [
+          79,
+          80
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Shrouded",
+        "weight": 2,
+        "range": [
+          81,
+          82
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Sindri",
+        "weight": 2,
+        "range": [
+          83,
+          84
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Solana",
+        "weight": 2,
+        "range": [
+          85,
+          86
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Stygian",
+        "weight": 2,
+        "range": [
+          87,
+          88
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Sulaco",
+        "weight": 2,
+        "range": [
+          89,
+          90
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Sundered",
+        "weight": 2,
+        "range": [
+          91,
+          92
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Thunor",
+        "weight": 2,
+        "range": [
+          93,
+          94
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Vanguard",
+        "weight": 2,
+        "range": [
+          95,
+          96
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Veiled",
+        "weight": 2,
+        "range": [
+          97,
+          98
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Wasted",
+        "weight": 2,
+        "range": [
+          99,
+          100
+        ]
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true
+  },
+  {
+    "name": "Sector Name 2nd word",
+    "results": [
+      {
+        "type": 0,
+        "text": "Abyss",
+        "weight": 2,
+        "range": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Anvil",
+        "weight": 2,
+        "range": [
+          3,
+          4
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Arch",
+        "weight": 2,
+        "range": [
+          5,
+          6
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Breach",
+        "weight": 2,
+        "range": [
+          7,
+          8
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Chain",
+        "weight": 2,
+        "range": [
+          9,
+          10
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Channel",
+        "weight": 2,
+        "range": [
+          11,
+          12
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Chasm",
+        "weight": 2,
+        "range": [
+          13,
+          14
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Circlet",
+        "weight": 2,
+        "range": [
+          15,
+          16
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Cluster",
+        "weight": 2,
+        "range": [
+          17,
+          18
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Crossing",
+        "weight": 2,
+        "range": [
+          19,
+          20
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Crown",
+        "weight": 2,
+        "range": [
+          21,
+          22
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Currents",
+        "weight": 2,
+        "range": [
+          23,
+          24
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Deep",
+        "weight": 2,
+        "range": [
+          25,
+          26
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Desolation",
+        "weight": 2,
+        "range": [
+          27,
+          28
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Drift",
+        "weight": 2,
+        "range": [
+          29,
+          30
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Flow",
+        "weight": 2,
+        "range": [
+          31,
+          32
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Flux",
+        "weight": 2,
+        "range": [
+          33,
+          34
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Gap",
+        "weight": 2,
+        "range": [
+          35,
+          36
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Gate",
+        "weight": 2,
+        "range": [
+          37,
+          38
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Gyre",
+        "weight": 2,
+        "range": [
+          39,
+          40
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Heart",
+        "weight": 2,
+        "range": [
+          41,
+          42
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Helix",
+        "weight": 2,
+        "range": [
+          43,
+          44
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Juncture",
+        "weight": 2,
+        "range": [
+          45,
+          46
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Limits",
+        "weight": 2,
+        "range": [
+          47,
+          48
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Locus",
+        "weight": 2,
+        "range": [
+          49,
+          50
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Maelstrom",
+        "weight": 2,
+        "range": [
+          51,
+          52
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Margin",
+        "weight": 2,
+        "range": [
+          53,
+          54
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Maw",
+        "weight": 2,
+        "range": [
+          55,
+          56
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Maze",
+        "weight": 2,
+        "range": [
+          57,
+          58
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Nexus",
+        "weight": 2,
+        "range": [
+          59,
+          60
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Oasis",
+        "weight": 2,
+        "range": [
+          61,
+          62
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Pass",
+        "weight": 2,
+        "range": [
+          63,
+          64
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Pit",
+        "weight": 2,
+        "range": [
+          65,
+          66
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Pyre",
+        "weight": 2,
+        "range": [
+          67,
+          68
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Reach",
+        "weight": 2,
+        "range": [
+          69,
+          70
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Rest",
+        "weight": 2,
+        "range": [
+          71,
+          72
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Rift",
+        "weight": 2,
+        "range": [
+          73,
+          74
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Sanctum",
+        "weight": 2,
+        "range": [
+          75,
+          76
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Shallows",
+        "weight": 2,
+        "range": [
+          77,
+          78
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Shoal",
+        "weight": 2,
+        "range": [
+          79,
+          80
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Spine",
+        "weight": 2,
+        "range": [
+          81,
+          82
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Straits",
+        "weight": 2,
+        "range": [
+          83,
+          84
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Threshold",
+        "weight": 2,
+        "range": [
+          85,
+          86
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Tide",
+        "weight": 2,
+        "range": [
+          87,
+          88
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Verge",
+        "weight": 2,
+        "range": [
+          89,
+          90
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Vertex",
+        "weight": 2,
+        "range": [
+          91,
+          92
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Vigil",
+        "weight": 2,
+        "range": [
+          93,
+          94
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Void",
+        "weight": 2,
+        "range": [
+          95,
+          96
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Web",
+        "weight": 2,
+        "range": [
+          97,
+          98
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Zenith",
+        "weight": 2,
+        "range": [
+          99,
           100
         ]
       }
