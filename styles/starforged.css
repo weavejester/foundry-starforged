@@ -507,6 +507,12 @@
 .ironsworn a:hover {
   text-shadow: none;
 }
+.ironsworn .hidden {
+  display: none;
+}
+.ironsworn .expanded .hidden {
+  display: block;
+}
 .nogrow {
   flex-grow: 0;
 }

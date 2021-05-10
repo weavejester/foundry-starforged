@@ -43,6 +43,7 @@ export class StarforgedActorSheet extends ActorSheet {
       }
     }
 
+    data.user = game.users.current
     data.assets = this.actor.items.filter(x => x.type === 'asset')
     data.vows = this.actor.items.filter(x => x.type === 'vow')
     data.progresses = this.actor.items.filter(x => x.type === 'progress')
@@ -80,7 +81,7 @@ export class StarforgedActorSheet extends ActorSheet {
     // Moves expand in place
     html.find('.built-in-move-entry').click(this._handleBuiltInMoveExpand.bind(this))
     html.find('.move-entry').click(this._handleMoveExpand.bind(this))
-    html.find('.asset-entry').click(this._handleAssetExpand.bind(this))
+    html.find('.asset-entry').click(this._handleToggleExpand.bind(this))
 
     // Vow/progress buttons
     html.find('.add-item').click(async ev => {
@@ -168,6 +169,32 @@ export class StarforgedActorSheet extends ActorSheet {
       }
       starforgedRollDialog(data, 'track', `${item.name}`)
     })
+  }
+
+  _isExpandedItem (id) {
+    return game.users.current.getFlag('ironsworn-starforged', `expanded-${id}`)
+  }
+
+  _setExpandedItem (id, value) {
+    game.users.current.setFlag('ironsworn-starforged', `expanded-${id}`, value)
+  }
+
+  _toggleExpandedItem (id) {
+    const newValue = !this._isExpandedItem(id)
+    this._setExpandedItem(id, !this._isExpandedItem(id))
+    return newValue
+  }
+
+  _handleToggleExpand (event) {
+    event.preventDefault()
+    const li = $(event.currentTarget).parents('li')
+
+    if (this._toggleExpandedItem(li.data('id'))) {
+      li.addClass('expanded')
+    }
+    else {
+      li.removeClass('expanded')
+    }   
   }
 
   async _handleBuiltInMoveExpand (ev) {
