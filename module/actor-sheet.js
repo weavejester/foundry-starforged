@@ -79,8 +79,8 @@ export class StarforgedActorSheet extends ActorSheet {
     })
 
     // Moves expand in place
-    html.find('.built-in-move-entry').click(this._handleBuiltInMoveExpand.bind(this))
-    html.find('.move-entry').click(this._handleMoveExpand.bind(this))
+    html.find('.built-in-move-entry').click(this._handleToggleExpand.bind(this))
+    html.find('.move-entry').click(this._handleToggleExpand.bind(this))
     html.find('.asset-entry').click(this._handleToggleExpand.bind(this))
 
     // Vow/progress buttons
@@ -195,46 +195,6 @@ export class StarforgedActorSheet extends ActorSheet {
     else {
       li.removeClass('expanded')
     }   
-  }
-
-  async _handleBuiltInMoveExpand (ev) {
-    ev.preventDefault()
-    const li = $(ev.currentTarget).parents('li')
-    const summary = li.children('.move-summary')
-    if (li.hasClass('expanded')) {
-      summary.slideUp(200)
-    } else {
-      summary.slideDown(200)
-    }
-    li.toggleClass('expanded')
-  }
-
-  async _handleMoveExpand (ev) {
-    ev.preventDefault()
-    const li = $(ev.currentTarget).parents('li')
-    const item = this.actor.getOwnedItem(li.data('id'))
-
-    if (li.hasClass('expanded')) {
-      const summary = li.children('.move-summary')
-      summary.slideUp(200, () => summary.remove())
-    } else {
-      const content = this._parseRollPlus(item.data.data.description)
-      const div = $(`<div class="move-summary">${content}</div>`)
-      this._attachInlineRollListeners(div, item)
-      li.append(div.hide())
-      div.slideDown(200)
-    }
-    li.toggleClass('expanded')
-  }
-
-  async _handleAssetExpand (ev) {
-    ev.preventDefault()
-    const li = $(ev.currentTarget).parents('li')
-    const item = this.actor.getOwnedItem(li.data('id'))
-
-    const flagKey = `expanded-${item._id}`
-    const value = this.actor.getFlag('ironsworn-starforged', flagKey)
-    this.actor.setFlag('ironsworn-starforged', flagKey, !value)
   }
 
   _parseRollPlus (text) {
