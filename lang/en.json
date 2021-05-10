@@ -66,6 +66,8 @@
   "STARFORGED.ConfirmDelete": "Are you sure? This cannot be undone.",
   "STARFORGED.PersonalItems": "Personal Items",
   "STARFORGED.Role": "Role",
+  "STARFORGED.Dossier": "Dossier",
+  "STARFORGED.Status": "Status",
   "STARFORGED.Moves:Face Danger:title": "Face Danger",
   "STARFORGED.Moves:Face Danger:description": "<p><strong>When you attempt something risky or react to an imminent threat</strong>, envision your action and roll. If you act...</p>\n<ul>\n<li>With speed, mobility, or agility: ((rollplus edge))</li>\n<li>With resolve, command, or sociability: ((rollplus heart))</li>\n<li>With strength, endurance, or aggression: ((rollplus iron))</li>\n<li>With deception, stealth, or trickery: ((rollplus shadow))</li>\n<li>With expertise, focus, or observation: ((rollplus wits))</li>\n</ul>\n<p>On a <strong>strong hit</strong>, you are successful. Take +1 momentum.</p>\n<p>On a <strong>weak hit</strong>, you succeed, but at a troublesome cost. Make a suffer move (-1).</p>\n<p>On a <strong>miss</strong>, you fail, or a momentary success is undermined by a dire turn of events. <strong>Pay the Price</strong>.</p>\n",
   "STARFORGED.Moves:Secure an Advantage:title": "Secure an Advantage",
