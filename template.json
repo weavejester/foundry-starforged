@@ -8,6 +8,7 @@
       "pronouns": "",
       "callsign": "",
       "characteristics": "",
+      "background": "",
       "edge": 1,
       "heart": 1,
       "iron": 1,
@@ -62,17 +63,14 @@
     "vow": {
       "templates": [
         "progress"
-      ],
-      "description": "",
-      "threat": ""
+      ]
     },
     "connection": {
       "templates": [
         "progress"
       ],
       "role1": "",
-      "role2": "",
-      "description": ""
+      "role2": ""
     },
     "personalitem": {
       "description": ""
