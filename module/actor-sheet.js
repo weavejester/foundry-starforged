@@ -79,9 +79,7 @@ export class StarforgedActorSheet extends ActorSheet {
     })
 
     // Moves expand in place
-    html.find('.built-in-move-entry').click(this._handleToggleExpand.bind(this))
-    html.find('.move-entry').click(this._handleToggleExpand.bind(this))
-    html.find('.asset-entry').click(this._handleToggleExpand.bind(this))
+    html.find('.expandable').click(this._handleToggleExpand.bind(this))
 
     // Vow/progress buttons
     html.find('.add-item').click(async ev => {
