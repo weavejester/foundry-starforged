@@ -246,7 +246,7 @@
         </div>
         <div class="tab flexcol" data-tab="background" data-group="primary-tabs">
             <section class="sheet-area flexrow profile">
-                <div class="flexcol">
+                <div class="flexcol details">
                     <div class="flexrow">
                         <label class="left-label" for="name">{{localize 'STARFORGED.Name'}}</label>
                         <input name="name" type="text" value="{{actor.name}}" />
@@ -261,11 +261,11 @@
                     </div>
                 </div>
                 <div class="flexcol">
-                    <label class="characteristics" for="data.characteristics">{{localize 'STARFORGED.Characteristics'}}</label>
+                    <label class="top-label" for="data.characteristics">{{localize 'STARFORGED.Characteristics'}}</label>
                     <textarea name="data.characteristics">{{actor.data.characteristics}}</textarea>   
                 </div>
                 <div class="flexcol">
-                    <label class="characteristics" for="data.background">{{localize 'STARFORGED.Background'}}</label>
+                    <label class="top-label" for="data.background">{{localize 'STARFORGED.Background'}}</label>
                     <textarea name="data.background">{{actor.data.background}}</textarea>   
                 </div>
                 <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="50" width="50" />

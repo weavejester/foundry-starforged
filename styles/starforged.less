@@ -372,9 +372,15 @@
     }
 
     .profile-img {
-      flex: 0 0 90px;
-      height: 90px;
-      width: 90px;
+      margin-top: 24px;
+      flex: 0 0 84px;
+      height: 84px;
+      width: 84px;
+    }
+
+    textarea {
+      font-size: 14px;
+      resize: none;
     }
   }
 
@@ -386,9 +392,22 @@
     flex: 0 1 20px;
 
     &.left-label {
-      flex: 0 1 65px;
       line-height: 26px;
+      flex: 0 1;
       margin: 2px 0;
+    }
+
+    &.top-label {
+      line-height: 22px;  
+    }
+  }
+
+  .details {
+    padding-top: 20px;
+    flex: 0 1 265px;
+
+    label {
+      flex-basis: 65px;
     }
   }
 
@@ -398,10 +417,6 @@
     border: 1px solid #ced1d2;
     border-radius: 3px;
     font-family: "Signika", sans-serif;   
-  }
-
-  textarea {
-    resize: none;
   }
 
   .progresses, .legacy {
@@ -415,7 +430,7 @@
 
   .progresses {
     h2 {
-      margin: 0 0 0 42px;
+      margin: 0 0 0 32px;
       font-size: 19px;
       font-weight: normal;
       display: inline-block;
@@ -441,7 +456,7 @@
     flex: 0;
 
     h2 {
-      margin: 0 0 0 42px;
+      margin: 0 0 0 32px;
       font-size: 15px;
       font-weight: bold;
     }
@@ -449,16 +464,22 @@
     .item-row {
       border: none;
     }
+
+    .progress {
+      flex: 0 0 40px;
+      height: 40px;
+      padding: 2px;
+    }
   }
 
   .progress {
-    flex: 0 0 40px;
+    flex: 0 0 37px;
+    height: 37px;
     border: 1px solid black;
-    padding: 5px;
+    padding: 1px;
     margin: 2px;
     text-align: center;
-    font-size: 20px;
-    height: 40px;
+    font-size: 24px;    
     border-radius: 4px;
     box-shadow: black 2px 2px;
     background: white;
