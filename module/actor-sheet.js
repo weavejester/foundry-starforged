@@ -184,7 +184,7 @@ export class StarforgedActorSheet extends ActorSheet {
 
   _handleToggleExpand (event) {
     event.preventDefault()
-    const li = $(event.currentTarget).parents('li')
+    const li = $(event.currentTarget).parents('.item-row')
 
     if (this._toggleExpandedItem(li.data('id'))) {
       li.addClass('expanded')

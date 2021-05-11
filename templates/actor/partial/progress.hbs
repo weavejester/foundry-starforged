@@ -1,10 +1,15 @@
-<div class="flexcol item-row" data-id="{{_id}}">
-    <div class="title">
+<div class="flexcol item-row {{expandedClass @root.sheet _id}}" data-id="{{_id}}">
+    <div class="title expandable">
         <h2>{{name}} ({{data.data.rank}})</h2>
         <div class="block clickable edit">
             <i class="edit-item fas fa-edit"></i>
         </div>
     </div>
+    {{#if data.data.description}}
+    <div class="description hidden">            
+        <p>{{{enrichHtml data.data.description}}}</p>     
+    </div>
+    {{/if}}
     <div class="flexrow">
         <div class="clickable block clearProgress" title="{{localize 'STARFORGED.ClearProgress'}}">
             <i class="fas fa-times-circle"></i>
