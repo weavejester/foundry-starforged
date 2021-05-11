@@ -34,12 +34,13 @@
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 0;
+  height: 0;
+  margin-bottom: 32px;
 }
 .ironsworn .sheet-area h1 span {
   position: relative;
   top: -18px;
-  background: #eee;
+  background: #f2f2f2;
   padding: 0 10px;
 }
 .ironsworn .sheet-area h3 {
@@ -88,9 +89,6 @@
 }
 .ironsworn .impacts {
   flex: 0 1 140px;
-}
-.ironsworn .impacts h1 {
-  margin-bottom: 8px;
 }
 .ironsworn .impacts h3 {
   flex: 0;
@@ -385,9 +383,8 @@
   margin-bottom: 18px;
 }
 .ironsworn .progresses .description {
-  margin-left: 33px;
   padding: 0;
-  margin: -4px 0 3px 33px;
+  margin: -4px 0 3px 32px;
   font-size: 13px;
   font-weight: lighter;
 }
@@ -406,6 +403,15 @@
   flex: 0 0 40px;
   height: 40px;
   padding: 2px;
+}
+.ironsworn .roles .role {
+  margin: -6px 4px 6px 32px;
+  font-size: 13px;
+}
+.ironsworn .roles .role strong {
+  font-variant: all-small-caps;
+  margin-right: 2px;
+  font-size: 17px;
 }
 .ironsworn .progress {
   flex: 0 0 37px;
