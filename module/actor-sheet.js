@@ -69,6 +69,11 @@ export class StarforgedActorSheet extends ActorSheet {
 
     html.find('#burn').click(this._burnMomentum.bind(this))
 
+    // Save scroll positions
+    html.find('.save-scroll').
+      scroll(this._saveScrollPosition.bind(this)).
+      each(this._loadScrollPosition.bind(this))
+
     // Enable editing stats
     html.find('#edit-stats').click(async ev => {
       if (this.actor.getFlag('ironsworn-starforged', 'editStats')) {
@@ -187,6 +192,17 @@ export class StarforgedActorSheet extends ActorSheet {
     else {
       li.removeClass('expanded')
     }   
+  }
+
+  scrollPosition = {}
+
+  _saveScrollPosition (event) {
+    const element = event.currentTarget
+    this.scrollPosition[element.id] = element.scrollTop
+  }
+
+  _loadScrollPosition (_, element) {
+    element.scrollTop = this.scrollPosition[element.id]
   }
 
   _parseRollPlus (text) {
