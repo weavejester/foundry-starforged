@@ -152,17 +152,22 @@
                         </section>
                         <section class="sheet-area items">
                             <h1><span>{{localize 'STARFORGED.PersonalItems'}}</span></h1>
-                            <div class="flexcol item-list">
+                            <div class="flexcol item-list {{expandedClass sheet _id}}">
                                 <ol>
                                     {{#each personalItems}}
                                     <li class="item-row" data-id="{{_id}}">
-                                        <div class="personalitem-entry">
+                                        <div class="personalitem-entry expandable">
                                             <div class="flexrow">
                                                 <strong>{{name}}</strong>
                                                 <div class="block clickable" style="flex-grow: 0;">
                                                     <i class="edit-item fas fa-edit"></i>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="personalitem-summary hidden">
+                                            {{#if data.data.description}}
+                                            <p>{{{enrichHtml data.data.description}}}</p>
+                                            {{/if}}
                                         </div>
                                     </li>
                                     {{/each}}
