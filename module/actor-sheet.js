@@ -43,7 +43,7 @@ export class StarforgedActorSheet extends ActorSheet {
       }
     }
 
-    data.user = game.users.current
+    data.sheet = this
     data.assets = this.actor.items.filter(x => x.type === 'asset')
     data.vows = this.actor.items.filter(x => x.type === 'vow')
     data.progresses = this.actor.items.filter(x => x.type === 'progress')
@@ -169,17 +169,11 @@ export class StarforgedActorSheet extends ActorSheet {
     })
   }
 
-  _isExpandedItem (id) {
-    return game.users.current.getFlag('ironsworn-starforged', `expanded-${id}`)
-  }
-
-  _setExpandedItem (id, value) {
-    game.users.current.setFlag('ironsworn-starforged', `expanded-${id}`, value)
-  }
+  isExpanded = {}
 
   _toggleExpandedItem (id) {
-    const newValue = !this._isExpandedItem(id)
-    this._setExpandedItem(id, !this._isExpandedItem(id))
+    const newValue = !this.isExpanded[id]
+    this.isExpanded[id] = newValue
     return newValue
   }
 

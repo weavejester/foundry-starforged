@@ -231,9 +231,9 @@ Handlebars.registerHelper('enrichHtml', text => {
   )
 })
 
-Handlebars.registerHelper('expandedClass', id => {
-  const isExpanded = game.users.current.getFlag('ironsworn-starforged', `expanded-${id}`)
-  return isExpanded ? "expanded" : ""
+Handlebars.registerHelper('expandedClass', (sheet, id) => {
+  console.log(sheet, id)
+  return sheet.isExpanded[id] ? "expanded" : ""
 })
 
 export const RANKS = {
