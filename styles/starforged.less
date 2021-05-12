@@ -349,6 +349,18 @@
     }
   }
 
+  .expansion-icon{
+    width: 16px;
+
+    &::before {
+      content: '\f105';
+    }
+  }
+
+  .expanded .expansion-icon::before {
+    content: '\f107';  
+  }
+
   .moves, .assets, .items {
     .item-row {
       border: 1px solid #999;

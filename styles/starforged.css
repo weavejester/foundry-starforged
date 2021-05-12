@@ -300,6 +300,15 @@
   flex-grow: 0;
   padding: 5px;
 }
+.ironsworn .expansion-icon {
+  width: 16px;
+}
+.ironsworn .expansion-icon::before {
+  content: '\f105';
+}
+.ironsworn .expanded .expansion-icon::before {
+  content: '\f107';
+}
 .ironsworn .moves .item-row,
 .ironsworn .assets .item-row,
 .ironsworn .items .item-row {
