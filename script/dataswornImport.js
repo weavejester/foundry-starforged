@@ -1,7 +1,7 @@
 const marked = require('marked')
-const fetch = require('node-fetch')
-const fs = require('fs/promises')
-const util = require('util')
+const fetch  = require('node-fetch')
+const fs     = require('fs/promises')
+const util   = require('util')
 
 function renderHtml (text) {
   return marked(
@@ -13,27 +13,18 @@ function renderHtml (text) {
   )
 }
 
-async function doit () {
-  // Assets
-  const assetsJson = await fetch(
-    'https://raw.githubusercontent.com/rsek/dataforged/main/assets.json'
-  ).then(x => x.json())
-  const assets = []
-  for (const asset of assetsJson.Assets) {
-    const track = {
-      enabled: false,
-      name: '',
-      max: 0,
-      current: 0
-    }
+function parseAssets(json) {
+  return json.Assets.map(asset => {
+    const track = {enabled: false, name: '', max: 0, current: 0}
+
     if (asset.Track) {
       track.enabled = true
-      track.name = asset.Track.Name
-      track.max = asset.Track.Value
+      track.name    = asset.Track.Name
+      track.max     = asset.Track.Value
       track.current = asset.Track['Starts At'] ?? track.max
     }
-
-    assets.push({
+  
+    return {
       name: `${asset.Category} / ${asset.Name}`,
       data: {
         description: asset.Description,
@@ -48,10 +39,55 @@ async function doit () {
             description: renderHtml(description)
           }
         }),
-        track,
+        track
+      }
+    }
+  })
+}
+
+function parseMoves(json) {
+  return json.Moves.map(move => {
+    return {
+      name: move.Name,
+      data: {
+        category: move.Category,
+        description: renderHtml(move.Text)
+      }
+    }
+  })
+}
+
+function parseOracles(json) {
+  return json.Oracles.
+    filter(oracle => oracle.Table != null).
+    map(oracle => {
+      let chance = 0
+      const results = oracle.Table.map(row => {
+        const result = {
+          type: 0,
+          text: row.Description,
+          weight: row.Chance - chance,
+          range: [chance + 1, row.Chance]
+        }
+        chance = row.Chance
+        return result
+      })
+
+      return {
+        name: oracle.Name,
+        results: results,
+        formula: "1d100",
+        replacement: true,
+        displayRoll: true
       }
     })
-  }
+}
+
+async function doit () {
+  const assets = await fetch('https://raw.githubusercontent.com/rsek/dataforged/main/assets.json').
+    then(result => result.json()).
+    then(parseAssets)
+
   await fs.writeFile('assets/assets.json', JSON.stringify(assets, null, 2))
 
   // Moves
@@ -68,29 +104,19 @@ async function doit () {
     'https://raw.githubusercontent.com/rsek/dataforged/main/moves/threshold.json'
   ]
 
-  const moves = []
-
-  for (const url of moveURLs)
-  {
-    const movesJson = await fetch(url).then(x => x.json())   
-    for (const move of movesJson.Moves) {
-      moves.push({
-        name: move.Name,
-        data: { description: renderHtml(move.Text) }
-      })
-    }
-  }
+  const moves = await fetch('https://raw.githubusercontent.com/rsek/dataforged/main/moves.json').
+    then(result => result.json()).
+    then(parseMoves)
+  
   await fs.writeFile('assets/moves.json', JSON.stringify(moves, null, 2))
 
-  // Also write descriptions to en lang file
-  const en = JSON.parse((await fs.readFile('lang/en.json')))
+  const en = JSON.parse(await fs.readFile('lang/en.json'))
   for (const move of moves) {
     en[`STARFORGED.Moves:${move.name}:title`] = move.name
     en[`STARFORGED.Moves:${move.name}:description`] = move.data.description
   }
   await fs.writeFile('lang/en.json', JSON.stringify(en, null, 2))
 
-  // Oracles
   const oracleURLs = [
     'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/campaign.json',
     'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/character.json',
@@ -137,39 +163,9 @@ async function doit () {
     'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/starship.json'
   ]
 
-  const oracles = []
+  const oracles = await Promise.all(oracleURLs.map(url => fetch(url).then(r => r.json()))).
+    then(oracles => [].concat(...oracles.map(parseOracles)))
 
-  for (const url of oracleURLs)
-  {
-    const oracleJson = await fetch(url).then(x => x.json())   
-    for (const oracle of oracleJson.Oracles) {
-      // Doesn't get all tables
-      if (oracle.Table) {
-        const results = []
-        let chance = 0
-  
-        for (const row of oracle.Table)
-        {
-          results.push({
-            type: 0,
-            text: row.Description,
-            weight: row.Chance - chance,
-            range: [chance + 1, row.Chance]
-          })
-  
-          chance = row.Chance
-        }
-
-        oracles.push({
-          name: oracle.Name,
-          results: results,
-          formula: "1d100",
-          replacement: true,
-          displayRoll: true
-        })
-      }
-    }
-  }
   await fs.writeFile('assets/oracles.json', JSON.stringify(oracles, null, 2))
 }
 
