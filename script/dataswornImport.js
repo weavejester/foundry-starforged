@@ -74,7 +74,7 @@ function parseOracles(json) {
       })
 
       return {
-        name: oracle.Name,
+        name: `${json.Name} / ${oracle.Name}`,
         results: results,
         formula: "1d100",
         replacement: true,

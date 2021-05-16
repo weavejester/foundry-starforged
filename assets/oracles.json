@@ -1,6 +1,6 @@
 [
   {
-    "name": "Background Assets",
+    "name": "Campaign / Background Assets",
     "results": [
       {
         "type": 0,
@@ -188,7 +188,7 @@
     "displayRoll": true
   },
   {
-    "name": "Backstory Prompts",
+    "name": "Campaign / Backstory Prompts",
     "results": [
       {
         "type": 0,
@@ -322,7 +322,7 @@
     "displayRoll": true
   },
   {
-    "name": "Starship History",
+    "name": "Campaign / Starship History",
     "results": [
       {
         "type": 0,
@@ -438,7 +438,7 @@
     "displayRoll": true
   },
   {
-    "name": "Starship Quirks",
+    "name": "Campaign / Starship Quirks",
     "results": [
       {
         "type": 0,
@@ -626,7 +626,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sector Trouble",
+    "name": "Campaign / Sector Trouble",
     "results": [
       {
         "type": 0,
@@ -814,7 +814,7 @@
     "displayRoll": true
   },
   {
-    "name": "Inciting Incident",
+    "name": "Campaign / Inciting Incident",
     "results": [
       {
         "type": 0,
@@ -1002,7 +1002,7 @@
     "displayRoll": true
   },
   {
-    "name": "Given Name",
+    "name": "Character / Given Name",
     "results": [
       {
         "type": 0,
@@ -1910,7 +1910,7 @@
     "displayRoll": true
   },
   {
-    "name": "Family Name",
+    "name": "Character / Family Name",
     "results": [
       {
         "type": 0,
@@ -2818,7 +2818,7 @@
     "displayRoll": true
   },
   {
-    "name": "Callsign",
+    "name": "Character / Callsign",
     "results": [
       {
         "type": 0,
@@ -3726,7 +3726,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Character / First Look",
     "results": [
       {
         "type": 0,
@@ -4085,7 +4085,7 @@
     "displayRoll": true
   },
   {
-    "name": "Disposition",
+    "name": "Character / Disposition",
     "results": [
       {
         "type": 0,
@@ -4201,7 +4201,7 @@
     "displayRoll": true
   },
   {
-    "name": "Role",
+    "name": "Character / Role",
     "results": [
       {
         "type": 0,
@@ -4641,7 +4641,7 @@
     "displayRoll": true
   },
   {
-    "name": "Goal",
+    "name": "Character / Goal",
     "results": [
       {
         "type": 0,
@@ -5009,7 +5009,7 @@
     "displayRoll": true
   },
   {
-    "name": "Revealed Aspect",
+    "name": "Character / Revealed Aspect",
     "results": [
       {
         "type": 0,
@@ -5917,7 +5917,7 @@
     "displayRoll": true
   },
   {
-    "name": "Action",
+    "name": "Core / Action",
     "results": [
       {
         "type": 0,
@@ -6825,7 +6825,7 @@
     "displayRoll": true
   },
   {
-    "name": "Theme",
+    "name": "Core / Theme",
     "results": [
       {
         "type": 0,
@@ -7733,7 +7733,7 @@
     "displayRoll": true
   },
   {
-    "name": "Descriptor",
+    "name": "Core / Descriptor",
     "results": [
       {
         "type": 0,
@@ -8641,7 +8641,7 @@
     "displayRoll": true
   },
   {
-    "name": "Focus",
+    "name": "Core / Focus",
     "results": [
       {
         "type": 0,
@@ -9549,7 +9549,7 @@
     "displayRoll": true
   },
   {
-    "name": "Environment",
+    "name": "Creature / Environment",
     "results": [
       {
         "type": 0,
@@ -9602,7 +9602,7 @@
     "displayRoll": true
   },
   {
-    "name": "Scale",
+    "name": "Creature / Scale",
     "results": [
       {
         "type": 0,
@@ -9673,7 +9673,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ultra-scale",
+    "name": "Creature / Ultra-scale",
     "results": [
       {
         "type": 0,
@@ -9708,7 +9708,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Creature / First Look",
     "results": [
       {
         "type": 0,
@@ -10166,7 +10166,7 @@
     "displayRoll": true
   },
   {
-    "name": "Encountered Behavior",
+    "name": "Creature / Encountered Behavior",
     "results": [
       {
         "type": 0,
@@ -10363,7 +10363,7 @@
     "displayRoll": true
   },
   {
-    "name": "Revealed Aspect",
+    "name": "Creature / Revealed Aspect",
     "results": [
       {
         "type": 0,
@@ -10821,7 +10821,7 @@
     "displayRoll": true
   },
   {
-    "name": "Location",
+    "name": "Derelict / Location",
     "results": [
       {
         "type": 0,
@@ -10856,7 +10856,7 @@
     "displayRoll": true
   },
   {
-    "name": "Condition",
+    "name": "Derelict / Condition",
     "results": [
       {
         "type": 0,
@@ -10918,7 +10918,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Derelict / First Look",
     "results": [
       {
         "type": 0,
@@ -11016,7 +11016,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Interior / First Look",
     "results": [
       {
         "type": 0,
@@ -11312,7 +11312,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Access / Area",
     "results": [
       {
         "type": 0,
@@ -11392,7 +11392,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Access / Feature",
     "results": [
       {
         "type": 0,
@@ -11580,7 +11580,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Access / Peril",
     "results": [
       {
         "type": 0,
@@ -11687,7 +11687,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Access / Opportunity",
     "results": [
       {
         "type": 0,
@@ -11740,7 +11740,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Community / Area",
     "results": [
       {
         "type": 0,
@@ -11856,7 +11856,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Community / Feature",
     "results": [
       {
         "type": 0,
@@ -11972,7 +11972,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Community / Peril",
     "results": [
       {
         "type": 0,
@@ -12079,7 +12079,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Community / Opportunity",
     "results": [
       {
         "type": 0,
@@ -12132,7 +12132,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Engineering / Area",
     "results": [
       {
         "type": 0,
@@ -12248,7 +12248,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Engineering / Feature",
     "results": [
       {
         "type": 0,
@@ -12364,7 +12364,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Engineering / Peril",
     "results": [
       {
         "type": 0,
@@ -12471,7 +12471,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Engineering / Opportunity",
     "results": [
       {
         "type": 0,
@@ -12524,7 +12524,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Living / Area",
     "results": [
       {
         "type": 0,
@@ -12640,7 +12640,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Living / Feature",
     "results": [
       {
         "type": 0,
@@ -12756,7 +12756,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Living / Peril",
     "results": [
       {
         "type": 0,
@@ -12863,7 +12863,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Living / Opportunity",
     "results": [
       {
         "type": 0,
@@ -12916,7 +12916,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Medical / Area",
     "results": [
       {
         "type": 0,
@@ -13032,7 +13032,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Medical / Feature",
     "results": [
       {
         "type": 0,
@@ -13148,7 +13148,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Medical / Peril",
     "results": [
       {
         "type": 0,
@@ -13255,7 +13255,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Medical / Opportunity",
     "results": [
       {
         "type": 0,
@@ -13308,7 +13308,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Operations / Area",
     "results": [
       {
         "type": 0,
@@ -13424,7 +13424,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Operations / Feature",
     "results": [
       {
         "type": 0,
@@ -13540,7 +13540,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Operations / Peril",
     "results": [
       {
         "type": 0,
@@ -13647,7 +13647,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Operations / Opportunity",
     "results": [
       {
         "type": 0,
@@ -13700,7 +13700,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Production / Area",
     "results": [
       {
         "type": 0,
@@ -13816,7 +13816,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Production / Feature",
     "results": [
       {
         "type": 0,
@@ -13932,7 +13932,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Production / Peril",
     "results": [
       {
         "type": 0,
@@ -14039,7 +14039,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Production / Opportunity",
     "results": [
       {
         "type": 0,
@@ -14092,7 +14092,7 @@
     "displayRoll": true
   },
   {
-    "name": "Area",
+    "name": "Research / Area",
     "results": [
       {
         "type": 0,
@@ -14208,7 +14208,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Research / Feature",
     "results": [
       {
         "type": 0,
@@ -14324,7 +14324,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Research / Peril",
     "results": [
       {
         "type": 0,
@@ -14431,7 +14431,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Research / Opportunity",
     "results": [
       {
         "type": 0,
@@ -14484,7 +14484,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Chaotic / Feature",
     "results": [
       {
         "type": 0,
@@ -14609,7 +14609,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Chaotic / Peril",
     "results": [
       {
         "type": 0,
@@ -14725,7 +14725,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Chaotic / Opportunity",
     "results": [
       {
         "type": 0,
@@ -14778,7 +14778,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Fortified / Feature",
     "results": [
       {
         "type": 0,
@@ -14903,7 +14903,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Fortified / Peril",
     "results": [
       {
         "type": 0,
@@ -15019,7 +15019,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Fortified / Opportunity",
     "results": [
       {
         "type": 0,
@@ -15072,7 +15072,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Haunted / Feature",
     "results": [
       {
         "type": 0,
@@ -15197,7 +15197,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Haunted / Peril",
     "results": [
       {
         "type": 0,
@@ -15313,7 +15313,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Haunted / Opportunity",
     "results": [
       {
         "type": 0,
@@ -15366,7 +15366,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Infested / Feature",
     "results": [
       {
         "type": 0,
@@ -15491,7 +15491,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Infested / Peril",
     "results": [
       {
         "type": 0,
@@ -15607,7 +15607,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Infested / Opportunity",
     "results": [
       {
         "type": 0,
@@ -15660,7 +15660,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Inhabited / Feature",
     "results": [
       {
         "type": 0,
@@ -15785,7 +15785,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Inhabited / Peril",
     "results": [
       {
         "type": 0,
@@ -15901,7 +15901,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Inhabited / Opportunity",
     "results": [
       {
         "type": 0,
@@ -15954,7 +15954,7 @@
     "displayRoll": true
   },
   {
-    "name": "Theme Type",
+    "name": "Location Theme / Theme Type",
     "results": [
       {
         "type": 0,
@@ -16025,7 +16025,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Ruined / Feature",
     "results": [
       {
         "type": 0,
@@ -16150,7 +16150,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Ruined / Peril",
     "results": [
       {
         "type": 0,
@@ -16266,7 +16266,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Ruined / Opportunity",
     "results": [
       {
         "type": 0,
@@ -16319,7 +16319,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Sacred / Feature",
     "results": [
       {
         "type": 0,
@@ -16444,7 +16444,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Sacred / Peril",
     "results": [
       {
         "type": 0,
@@ -16560,7 +16560,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Sacred / Opportunity",
     "results": [
       {
         "type": 0,
@@ -16613,7 +16613,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Desert World / Name",
     "results": [
       {
         "type": 0,
@@ -16781,7 +16781,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Desert World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -16843,7 +16843,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Desert World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -16941,7 +16941,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Desert World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -17084,7 +17084,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Desert World / Life",
     "results": [
       {
         "type": 0,
@@ -17155,7 +17155,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Furnace World / Name",
     "results": [
       {
         "type": 0,
@@ -17323,7 +17323,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Furnace World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -17376,7 +17376,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Furnace World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -17474,7 +17474,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Furnace World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -17617,7 +17617,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Furnace World / Life",
     "results": [
       {
         "type": 0,
@@ -17688,7 +17688,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Grave World / Name",
     "results": [
       {
         "type": 0,
@@ -17856,7 +17856,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Grave World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -17909,7 +17909,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Grave World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -18007,7 +18007,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Grave World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -18150,7 +18150,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Grave World / Life",
     "results": [
       {
         "type": 0,
@@ -18194,7 +18194,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Ice World / Name",
     "results": [
       {
         "type": 0,
@@ -18362,7 +18362,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Ice World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -18424,7 +18424,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Ice World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -18522,7 +18522,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Ice World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -18665,7 +18665,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Ice World / Life",
     "results": [
       {
         "type": 0,
@@ -18736,7 +18736,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Jovian World / Name",
     "results": [
       {
         "type": 0,
@@ -18904,7 +18904,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Jovian World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -18948,7 +18948,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Jovian World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -19046,7 +19046,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Jovian World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -19189,7 +19189,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Jovian World / Life",
     "results": [
       {
         "type": 0,
@@ -19260,7 +19260,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Jungle World / Name",
     "results": [
       {
         "type": 0,
@@ -19428,7 +19428,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Jungle World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -19481,7 +19481,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Jungle World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -19579,7 +19579,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Jungle World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -19722,7 +19722,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Jungle World / Life",
     "results": [
       {
         "type": 0,
@@ -19775,7 +19775,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Ocean World / Name",
     "results": [
       {
         "type": 0,
@@ -19943,7 +19943,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Ocean World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -20005,7 +20005,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Ocean World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -20103,7 +20103,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Ocean World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -20246,7 +20246,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Ocean World / Life",
     "results": [
       {
         "type": 0,
@@ -20317,7 +20317,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetary Class",
+    "name": "Planet / Planetary Class",
     "results": [
       {
         "type": 0,
@@ -20424,7 +20424,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Rocky World / Name",
     "results": [
       {
         "type": 0,
@@ -20592,7 +20592,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Rocky World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -20636,7 +20636,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Rocky World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -20734,7 +20734,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Rocky World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -20877,7 +20877,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Rocky World / Life",
     "results": [
       {
         "type": 0,
@@ -20948,7 +20948,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Shattered World / Name",
     "results": [
       {
         "type": 0,
@@ -21116,7 +21116,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Shattered World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -21169,7 +21169,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Shattered World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -21267,7 +21267,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Shattered World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -21410,7 +21410,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Shattered World / Life",
     "results": [
       {
         "type": 0,
@@ -21463,7 +21463,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Tainted World / Name",
     "results": [
       {
         "type": 0,
@@ -21631,7 +21631,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Tainted World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -21675,7 +21675,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Tainted World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -21773,7 +21773,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Tainted World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -21916,7 +21916,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Tainted World / Life",
     "results": [
       {
         "type": 0,
@@ -21969,7 +21969,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Vital World / Name",
     "results": [
       {
         "type": 0,
@@ -22137,7 +22137,7 @@
     "displayRoll": true
   },
   {
-    "name": "Atmosphere",
+    "name": "Vital World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -22172,7 +22172,7 @@
     "displayRoll": true
   },
   {
-    "name": "Observed From Space",
+    "name": "Vital World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -22270,7 +22270,7 @@
     "displayRoll": true
   },
   {
-    "name": "Planetside Feature",
+    "name": "Vital World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -22413,7 +22413,7 @@
     "displayRoll": true
   },
   {
-    "name": "Life",
+    "name": "Vital World / Life",
     "results": [
       {
         "type": 0,
@@ -22457,7 +22457,7 @@
     "displayRoll": true
   },
   {
-    "name": "Biomes",
+    "name": "Vital World / Biomes",
     "results": [
       {
         "type": 0,
@@ -22645,7 +22645,7 @@
     "displayRoll": true
   },
   {
-    "name": "Diversity",
+    "name": "Vital World / Diversity",
     "results": [
       {
         "type": 0,
@@ -22689,7 +22689,7 @@
     "displayRoll": true
   },
   {
-    "name": "Location",
+    "name": "Precursor Vault / Location",
     "results": [
       {
         "type": 0,
@@ -22724,7 +22724,7 @@
     "displayRoll": true
   },
   {
-    "name": "Scale",
+    "name": "Precursor Vault / Scale",
     "results": [
       {
         "type": 0,
@@ -22777,7 +22777,7 @@
     "displayRoll": true
   },
   {
-    "name": "Form",
+    "name": "Precursor Vault / Form",
     "results": [
       {
         "type": 0,
@@ -22830,7 +22830,7 @@
     "displayRoll": true
   },
   {
-    "name": "Shape",
+    "name": "Precursor Vault / Shape",
     "results": [
       {
         "type": 0,
@@ -22982,7 +22982,7 @@
     "displayRoll": true
   },
   {
-    "name": "Material",
+    "name": "Precursor Vault / Material",
     "results": [
       {
         "type": 0,
@@ -23080,7 +23080,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Precursor Vault / First Look",
     "results": [
       {
         "type": 0,
@@ -23358,7 +23358,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Interior / First Look",
     "results": [
       {
         "type": 0,
@@ -23654,7 +23654,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Interior / Feature",
     "results": [
       {
         "type": 0,
@@ -23977,7 +23977,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Interior / Peril",
     "results": [
       {
         "type": 0,
@@ -24174,7 +24174,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Interior / Opportunity",
     "results": [
       {
         "type": 0,
@@ -24272,7 +24272,7 @@
     "displayRoll": true
   },
   {
-    "name": "Purpose",
+    "name": "Sanctum / Purpose",
     "results": [
       {
         "type": 0,
@@ -24541,7 +24541,7 @@
     "displayRoll": true
   },
   {
-    "name": "Feature",
+    "name": "Sanctum / Feature",
     "results": [
       {
         "type": 0,
@@ -24864,7 +24864,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Sanctum / Peril",
     "results": [
       {
         "type": 0,
@@ -25061,7 +25061,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Sanctum / Opportunity",
     "results": [
       {
         "type": 0,
@@ -25159,7 +25159,7 @@
     "displayRoll": true
   },
   {
-    "name": "Challenge Rank",
+    "name": "Miscellaneous / Challenge Rank",
     "results": [
       {
         "type": 0,
@@ -25212,7 +25212,7 @@
     "displayRoll": true
   },
   {
-    "name": "Story Complication",
+    "name": "Miscellaneous / Story Complication",
     "results": [
       {
         "type": 0,
@@ -25481,7 +25481,7 @@
     "displayRoll": true
   },
   {
-    "name": "Combat Action",
+    "name": "Miscellaneous / Combat Action",
     "results": [
       {
         "type": 0,
@@ -25786,7 +25786,7 @@
     "displayRoll": true
   },
   {
-    "name": "Anomaly Effect",
+    "name": "Miscellaneous / Anomaly Effect",
     "results": [
       {
         "type": 0,
@@ -26091,7 +26091,7 @@
     "displayRoll": true
   },
   {
-    "name": "Make a Discovery",
+    "name": "Move / Make a Discovery",
     "results": [
       {
         "type": 0,
@@ -26306,7 +26306,7 @@
     "displayRoll": true
   },
   {
-    "name": "Confront Chaos",
+    "name": "Move / Confront Chaos",
     "results": [
       {
         "type": 0,
@@ -26521,7 +26521,7 @@
     "displayRoll": true
   },
   {
-    "name": "Take Decisive Action",
+    "name": "Move / Take Decisive Action",
     "results": [
       {
         "type": 0,
@@ -26583,7 +26583,7 @@
     "displayRoll": true
   },
   {
-    "name": "Endure Harm",
+    "name": "Move / Endure Harm",
     "results": [
       {
         "type": 0,
@@ -26636,7 +26636,7 @@
     "displayRoll": true
   },
   {
-    "name": "Endure Stress",
+    "name": "Move / Endure Stress",
     "results": [
       {
         "type": 0,
@@ -26680,7 +26680,7 @@
     "displayRoll": true
   },
   {
-    "name": "Withstand Damage",
+    "name": "Move / Withstand Damage",
     "results": [
       {
         "type": 0,
@@ -26760,7 +26760,7 @@
     "displayRoll": true
   },
   {
-    "name": "Pay the Price",
+    "name": "Move / Pay the Price",
     "results": [
       {
         "type": 0,
@@ -26948,7 +26948,7 @@
     "displayRoll": true
   },
   {
-    "name": "Cataclysm",
+    "name": "Setting Truths / Cataclysm",
     "results": [
       {
         "type": 0,
@@ -26983,7 +26983,7 @@
     "displayRoll": true
   },
   {
-    "name": "Exodus",
+    "name": "Setting Truths / Exodus",
     "results": [
       {
         "type": 0,
@@ -27018,7 +27018,7 @@
     "displayRoll": true
   },
   {
-    "name": "Communities",
+    "name": "Setting Truths / Communities",
     "results": [
       {
         "type": 0,
@@ -27053,7 +27053,7 @@
     "displayRoll": true
   },
   {
-    "name": "Iron",
+    "name": "Setting Truths / Iron",
     "results": [
       {
         "type": 0,
@@ -27088,7 +27088,7 @@
     "displayRoll": true
   },
   {
-    "name": "Laws",
+    "name": "Setting Truths / Laws",
     "results": [
       {
         "type": 0,
@@ -27123,7 +27123,7 @@
     "displayRoll": true
   },
   {
-    "name": "Religion",
+    "name": "Setting Truths / Religion",
     "results": [
       {
         "type": 0,
@@ -27158,7 +27158,7 @@
     "displayRoll": true
   },
   {
-    "name": "Magic",
+    "name": "Setting Truths / Magic",
     "results": [
       {
         "type": 0,
@@ -27193,7 +27193,7 @@
     "displayRoll": true
   },
   {
-    "name": "Communication and data",
+    "name": "Setting Truths / Communication and data",
     "results": [
       {
         "type": 0,
@@ -27228,7 +27228,7 @@
     "displayRoll": true
   },
   {
-    "name": "Medicine",
+    "name": "Setting Truths / Medicine",
     "results": [
       {
         "type": 0,
@@ -27263,7 +27263,7 @@
     "displayRoll": true
   },
   {
-    "name": "Artificial Intelligence",
+    "name": "Setting Truths / Artificial Intelligence",
     "results": [
       {
         "type": 0,
@@ -27298,7 +27298,7 @@
     "displayRoll": true
   },
   {
-    "name": "War",
+    "name": "Setting Truths / War",
     "results": [
       {
         "type": 0,
@@ -27333,7 +27333,7 @@
     "displayRoll": true
   },
   {
-    "name": "Precursors",
+    "name": "Setting Truths / Precursors",
     "results": [
       {
         "type": 0,
@@ -27368,7 +27368,7 @@
     "displayRoll": true
   },
   {
-    "name": "Lifeforms",
+    "name": "Setting Truths / Lifeforms",
     "results": [
       {
         "type": 0,
@@ -27403,7 +27403,7 @@
     "displayRoll": true
   },
   {
-    "name": "Horrors",
+    "name": "Setting Truths / Horrors",
     "results": [
       {
         "type": 0,
@@ -27438,7 +27438,7 @@
     "displayRoll": true
   },
   {
-    "name": "Location",
+    "name": "Settlement / Location",
     "results": [
       {
         "type": 0,
@@ -27473,7 +27473,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Settlement / First Look",
     "results": [
       {
         "type": 0,
@@ -27670,7 +27670,7 @@
     "displayRoll": true
   },
   {
-    "name": "Initial Contact",
+    "name": "Settlement / Initial Contact",
     "results": [
       {
         "type": 0,
@@ -27777,7 +27777,7 @@
     "displayRoll": true
   },
   {
-    "name": "Authority",
+    "name": "Settlement / Authority",
     "results": [
       {
         "type": 0,
@@ -27848,7 +27848,7 @@
     "displayRoll": true
   },
   {
-    "name": "Projects",
+    "name": "Settlement / Projects",
     "results": [
       {
         "type": 0,
@@ -28153,7 +28153,7 @@
     "displayRoll": true
   },
   {
-    "name": "Trouble",
+    "name": "Settlement / Trouble",
     "results": [
       {
         "type": 0,
@@ -28431,7 +28431,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Settlement / Name",
     "results": [
       {
         "type": 0,
@@ -29339,7 +29339,7 @@
     "displayRoll": true
   },
   {
-    "name": "Stellar Object",
+    "name": "Space / Stellar Object",
     "results": [
       {
         "type": 0,
@@ -29464,7 +29464,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sector Name 1st word",
+    "name": "Space / Sector Name 1st word",
     "results": [
       {
         "type": 0,
@@ -29922,7 +29922,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sector Name 2nd word",
+    "name": "Space / Sector Name 2nd word",
     "results": [
       {
         "type": 0,
@@ -30380,7 +30380,7 @@
     "displayRoll": true
   },
   {
-    "name": "Peril",
+    "name": "Space / Peril",
     "results": [
       {
         "type": 0,
@@ -30694,7 +30694,7 @@
     "displayRoll": true
   },
   {
-    "name": "Opportunity",
+    "name": "Space / Opportunity",
     "results": [
       {
         "type": 0,
@@ -30927,7 +30927,7 @@
     "displayRoll": true
   },
   {
-    "name": "Name",
+    "name": "Starship / Name",
     "results": [
       {
         "type": 0,
@@ -31835,7 +31835,7 @@
     "displayRoll": true
   },
   {
-    "name": "Type",
+    "name": "Starship / Type",
     "results": [
       {
         "type": 0,
@@ -32041,7 +32041,7 @@
     "displayRoll": true
   },
   {
-    "name": "Fleet",
+    "name": "Starship / Fleet",
     "results": [
       {
         "type": 0,
@@ -32121,7 +32121,7 @@
     "displayRoll": true
   },
   {
-    "name": "Initial Contact",
+    "name": "Starship / Initial Contact",
     "results": [
       {
         "type": 0,
@@ -32237,7 +32237,7 @@
     "displayRoll": true
   },
   {
-    "name": "First Look",
+    "name": "Starship / First Look",
     "results": [
       {
         "type": 0,
