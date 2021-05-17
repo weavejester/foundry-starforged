@@ -9707,6 +9707,858 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Creature / Space",
+      "results": [
+        {
+          "type": 0,
+          "text": "Amoeba / pseudopods",
+          "weight": 5,
+          "range": [
+            1,
+            5
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Amorphous / elemental",
+          "weight": 15,
+          "range": [
+            6,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Avian / winged",
+          "weight": 10,
+          "range": [
+            21,
+            30
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Beast / mammal",
+          "weight": 2,
+          "range": [
+            31,
+            32
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Crustacean / shelled",
+          "weight": 2,
+          "range": [
+            33,
+            34
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fish / torpedo-shaped",
+          "weight": 3,
+          "range": [
+            35,
+            37
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Humanoid / bipedal",
+          "weight": 2,
+          "range": [
+            38,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Insectoid / exoskeletal",
+          "weight": 2,
+          "range": [
+            40,
+            41
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Jellyfish / gasbag",
+          "weight": 19,
+          "range": [
+            42,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lizard / reptilian",
+          "weight": 2,
+          "range": [
+            61,
+            62
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Octopoid / tentacled",
+          "weight": 5,
+          "range": [
+            63,
+            67
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Plant / fungus",
+          "weight": 5,
+          "range": [
+            68,
+            72
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Ray / flat-bodied",
+          "weight": 10,
+          "range": [
+            73,
+            82
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Snake / eel",
+          "weight": 2,
+          "range": [
+            83,
+            84
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Spider / web-weaver",
+          "weight": 2,
+          "range": [
+            85,
+            86
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Starfish / symmetrical",
+          "weight": 2,
+          "range": [
+            87,
+            88
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Worm / slug / larva",
+          "weight": 2,
+          "range": [
+            89,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Creature / Interior",
+      "results": [
+        {
+          "type": 0,
+          "text": "Amoeba / pseudopods",
+          "weight": 3,
+          "range": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Amorphous / elemental",
+          "weight": 3,
+          "range": [
+            4,
+            6
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Avian / winged",
+          "weight": 6,
+          "range": [
+            7,
+            12
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Beast / mammal",
+          "weight": 7,
+          "range": [
+            13,
+            19
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Crustacean / shelled",
+          "weight": 3,
+          "range": [
+            20,
+            22
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fish / torpedo-shaped",
+          "weight": 2,
+          "range": [
+            23,
+            24
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Humanoid / bipedal",
+          "weight": 13,
+          "range": [
+            25,
+            37
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Insectoid / exoskeletal",
+          "weight": 12,
+          "range": [
+            38,
+            49
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Jellyfish / gasbag",
+          "weight": 2,
+          "range": [
+            50,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lizard / reptilian",
+          "weight": 5,
+          "range": [
+            52,
+            56
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Octopoid / tentacled",
+          "weight": 2,
+          "range": [
+            57,
+            58
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Plant / fungus",
+          "weight": 5,
+          "range": [
+            59,
+            63
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Ray / flat-bodied",
+          "weight": 2,
+          "range": [
+            64,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Snake / eel",
+          "weight": 3,
+          "range": [
+            66,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Spider / web-weaver",
+          "weight": 15,
+          "range": [
+            69,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Starfish / symmetrical",
+          "weight": 2,
+          "range": [
+            84,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Worm / slug / larva",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Creature / Land",
+      "results": [
+        {
+          "type": 0,
+          "text": "Amoeba / pseudopods",
+          "weight": 2,
+          "range": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Amorphous / elemental",
+          "weight": 3,
+          "range": [
+            3,
+            5
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Avian / winged",
+          "weight": 5,
+          "range": [
+            6,
+            10
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Beast / mammal",
+          "weight": 15,
+          "range": [
+            11,
+            25
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Crustacean / shelled",
+          "weight": 7,
+          "range": [
+            26,
+            32
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fish / torpedo-shaped",
+          "weight": 2,
+          "range": [
+            33,
+            34
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Humanoid / bipedal",
+          "weight": 5,
+          "range": [
+            35,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Insectoid / exoskeletal",
+          "weight": 10,
+          "range": [
+            40,
+            49
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Jellyfish / gasbag",
+          "weight": 2,
+          "range": [
+            50,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lizard / reptilian",
+          "weight": 7,
+          "range": [
+            52,
+            58
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Octopoid / tentacled",
+          "weight": 2,
+          "range": [
+            59,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Plant / fungus",
+          "weight": 5,
+          "range": [
+            61,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Ray / flat-bodied",
+          "weight": 2,
+          "range": [
+            66,
+            67
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Snake / eel",
+          "weight": 7,
+          "range": [
+            68,
+            74
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Spider / web-weaver",
+          "weight": 7,
+          "range": [
+            75,
+            81
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Starfish / symmetrical",
+          "weight": 2,
+          "range": [
+            82,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Worm / slug / larva",
+          "weight": 7,
+          "range": [
+            84,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Creature / Liquid",
+      "results": [
+        {
+          "type": 0,
+          "text": "Amoeba / pseudopods",
+          "weight": 5,
+          "range": [
+            1,
+            5
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Amorphous / elemental",
+          "weight": 3,
+          "range": [
+            6,
+            8
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Avian / winged",
+          "weight": 3,
+          "range": [
+            9,
+            11
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Beast / mammal",
+          "weight": 6,
+          "range": [
+            12,
+            17
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Crustacean / shelled",
+          "weight": 7,
+          "range": [
+            18,
+            24
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fish / torpedo-shaped",
+          "weight": 15,
+          "range": [
+            25,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Humanoid / bipedal",
+          "weight": 3,
+          "range": [
+            40,
+            42
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Insectoid / exoskeletal",
+          "weight": 3,
+          "range": [
+            43,
+            45
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Jellyfish / gasbag",
+          "weight": 8,
+          "range": [
+            46,
+            53
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lizard / reptilian",
+          "weight": 3,
+          "range": [
+            54,
+            56
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Octopoid / tentacled",
+          "weight": 7,
+          "range": [
+            57,
+            63
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Plant / fungus",
+          "weight": 5,
+          "range": [
+            64,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Ray / flat-bodied",
+          "weight": 7,
+          "range": [
+            69,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Snake / eel",
+          "weight": 5,
+          "range": [
+            76,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Spider / web-weaver",
+          "weight": 2,
+          "range": [
+            81,
+            82
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Starfish / symmetrical",
+          "weight": 5,
+          "range": [
+            83,
+            87
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Worm / slug / larva",
+          "weight": 3,
+          "range": [
+            88,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Creature / Air",
+      "results": [
+        {
+          "type": 0,
+          "text": "Amoeba / pseudopods",
+          "weight": 2,
+          "range": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Amorphous / elemental",
+          "weight": 10,
+          "range": [
+            3,
+            12
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Avian / winged",
+          "weight": 25,
+          "range": [
+            13,
+            37
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Beast / mammal",
+          "weight": 3,
+          "range": [
+            38,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Crustacean / shelled",
+          "weight": 2,
+          "range": [
+            41,
+            42
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fish / torpedo-shaped",
+          "weight": 5,
+          "range": [
+            43,
+            47
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Humanoid / bipedal",
+          "weight": 2,
+          "range": [
+            48,
+            49
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Insectoid / exoskeletal",
+          "weight": 2,
+          "range": [
+            50,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Jellyfish / gasbag",
+          "weight": 15,
+          "range": [
+            52,
+            66
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lizard / reptilian",
+          "weight": 2,
+          "range": [
+            67,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Octopoid / tentacled",
+          "weight": 2,
+          "range": [
+            69,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Plant / fungus",
+          "weight": 2,
+          "range": [
+            71,
+            72
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Ray / flat-bodied",
+          "weight": 10,
+          "range": [
+            73,
+            82
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Snake / eel",
+          "weight": 2,
+          "range": [
+            83,
+            84
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Spider / web-weaver",
+          "weight": 2,
+          "range": [
+            85,
+            86
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Starfish / symmetrical",
+          "weight": 2,
+          "range": [
+            87,
+            88
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Worm / slug / larva",
+          "weight": 2,
+          "range": [
+            89,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
     "name": "Creature / First Look",
     "results": [
@@ -10855,6 +11707,86 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Derelict / Planetside",
+      "results": [
+        {
+          "type": 0,
+          "text": "Derelict starship",
+          "weight": 25,
+          "range": [
+            1,
+            25
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Derelict settlement",
+          "weight": 75,
+          "range": [
+            26,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Derelict / Orbital",
+      "results": [
+        {
+          "type": 0,
+          "text": "Derelict starship",
+          "weight": 40,
+          "range": [
+            1,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Derelict settlement",
+          "weight": 60,
+          "range": [
+            41,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Derelict / Deep Space",
+      "results": [
+        {
+          "type": 0,
+          "text": "Derelict starship",
+          "weight": 75,
+          "range": [
+            1,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Derelict settlement",
+          "weight": 25,
+          "range": [
+            76,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
     "name": "Derelict / Condition",
     "results": [
@@ -11016,7 +11948,7 @@
     "displayRoll": true
   },
   {
-    "name": "Interior / First Look",
+    "name": "Derelict / Interior / First Look",
     "results": [
       {
         "type": 0,
@@ -11311,8 +12243,152 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Derelict / Interior / Starship",
+      "results": [
+        {
+          "type": 0,
+          "text": "▶️Community",
+          "weight": 5,
+          "range": [
+            1,
+            5
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Engineering",
+          "weight": 25,
+          "range": [
+            6,
+            30
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Living",
+          "weight": 25,
+          "range": [
+            31,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Medical",
+          "weight": 10,
+          "range": [
+            56,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Operations",
+          "weight": 20,
+          "range": [
+            66,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Production",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Research",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Derelict / Interior / Settlement",
+      "results": [
+        {
+          "type": 0,
+          "text": "▶️Community",
+          "weight": 20,
+          "range": [
+            1,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Engineering",
+          "weight": 10,
+          "range": [
+            21,
+            30
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Living",
+          "weight": 20,
+          "range": [
+            31,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Medical",
+          "weight": 10,
+          "range": [
+            51,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Operations",
+          "weight": 10,
+          "range": [
+            61,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Production",
+          "weight": 20,
+          "range": [
+            71,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Research",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Access / Area",
+    "name": "Derelict / Access / Area",
     "results": [
       {
         "type": 0,
@@ -11392,7 +12468,7 @@
     "displayRoll": true
   },
   {
-    "name": "Access / Feature",
+    "name": "Derelict / Access / Feature",
     "results": [
       {
         "type": 0,
@@ -11580,7 +12656,7 @@
     "displayRoll": true
   },
   {
-    "name": "Access / Peril",
+    "name": "Derelict / Access / Peril",
     "results": [
       {
         "type": 0,
@@ -11687,7 +12763,7 @@
     "displayRoll": true
   },
   {
-    "name": "Access / Opportunity",
+    "name": "Derelict / Access / Opportunity",
     "results": [
       {
         "type": 0,
@@ -11740,7 +12816,7 @@
     "displayRoll": true
   },
   {
-    "name": "Community / Area",
+    "name": "Derelict / Community / Area",
     "results": [
       {
         "type": 0,
@@ -11856,7 +12932,7 @@
     "displayRoll": true
   },
   {
-    "name": "Community / Feature",
+    "name": "Derelict / Community / Feature",
     "results": [
       {
         "type": 0,
@@ -11972,7 +13048,7 @@
     "displayRoll": true
   },
   {
-    "name": "Community / Peril",
+    "name": "Derelict / Community / Peril",
     "results": [
       {
         "type": 0,
@@ -12079,7 +13155,7 @@
     "displayRoll": true
   },
   {
-    "name": "Community / Opportunity",
+    "name": "Derelict / Community / Opportunity",
     "results": [
       {
         "type": 0,
@@ -12132,7 +13208,7 @@
     "displayRoll": true
   },
   {
-    "name": "Engineering / Area",
+    "name": "Derelict / Engineering / Area",
     "results": [
       {
         "type": 0,
@@ -12248,7 +13324,7 @@
     "displayRoll": true
   },
   {
-    "name": "Engineering / Feature",
+    "name": "Derelict / Engineering / Feature",
     "results": [
       {
         "type": 0,
@@ -12364,7 +13440,7 @@
     "displayRoll": true
   },
   {
-    "name": "Engineering / Peril",
+    "name": "Derelict / Engineering / Peril",
     "results": [
       {
         "type": 0,
@@ -12471,7 +13547,7 @@
     "displayRoll": true
   },
   {
-    "name": "Engineering / Opportunity",
+    "name": "Derelict / Engineering / Opportunity",
     "results": [
       {
         "type": 0,
@@ -12524,7 +13600,7 @@
     "displayRoll": true
   },
   {
-    "name": "Living / Area",
+    "name": "Derelict / Living / Area",
     "results": [
       {
         "type": 0,
@@ -12640,7 +13716,7 @@
     "displayRoll": true
   },
   {
-    "name": "Living / Feature",
+    "name": "Derelict / Living / Feature",
     "results": [
       {
         "type": 0,
@@ -12756,7 +13832,7 @@
     "displayRoll": true
   },
   {
-    "name": "Living / Peril",
+    "name": "Derelict / Living / Peril",
     "results": [
       {
         "type": 0,
@@ -12863,7 +13939,7 @@
     "displayRoll": true
   },
   {
-    "name": "Living / Opportunity",
+    "name": "Derelict / Living / Opportunity",
     "results": [
       {
         "type": 0,
@@ -12916,7 +13992,7 @@
     "displayRoll": true
   },
   {
-    "name": "Medical / Area",
+    "name": "Derelict / Medical / Area",
     "results": [
       {
         "type": 0,
@@ -13032,7 +14108,7 @@
     "displayRoll": true
   },
   {
-    "name": "Medical / Feature",
+    "name": "Derelict / Medical / Feature",
     "results": [
       {
         "type": 0,
@@ -13148,7 +14224,7 @@
     "displayRoll": true
   },
   {
-    "name": "Medical / Peril",
+    "name": "Derelict / Medical / Peril",
     "results": [
       {
         "type": 0,
@@ -13255,7 +14331,7 @@
     "displayRoll": true
   },
   {
-    "name": "Medical / Opportunity",
+    "name": "Derelict / Medical / Opportunity",
     "results": [
       {
         "type": 0,
@@ -13308,7 +14384,7 @@
     "displayRoll": true
   },
   {
-    "name": "Operations / Area",
+    "name": "Derelict / Operations / Area",
     "results": [
       {
         "type": 0,
@@ -13424,7 +14500,7 @@
     "displayRoll": true
   },
   {
-    "name": "Operations / Feature",
+    "name": "Derelict / Operations / Feature",
     "results": [
       {
         "type": 0,
@@ -13540,7 +14616,7 @@
     "displayRoll": true
   },
   {
-    "name": "Operations / Peril",
+    "name": "Derelict / Operations / Peril",
     "results": [
       {
         "type": 0,
@@ -13647,7 +14723,7 @@
     "displayRoll": true
   },
   {
-    "name": "Operations / Opportunity",
+    "name": "Derelict / Operations / Opportunity",
     "results": [
       {
         "type": 0,
@@ -13700,7 +14776,7 @@
     "displayRoll": true
   },
   {
-    "name": "Production / Area",
+    "name": "Derelict / Production / Area",
     "results": [
       {
         "type": 0,
@@ -13816,7 +14892,7 @@
     "displayRoll": true
   },
   {
-    "name": "Production / Feature",
+    "name": "Derelict / Production / Feature",
     "results": [
       {
         "type": 0,
@@ -13932,7 +15008,7 @@
     "displayRoll": true
   },
   {
-    "name": "Production / Peril",
+    "name": "Derelict / Production / Peril",
     "results": [
       {
         "type": 0,
@@ -14039,7 +15115,7 @@
     "displayRoll": true
   },
   {
-    "name": "Production / Opportunity",
+    "name": "Derelict / Production / Opportunity",
     "results": [
       {
         "type": 0,
@@ -14092,7 +15168,7 @@
     "displayRoll": true
   },
   {
-    "name": "Research / Area",
+    "name": "Derelict / Research / Area",
     "results": [
       {
         "type": 0,
@@ -14208,7 +15284,7 @@
     "displayRoll": true
   },
   {
-    "name": "Research / Feature",
+    "name": "Derelict / Research / Feature",
     "results": [
       {
         "type": 0,
@@ -14324,7 +15400,7 @@
     "displayRoll": true
   },
   {
-    "name": "Research / Peril",
+    "name": "Derelict / Research / Peril",
     "results": [
       {
         "type": 0,
@@ -14431,7 +15507,7 @@
     "displayRoll": true
   },
   {
-    "name": "Research / Opportunity",
+    "name": "Derelict / Research / Opportunity",
     "results": [
       {
         "type": 0,
@@ -14484,7 +15560,7 @@
     "displayRoll": true
   },
   {
-    "name": "Chaotic / Feature",
+    "name": "Location Theme / Chaotic / Feature",
     "results": [
       {
         "type": 0,
@@ -14609,7 +15685,7 @@
     "displayRoll": true
   },
   {
-    "name": "Chaotic / Peril",
+    "name": "Location Theme / Chaotic / Peril",
     "results": [
       {
         "type": 0,
@@ -14725,7 +15801,7 @@
     "displayRoll": true
   },
   {
-    "name": "Chaotic / Opportunity",
+    "name": "Location Theme / Chaotic / Opportunity",
     "results": [
       {
         "type": 0,
@@ -14778,7 +15854,7 @@
     "displayRoll": true
   },
   {
-    "name": "Fortified / Feature",
+    "name": "Location Theme / Fortified / Feature",
     "results": [
       {
         "type": 0,
@@ -14903,7 +15979,7 @@
     "displayRoll": true
   },
   {
-    "name": "Fortified / Peril",
+    "name": "Location Theme / Fortified / Peril",
     "results": [
       {
         "type": 0,
@@ -15019,7 +16095,7 @@
     "displayRoll": true
   },
   {
-    "name": "Fortified / Opportunity",
+    "name": "Location Theme / Fortified / Opportunity",
     "results": [
       {
         "type": 0,
@@ -15072,7 +16148,7 @@
     "displayRoll": true
   },
   {
-    "name": "Haunted / Feature",
+    "name": "Location Theme / Haunted / Feature",
     "results": [
       {
         "type": 0,
@@ -15197,7 +16273,7 @@
     "displayRoll": true
   },
   {
-    "name": "Haunted / Peril",
+    "name": "Location Theme / Haunted / Peril",
     "results": [
       {
         "type": 0,
@@ -15313,7 +16389,7 @@
     "displayRoll": true
   },
   {
-    "name": "Haunted / Opportunity",
+    "name": "Location Theme / Haunted / Opportunity",
     "results": [
       {
         "type": 0,
@@ -15366,7 +16442,7 @@
     "displayRoll": true
   },
   {
-    "name": "Infested / Feature",
+    "name": "Location Theme / Infested / Feature",
     "results": [
       {
         "type": 0,
@@ -15491,7 +16567,7 @@
     "displayRoll": true
   },
   {
-    "name": "Infested / Peril",
+    "name": "Location Theme / Infested / Peril",
     "results": [
       {
         "type": 0,
@@ -15607,7 +16683,7 @@
     "displayRoll": true
   },
   {
-    "name": "Infested / Opportunity",
+    "name": "Location Theme / Infested / Opportunity",
     "results": [
       {
         "type": 0,
@@ -15660,7 +16736,7 @@
     "displayRoll": true
   },
   {
-    "name": "Inhabited / Feature",
+    "name": "Location Theme / Inhabited / Feature",
     "results": [
       {
         "type": 0,
@@ -15785,7 +16861,7 @@
     "displayRoll": true
   },
   {
-    "name": "Inhabited / Peril",
+    "name": "Location Theme / Inhabited / Peril",
     "results": [
       {
         "type": 0,
@@ -15901,7 +16977,7 @@
     "displayRoll": true
   },
   {
-    "name": "Inhabited / Opportunity",
+    "name": "Location Theme / Inhabited / Opportunity",
     "results": [
       {
         "type": 0,
@@ -16025,7 +17101,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ruined / Feature",
+    "name": "Location Theme / Ruined / Feature",
     "results": [
       {
         "type": 0,
@@ -16150,7 +17226,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ruined / Peril",
+    "name": "Location Theme / Ruined / Peril",
     "results": [
       {
         "type": 0,
@@ -16266,7 +17342,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ruined / Opportunity",
+    "name": "Location Theme / Ruined / Opportunity",
     "results": [
       {
         "type": 0,
@@ -16319,7 +17395,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sacred / Feature",
+    "name": "Location Theme / Sacred / Feature",
     "results": [
       {
         "type": 0,
@@ -16444,7 +17520,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sacred / Peril",
+    "name": "Location Theme / Sacred / Peril",
     "results": [
       {
         "type": 0,
@@ -16560,7 +17636,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sacred / Opportunity",
+    "name": "Location Theme / Sacred / Opportunity",
     "results": [
       {
         "type": 0,
@@ -16613,175 +17689,195 @@
     "displayRoll": true
   },
   {
-    "name": "Desert World / Name",
+    "name": "Planet / Desert World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Abalos",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Audun",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Bishop",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Desolation",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Dykuma",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Fallow",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Helios",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Mirage",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Morricone",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nux",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Ordos",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Petra",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Pyla",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sabulo",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Saffron",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sirocco",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sulis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Torrid",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Umber",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Vermillion",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Desert World / Atmosphere",
+    "name": "Planet / Desert World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -16842,8 +17938,151 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Desert World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 50,
+          "range": [
+            1,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 10,
+          "range": [
+            51,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 20,
+          "range": [
+            61,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 12,
+          "range": [
+            81,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 8,
+          "range": [
+            93,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Desert World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 75,
+          "range": [
+            1,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 8,
+          "range": [
+            76,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 12,
+          "range": [
+            84,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Desert World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 90,
+          "range": [
+            1,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 6,
+          "range": [
+            91,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 4,
+          "range": [
+            97,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Desert World / Observed From Space",
+    "name": "Planet / Desert World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -16941,7 +18180,7 @@
     "displayRoll": true
   },
   {
-    "name": "Desert World / Planetside Feature",
+    "name": "Planet / Desert World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -17084,7 +18323,7 @@
     "displayRoll": true
   },
   {
-    "name": "Desert World / Life",
+    "name": "Planet / Desert World / Life",
     "results": [
       {
         "type": 0,
@@ -17155,175 +18394,195 @@
     "displayRoll": true
   },
   {
-    "name": "Furnace World / Name",
+    "name": "Planet / Furnace World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Ash",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Azula",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Cinder",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Cyrus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Draconus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Effigy",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Ember",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Flint",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Hades",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Hera",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Ignis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Inferno",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Ishum",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Kresnik",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nemesis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Obsidian",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Scorch",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Tana",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Vesta",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Vesuvius",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Furnace World / Atmosphere",
+    "name": "Planet / Furnace World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -17375,8 +18634,151 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Furnace World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 60,
+          "range": [
+            1,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 15,
+          "range": [
+            61,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 12,
+          "range": [
+            76,
+            87
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 9,
+          "range": [
+            88,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 4,
+          "range": [
+            97,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Furnace World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 85,
+          "range": [
+            1,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 7,
+          "range": [
+            86,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 5,
+          "range": [
+            93,
+            97
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 2,
+          "range": [
+            98,
+            99
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 1,
+          "range": [
+            100,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Furnace World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 95,
+          "range": [
+            1,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Furnace World / Observed From Space",
+    "name": "Planet / Furnace World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -17474,7 +18876,7 @@
     "displayRoll": true
   },
   {
-    "name": "Furnace World / Planetside Feature",
+    "name": "Planet / Furnace World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -17617,7 +19019,7 @@
     "displayRoll": true
   },
   {
-    "name": "Furnace World / Life",
+    "name": "Planet / Furnace World / Life",
     "results": [
       {
         "type": 0,
@@ -17688,175 +19090,195 @@
     "displayRoll": true
   },
   {
-    "name": "Grave World / Name",
+    "name": "Planet / Grave World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Anubis",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Banshee",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Barrow",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Cairn",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Cerberus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Charon",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Elysia",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Keen",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Kur",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Lament",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Mantus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Morrigan",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Mourn",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Necropolis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Orcus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Osiris",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Requim",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Stygia",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Tartarus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Thrace",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Grave World / Atmosphere",
+    "name": "Planet / Grave World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -17908,8 +19330,133 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Grave World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 80,
+          "range": [
+            1,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 10,
+          "range": [
+            81,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 5,
+          "range": [
+            91,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Grave World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 90,
+          "range": [
+            1,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 7,
+          "range": [
+            91,
+            97
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 3,
+          "range": [
+            98,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Grave World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 95,
+          "range": [
+            1,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Grave World / Observed From Space",
+    "name": "Planet / Grave World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -18007,7 +19554,7 @@
     "displayRoll": true
   },
   {
-    "name": "Grave World / Planetside Feature",
+    "name": "Planet / Grave World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -18150,7 +19697,7 @@
     "displayRoll": true
   },
   {
-    "name": "Grave World / Life",
+    "name": "Planet / Grave World / Life",
     "results": [
       {
         "type": 0,
@@ -18194,175 +19741,195 @@
     "displayRoll": true
   },
   {
-    "name": "Ice World / Name",
+    "name": "Planet / Ice World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Beira",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Boreas",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Caradhras",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Cicero",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Demetria",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Enten",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Fissure",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Frost",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Gelida",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Jotunn",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Kanna",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Karn",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Kheimon",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Moroz",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nix",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Olwen",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Osolok",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Taiga",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Thule",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Varnholme",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Ice World / Atmosphere",
+    "name": "Planet / Ice World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -18423,8 +19990,151 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Ice World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 50,
+          "range": [
+            1,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 10,
+          "range": [
+            51,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 20,
+          "range": [
+            61,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 12,
+          "range": [
+            81,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 8,
+          "range": [
+            93,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Ice World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 75,
+          "range": [
+            1,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 8,
+          "range": [
+            76,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 12,
+          "range": [
+            84,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Ice World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 90,
+          "range": [
+            1,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 6,
+          "range": [
+            91,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 4,
+          "range": [
+            97,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Ice World / Observed From Space",
+    "name": "Planet / Ice World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -18522,7 +20232,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ice World / Planetside Feature",
+    "name": "Planet / Ice World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -18665,7 +20375,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ice World / Life",
+    "name": "Planet / Ice World / Life",
     "results": [
       {
         "type": 0,
@@ -18736,175 +20446,195 @@
     "displayRoll": true
   },
   {
-    "name": "Jovian World / Name",
+    "name": "Planet / Jovian World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Aether",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Arrokoth",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Esen",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Hanish",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Magnus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Magonia",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Mistral",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nephele",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nimbus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nuada",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nubium",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Serein",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Stratus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Taranis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Tempest",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Tenzin",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Tyr",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Veil",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Velum",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Zephyr",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Jovian World / Atmosphere",
+    "name": "Planet / Jovian World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -18947,8 +20677,151 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Jovian World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 50,
+          "range": [
+            1,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 20,
+          "range": [
+            51,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 15,
+          "range": [
+            71,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 10,
+          "range": [
+            86,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 5,
+          "range": [
+            96,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Jovian World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 75,
+          "range": [
+            1,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 12,
+          "range": [
+            76,
+            87
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 8,
+          "range": [
+            88,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Jovian World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 90,
+          "range": [
+            1,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 6,
+          "range": [
+            91,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 4,
+          "range": [
+            97,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Jovian World / Observed From Space",
+    "name": "Planet / Jovian World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -19046,7 +20919,7 @@
     "displayRoll": true
   },
   {
-    "name": "Jovian World / Planetside Feature",
+    "name": "Planet / Jovian World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -19189,7 +21062,7 @@
     "displayRoll": true
   },
   {
-    "name": "Jovian World / Life",
+    "name": "Planet / Jovian World / Life",
     "results": [
       {
         "type": 0,
@@ -19260,175 +21133,195 @@
     "displayRoll": true
   },
   {
-    "name": "Jungle World / Name",
+    "name": "Planet / Jungle World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Acacia",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Aster",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Beryl",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Celadon",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Ceres",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Damu",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Dryad",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Flora",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Iridum",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Iris",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Kishar",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Penumbra",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Roris",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sylva",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Tangle",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Thorn",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Venom",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Verdure",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Veris",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Viridian",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Jungle World / Atmosphere",
+    "name": "Planet / Jungle World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -19480,8 +21373,169 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Jungle World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 40,
+          "range": [
+            1,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 15,
+          "range": [
+            41,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 25,
+          "range": [
+            56,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 12,
+          "range": [
+            81,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 8,
+          "range": [
+            93,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Jungle World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 65,
+          "range": [
+            1,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 10,
+          "range": [
+            66,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 17,
+          "range": [
+            76,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 5,
+          "range": [
+            93,
+            97
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 3,
+          "range": [
+            98,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Jungle World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 85,
+          "range": [
+            1,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 7,
+          "range": [
+            91,
+            97
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 2,
+          "range": [
+            98,
+            99
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 1,
+          "range": [
+            100,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Jungle World / Observed From Space",
+    "name": "Planet / Jungle World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -19579,7 +21633,7 @@
     "displayRoll": true
   },
   {
-    "name": "Jungle World / Planetside Feature",
+    "name": "Planet / Jungle World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -19722,7 +21776,7 @@
     "displayRoll": true
   },
   {
-    "name": "Jungle World / Life",
+    "name": "Planet / Jungle World / Life",
     "results": [
       {
         "type": 0,
@@ -19775,175 +21829,195 @@
     "displayRoll": true
   },
   {
-    "name": "Ocean World / Name",
+    "name": "Planet / Ocean World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Aegir",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Alon",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Clarion",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Darya",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Eldoris",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Horizon",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Hydra",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Kai",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Larimar",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Lotan",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Mira",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Navini",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nerida",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Oceanus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Pelagic",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Proteus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Russalka",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Siren",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Thalassa",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Triton",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Ocean World / Atmosphere",
+    "name": "Planet / Ocean World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -20004,8 +22078,169 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Ocean World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 40,
+          "range": [
+            1,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 15,
+          "range": [
+            41,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 25,
+          "range": [
+            56,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 12,
+          "range": [
+            81,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 8,
+          "range": [
+            93,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Ocean World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 65,
+          "range": [
+            1,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 10,
+          "range": [
+            66,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 17,
+          "range": [
+            76,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 5,
+          "range": [
+            93,
+            97
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 3,
+          "range": [
+            98,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Ocean World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 85,
+          "range": [
+            1,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 7,
+          "range": [
+            91,
+            97
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 2,
+          "range": [
+            98,
+            99
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 1,
+          "range": [
+            100,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Ocean World / Observed From Space",
+    "name": "Planet / Ocean World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -20103,7 +22338,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ocean World / Planetside Feature",
+    "name": "Planet / Ocean World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -20246,7 +22481,7 @@
     "displayRoll": true
   },
   {
-    "name": "Ocean World / Life",
+    "name": "Planet / Ocean World / Life",
     "results": [
       {
         "type": 0,
@@ -20423,176 +22658,1177 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Lifebearing Planetside Peril",
+      "results": [
+        {
+          "type": 0,
+          "text": "Corrupted or mutated lifeform",
+          "weight": 3,
+          "range": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Signs of a lifeform's power or cunning",
+          "weight": 3,
+          "range": [
+            4,
+            6
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hazardous plant life or malignant spores",
+          "weight": 3,
+          "range": [
+            7,
+            9
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lifeform hunts for prey",
+          "weight": 3,
+          "range": [
+            10,
+            12
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lifeform lairs here",
+          "weight": 3,
+          "range": [
+            13,
+            15
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lifeforms guided by a greater threat",
+          "weight": 3,
+          "range": [
+            16,
+            18
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lifeforms spooked or stampeding",
+          "weight": 3,
+          "range": [
+            19,
+            21
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Threatening lifeform draws near",
+          "weight": 3,
+          "range": [
+            22,
+            24
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Life is revealed or takes an unexpected form",
+          "weight": 3,
+          "range": [
+            25,
+            27
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Blocked or impassible path",
+          "weight": 3,
+          "range": [
+            28,
+            30
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Corrosive substance or environment",
+          "weight": 3,
+          "range": [
+            31,
+            33
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Disturbing remains or evidence of death",
+          "weight": 3,
+          "range": [
+            34,
+            36
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Drastic environmental change",
+          "weight": 3,
+          "range": [
+            37,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Enemy holds this area",
+          "weight": 3,
+          "range": [
+            40,
+            42
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Entangling or engulfing hazard",
+          "weight": 3,
+          "range": [
+            43,
+            45
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Equipment fails or malfunctions",
+          "weight": 3,
+          "range": [
+            46,
+            48
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Guarded or patrolled path",
+          "weight": 3,
+          "range": [
+            49,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Led astray",
+          "weight": 3,
+          "range": [
+            52,
+            54
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lost the path",
+          "weight": 3,
+          "range": [
+            55,
+            57
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Meteorites fall from the sky",
+          "weight": 3,
+          "range": [
+            58,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Radiated area or object",
+          "weight": 3,
+          "range": [
+            61,
+            63
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Realization that something was left behind",
+          "weight": 3,
+          "range": [
+            64,
+            66
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Seismic or volcanic upheaval",
+          "weight": 3,
+          "range": [
+            67,
+            69
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Signs of a lurking or trailing foe",
+          "weight": 3,
+          "range": [
+            70,
+            72
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Storm or atmospheric disruption",
+          "weight": 3,
+          "range": [
+            73,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Toxic or sickening environment",
+          "weight": 3,
+          "range": [
+            76,
+            78
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Trap or alarm",
+          "weight": 3,
+          "range": [
+            79,
+            81
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Treacherous or arduous path",
+          "weight": 3,
+          "range": [
+            82,
+            84
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Troubling visions or apparitions",
+          "weight": 3,
+          "range": [
+            85,
+            87
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Visibility hindered by atmospheric effects",
+          "weight": 3,
+          "range": [
+            88,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Worrying arrival of a ship or vehicle",
+          "weight": 3,
+          "range": [
+            91,
+            93
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Wreckage or ruins portend a new threat",
+          "weight": 3,
+          "range": [
+            94,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Action + Theme",
+          "weight": 3,
+          "range": [
+            97,
+            99
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 1,
+          "range": [
+            100,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Lifeless Planetside Peril",
+      "results": [
+        {
+          "type": 0,
+          "text": "Life is revealed or takes an unexpected form",
+          "weight": 3,
+          "range": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Blocked or impassible path",
+          "weight": 4,
+          "range": [
+            4,
+            7
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Corrosive substance or environment",
+          "weight": 4,
+          "range": [
+            8,
+            11
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Disturbing remains or evidence of death",
+          "weight": 4,
+          "range": [
+            12,
+            15
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Drastic environmental change",
+          "weight": 4,
+          "range": [
+            16,
+            19
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Enemy holds this area",
+          "weight": 4,
+          "range": [
+            20,
+            23
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Entangling or engulfing hazard",
+          "weight": 4,
+          "range": [
+            24,
+            27
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Equipment fails or malfunctions",
+          "weight": 4,
+          "range": [
+            28,
+            31
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Guarded or patrolled path",
+          "weight": 4,
+          "range": [
+            32,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Led astray",
+          "weight": 4,
+          "range": [
+            36,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Lost the path",
+          "weight": 4,
+          "range": [
+            40,
+            43
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Meteorites fall from the sky",
+          "weight": 4,
+          "range": [
+            44,
+            47
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Radiated area or object",
+          "weight": 4,
+          "range": [
+            48,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Realization that something was left behind",
+          "weight": 4,
+          "range": [
+            52,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Seismic or volcanic upheaval",
+          "weight": 4,
+          "range": [
+            56,
+            59
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Signs of a lurking or trailing foe",
+          "weight": 4,
+          "range": [
+            60,
+            63
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Storm or atmospheric disruption",
+          "weight": 4,
+          "range": [
+            64,
+            67
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Toxic or sickening environment",
+          "weight": 4,
+          "range": [
+            68,
+            71
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Trap or alarm",
+          "weight": 4,
+          "range": [
+            72,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Treacherous or arduous path",
+          "weight": 4,
+          "range": [
+            76,
+            79
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Troubling visions or apparitions",
+          "weight": 4,
+          "range": [
+            80,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Visibility hindered by atmospheric effects",
+          "weight": 4,
+          "range": [
+            84,
+            87
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Worrying arrival of a ship or vehicle",
+          "weight": 4,
+          "range": [
+            88,
+            91
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Wreckage or ruins portend a new threat",
+          "weight": 4,
+          "range": [
+            92,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Action + Theme",
+          "weight": 4,
+          "range": [
+            96,
+            99
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 1,
+          "range": [
+            100,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
+  [
+    {
+      "name": "Planet / Lifebearing Planetside Opportunity",
+      "results": [
+        {
+          "type": 0,
+          "text": "Clue to a lifeform's nature or vulnerabilities",
+          "weight": 4,
+          "range": [
+            1,
+            4
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Friendly interaction with a benign lifeform",
+          "weight": 4,
+          "range": [
+            5,
+            8
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hunting or foraging opportunities are plentiful",
+          "weight": 4,
+          "range": [
+            9,
+            12
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Interesting or helpful aspect of benign creatures",
+          "weight": 4,
+          "range": [
+            13,
+            16
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Interesting or helpful aspect of local plant life",
+          "weight": 4,
+          "range": [
+            17,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Encounter reveals unexpected benign lifeforms",
+          "weight": 4,
+          "range": [
+            21,
+            24
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Abandoned camp or vehicle",
+          "weight": 4,
+          "range": [
+            25,
+            28
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Advance warning of an environmental threat",
+          "weight": 4,
+          "range": [
+            29,
+            32
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Clear path through otherwise perilous terrain",
+          "weight": 4,
+          "range": [
+            33,
+            36
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Clue offers insight into a current quest or mystery",
+          "weight": 4,
+          "range": [
+            37,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Clue to the history or nature of this place",
+          "weight": 4,
+          "range": [
+            41,
+            44
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Evidence that others have passed this way",
+          "weight": 4,
+          "range": [
+            45,
+            48
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Foe reveals themselves or tips their hand",
+          "weight": 4,
+          "range": [
+            49,
+            52
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fortuitous change in the weather or atmosphere",
+          "weight": 4,
+          "range": [
+            53,
+            56
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Friendly traveler crosses your path",
+          "weight": 4,
+          "range": [
+            57,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Helpful resource is in ample supply",
+          "weight": 4,
+          "range": [
+            61,
+            64
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Impressive vista offers comfort or inspiration",
+          "weight": 4,
+          "range": [
+            65,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Interesting artifact or device",
+          "weight": 4,
+          "range": [
+            69,
+            72
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Interesting site offers opportunities for exploration",
+          "weight": 4,
+          "range": [
+            73,
+            76
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Moment of fellowship or inner peace",
+          "weight": 4,
+          "range": [
+            77,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Opening to distract, escape, or avoid foes",
+          "weight": 4,
+          "range": [
+            81,
+            84
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Opening to get the drop on a foe",
+          "weight": 4,
+          "range": [
+            85,
+            88
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Plea for help from a potential benefactor",
+          "weight": 4,
+          "range": [
+            89,
+            92
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Refuge offers a place to hide, plan, or recover",
+          "weight": 4,
+          "range": [
+            93,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Vantage point reveals the lay of the land",
+          "weight": 4,
+          "range": [
+            97,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Lifeless Planetside Opportunity",
+      "results": [
+        {
+          "type": 0,
+          "text": "Encounter reveals unexpected benign lifeforms",
+          "weight": 5,
+          "range": [
+            1,
+            5
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Abandoned camp or vehicle",
+          "weight": 5,
+          "range": [
+            6,
+            10
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Advance warning of an environmental threat",
+          "weight": 5,
+          "range": [
+            11,
+            15
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Clear path through otherwise perilous terrain",
+          "weight": 5,
+          "range": [
+            16,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Clue offers insight into a current quest or mystery",
+          "weight": 5,
+          "range": [
+            21,
+            25
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Clue to the history or nature of this place",
+          "weight": 5,
+          "range": [
+            26,
+            30
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Evidence that others have passed this way",
+          "weight": 5,
+          "range": [
+            31,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Foe reveals themselves or tips their hand",
+          "weight": 5,
+          "range": [
+            36,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fortuitous change in the weather or atmosphere",
+          "weight": 5,
+          "range": [
+            41,
+            45
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Friendly traveler crosses your path",
+          "weight": 5,
+          "range": [
+            46,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Helpful resource is in ample supply",
+          "weight": 5,
+          "range": [
+            51,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Impressive vista offers comfort or inspiration",
+          "weight": 5,
+          "range": [
+            56,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Interesting artifact or device",
+          "weight": 5,
+          "range": [
+            61,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Interesting site offers opportunities for exploration",
+          "weight": 5,
+          "range": [
+            66,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Moment of fellowship or inner peace",
+          "weight": 5,
+          "range": [
+            71,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Opening to distract, escape, or avoid foes",
+          "weight": 5,
+          "range": [
+            76,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Opening to get the drop on a foe",
+          "weight": 5,
+          "range": [
+            81,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Plea for help from a potential benefactor",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Refuge offers a place to hide, plan, or recover",
+          "weight": 5,
+          "range": [
+            91,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Vantage point reveals the lay of the land",
+          "weight": 5,
+          "range": [
+            96,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Rocky World / Name",
+    "name": "Planet / Rocky World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Aphelion",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Artemis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Capella",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Cobalt",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Crag",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Dusk",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Eos",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Hecate",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Imbrium",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Latona",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Losna",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Orpheus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Ory",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Quietus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Selene",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Silas",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Silex",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Slate",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Themis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Umbra",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Rocky World / Atmosphere",
+    "name": "Planet / Rocky World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -20635,8 +23871,151 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Rocky World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 50,
+          "range": [
+            1,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 20,
+          "range": [
+            51,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 15,
+          "range": [
+            71,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 10,
+          "range": [
+            86,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 5,
+          "range": [
+            96,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Rocky World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 75,
+          "range": [
+            1,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 12,
+          "range": [
+            76,
+            87
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 8,
+          "range": [
+            88,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Rocky World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 90,
+          "range": [
+            1,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 6,
+          "range": [
+            91,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 4,
+          "range": [
+            97,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Rocky World / Observed From Space",
+    "name": "Planet / Rocky World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -20734,7 +24113,7 @@
     "displayRoll": true
   },
   {
-    "name": "Rocky World / Planetside Feature",
+    "name": "Planet / Rocky World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -20877,7 +24256,7 @@
     "displayRoll": true
   },
   {
-    "name": "Rocky World / Life",
+    "name": "Planet / Rocky World / Life",
     "results": [
       {
         "type": 0,
@@ -20948,175 +24327,195 @@
     "displayRoll": true
   },
   {
-    "name": "Shattered World / Name",
+    "name": "Planet / Shattered World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Cavus",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Chrysalis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Fragment",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Havoc",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Keres",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Lux",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nemain",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Praxis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Riven",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Schism",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Shell",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Slag",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sliver",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sunder",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Torment",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Vestige",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Vigrid",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Vortex",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Wrath",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Zix",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Shattered World / Atmosphere",
+    "name": "Planet / Shattered World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -21168,8 +24567,142 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Shattered World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 70,
+          "range": [
+            1,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 20,
+          "range": [
+            71,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 5,
+          "range": [
+            91,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Shattered World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 85,
+          "range": [
+            1,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 11,
+          "range": [
+            86,
+            96
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 3,
+          "range": [
+            97,
+            99
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 1,
+          "range": [
+            100,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Shattered World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 95,
+          "range": [
+            1,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 4,
+          "range": [
+            96,
+            99
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 1,
+          "range": [
+            100,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Shattered World / Observed From Space",
+    "name": "Planet / Shattered World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -21267,7 +24800,7 @@
     "displayRoll": true
   },
   {
-    "name": "Shattered World / Planetside Feature",
+    "name": "Planet / Shattered World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -21410,7 +24943,7 @@
     "displayRoll": true
   },
   {
-    "name": "Shattered World / Life",
+    "name": "Planet / Shattered World / Life",
     "results": [
       {
         "type": 0,
@@ -21463,175 +24996,195 @@
     "displayRoll": true
   },
   {
-    "name": "Tainted World / Name",
+    "name": "Planet / Tainted World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Achlys",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Animus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Bane",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Blight",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Carrion",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Chitin",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Datura",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Dreck",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Erra",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Febris",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Malacia",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Miasma",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Morbus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Pathosis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Pestis",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Scourge",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Telium",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Timoris",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Verus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Xanthous",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Tainted World / Atmosphere",
+    "name": "Planet / Tainted World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -21674,8 +25227,133 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Tainted World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 80,
+          "range": [
+            1,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 10,
+          "range": [
+            81,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 5,
+          "range": [
+            91,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Tainted World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 90,
+          "range": [
+            1,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 7,
+          "range": [
+            91,
+            97
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 3,
+          "range": [
+            98,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Tainted World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 95,
+          "range": [
+            1,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 3,
+          "range": [
+            96,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Tainted World / Observed From Space",
+    "name": "Planet / Tainted World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -21773,7 +25451,7 @@
     "displayRoll": true
   },
   {
-    "name": "Tainted World / Planetside Feature",
+    "name": "Planet / Tainted World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -21916,7 +25594,7 @@
     "displayRoll": true
   },
   {
-    "name": "Tainted World / Life",
+    "name": "Planet / Tainted World / Life",
     "results": [
       {
         "type": 0,
@@ -21969,175 +25647,195 @@
     "displayRoll": true
   },
   {
-    "name": "Vital World / Name",
+    "name": "Planet / Vital World / Name",
     "results": [
       {
         "type": 0,
-        "weight": null,
+        "text": "Chiron",
+        "weight": 1,
         "range": [
           1,
-          null
+          1
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Demeter",
+        "weight": 1,
         "range": [
-          null,
-          null
+          2,
+          2
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Erebos",
+        "weight": 1,
         "range": [
-          null,
-          null
+          3,
+          3
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Erembour",
+        "weight": 1,
         "range": [
-          null,
-          null
+          4,
+          4
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Feronia",
+        "weight": 1,
         "range": [
-          null,
-          null
+          5,
+          5
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Fortuna",
+        "weight": 1,
         "range": [
-          null,
-          null
+          6,
+          6
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Gaia",
+        "weight": 1,
         "range": [
-          null,
-          null
+          7,
+          7
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Harbinger",
+        "weight": 1,
         "range": [
-          null,
-          null
+          8,
+          8
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Haven",
+        "weight": 1,
         "range": [
-          null,
-          null
+          9,
+          9
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Hope",
+        "weight": 1,
         "range": [
-          null,
-          null
+          10,
+          10
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Morpheus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          11,
+          11
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Nemus",
+        "weight": 1,
         "range": [
-          null,
-          null
+          12,
+          12
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sapphire",
+        "weight": 1,
         "range": [
-          null,
-          null
+          13,
+          13
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Serenity",
+        "weight": 1,
         "range": [
-          null,
-          null
+          14,
+          14
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sif",
+        "weight": 1,
         "range": [
-          null,
-          null
+          15,
+          15
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Silva",
+        "weight": 1,
         "range": [
-          null,
-          null
+          16,
+          16
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Sirona",
+        "weight": 1,
         "range": [
-          null,
-          null
+          17,
+          17
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Solstice",
+        "weight": 1,
         "range": [
-          null,
-          null
+          18,
+          18
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Vale",
+        "weight": 1,
         "range": [
-          null,
-          null
+          19,
+          19
         ]
       },
       {
         "type": 0,
-        "weight": null,
+        "text": "Valinor",
+        "weight": 1,
         "range": [
-          null,
-          null
+          20,
+          20
         ]
       }
     ],
-    "formula": "1d100",
+    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
   {
-    "name": "Vital World / Atmosphere",
+    "name": "Planet / Vital World / Atmosphere",
     "results": [
       {
         "type": 0,
@@ -22171,8 +25869,169 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Planet / Vital World / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 20,
+          "range": [
+            1,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 10,
+          "range": [
+            21,
+            30
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 40,
+          "range": [
+            31,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 20,
+          "range": [
+            71,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Vital World / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 50,
+          "range": [
+            1,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 5,
+          "range": [
+            51,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 30,
+          "range": [
+            56,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 10,
+          "range": [
+            86,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 5,
+          "range": [
+            96,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Planet / Vital World / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "None",
+          "weight": 80,
+          "range": [
+            1,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Orbital settlement",
+          "weight": 3,
+          "range": [
+            81,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Planetside settlement",
+          "weight": 10,
+          "range": [
+            84,
+            93
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Multiple settlements",
+          "weight": 5,
+          "range": [
+            94,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Settlements in conflict",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
-    "name": "Vital World / Observed From Space",
+    "name": "Planet / Vital World / Observed From Space",
     "results": [
       {
         "type": 0,
@@ -22270,7 +26129,7 @@
     "displayRoll": true
   },
   {
-    "name": "Vital World / Planetside Feature",
+    "name": "Planet / Vital World / Planetside Feature",
     "results": [
       {
         "type": 0,
@@ -22413,7 +26272,7 @@
     "displayRoll": true
   },
   {
-    "name": "Vital World / Life",
+    "name": "Planet / Vital World / Life",
     "results": [
       {
         "type": 0,
@@ -22457,7 +26316,7 @@
     "displayRoll": true
   },
   {
-    "name": "Vital World / Biomes",
+    "name": "Planet / Vital World / Biomes",
     "results": [
       {
         "type": 0,
@@ -22645,7 +26504,7 @@
     "displayRoll": true
   },
   {
-    "name": "Vital World / Diversity",
+    "name": "Planet / Vital World / Diversity",
     "results": [
       {
         "type": 0,
@@ -23358,7 +27217,7 @@
     "displayRoll": true
   },
   {
-    "name": "Interior / First Look",
+    "name": "Precursor Vault / Interior / First Look",
     "results": [
       {
         "type": 0,
@@ -23654,7 +27513,7 @@
     "displayRoll": true
   },
   {
-    "name": "Interior / Feature",
+    "name": "Precursor Vault / Interior / Feature",
     "results": [
       {
         "type": 0,
@@ -23977,7 +27836,7 @@
     "displayRoll": true
   },
   {
-    "name": "Interior / Peril",
+    "name": "Precursor Vault / Interior / Peril",
     "results": [
       {
         "type": 0,
@@ -24174,7 +28033,7 @@
     "displayRoll": true
   },
   {
-    "name": "Interior / Opportunity",
+    "name": "Precursor Vault / Interior / Opportunity",
     "results": [
       {
         "type": 0,
@@ -24272,7 +28131,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sanctum / Purpose",
+    "name": "Precursor Vault / Sanctum / Purpose",
     "results": [
       {
         "type": 0,
@@ -24541,7 +28400,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sanctum / Feature",
+    "name": "Precursor Vault / Sanctum / Feature",
     "results": [
       {
         "type": 0,
@@ -24864,7 +28723,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sanctum / Peril",
+    "name": "Precursor Vault / Sanctum / Peril",
     "results": [
       {
         "type": 0,
@@ -25061,7 +28920,7 @@
     "displayRoll": true
   },
   {
-    "name": "Sanctum / Opportunity",
+    "name": "Precursor Vault / Sanctum / Opportunity",
     "results": [
       {
         "type": 0,
@@ -27472,6 +31331,167 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Settlement / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "Few",
+          "weight": 10,
+          "range": [
+            1,
+            10
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Dozens",
+          "weight": 15,
+          "range": [
+            11,
+            25
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hundreds",
+          "weight": 30,
+          "range": [
+            26,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Thousands",
+          "weight": 30,
+          "range": [
+            56,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Tens of thousands",
+          "weight": 15,
+          "range": [
+            86,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Settlement / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "Few",
+          "weight": 15,
+          "range": [
+            1,
+            15
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Dozens",
+          "weight": 20,
+          "range": [
+            16,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hundreds",
+          "weight": 30,
+          "range": [
+            36,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Thousands",
+          "weight": 25,
+          "range": [
+            66,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Tens of thousands",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Settlement / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "Few",
+          "weight": 20,
+          "range": [
+            1,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Dozens",
+          "weight": 30,
+          "range": [
+            21,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hundreds",
+          "weight": 30,
+          "range": [
+            51,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Thousands",
+          "weight": 15,
+          "range": [
+            81,
+            95
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Tens of thousands",
+          "weight": 5,
+          "range": [
+            96,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
     "name": "Settlement / First Look",
     "results": [
@@ -29338,6 +33358,599 @@
     "replacement": true,
     "displayRoll": true
   },
+  [
+    {
+      "name": "Space / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "▶️Stellar Object",
+          "weight": 15,
+          "range": [
+            1,
+            15
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Planet",
+          "weight": 20,
+          "range": [
+            16,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Settlement",
+          "weight": 5,
+          "range": [
+            36,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Starship",
+          "weight": 7,
+          "range": [
+            41,
+            47
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Derelict",
+          "weight": 4,
+          "range": [
+            48,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Precursor Vault",
+          "weight": 2,
+          "range": [
+            52,
+            53
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Creature",
+          "weight": 2,
+          "range": [
+            54,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Descriptor + Focus",
+          "weight": 5,
+          "range": [
+            56,
+            60
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Mineral asteroids",
+          "weight": 5,
+          "range": [
+            61,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Frozen asteroids",
+          "weight": 3,
+          "range": [
+            66,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Crystalline asteroids",
+          "weight": 2,
+          "range": [
+            69,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Creature boneyard",
+          "weight": 2,
+          "range": [
+            71,
+            72
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Metallic wreckage",
+          "weight": 2,
+          "range": [
+            73,
+            74
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Large rogue asteroid",
+          "weight": 2,
+          "range": [
+            75,
+            76
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Comet with a tail of ionized gas",
+          "weight": 2,
+          "range": [
+            77,
+            78
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fiery energy storm",
+          "weight": 3,
+          "range": [
+            79,
+            81
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Chaotic meteoroid storm",
+          "weight": 2,
+          "range": [
+            82,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Turbulent gravitational wave",
+          "weight": 2,
+          "range": [
+            84,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Dense nebula cloud",
+          "weight": 8,
+          "range": [
+            86,
+            93
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 5,
+          "range": [
+            94,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll three times]",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Space / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "▶️Stellar Object",
+          "weight": 15,
+          "range": [
+            1,
+            15
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Planet",
+          "weight": 20,
+          "range": [
+            16,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Settlement",
+          "weight": 3,
+          "range": [
+            36,
+            38
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Starship",
+          "weight": 5,
+          "range": [
+            39,
+            43
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Derelict",
+          "weight": 3,
+          "range": [
+            44,
+            46
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Precursor Vault",
+          "weight": 3,
+          "range": [
+            47,
+            49
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Creature",
+          "weight": 3,
+          "range": [
+            50,
+            52
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Descriptor + Focus",
+          "weight": 6,
+          "range": [
+            53,
+            58
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Mineral asteroids",
+          "weight": 5,
+          "range": [
+            59,
+            63
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Frozen asteroids",
+          "weight": 3,
+          "range": [
+            64,
+            66
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Crystalline asteroids",
+          "weight": 2,
+          "range": [
+            67,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Creature boneyard",
+          "weight": 2,
+          "range": [
+            69,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Metallic wreckage",
+          "weight": 2,
+          "range": [
+            71,
+            72
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Large rogue asteroid",
+          "weight": 2,
+          "range": [
+            73,
+            74
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Comet with a tail of ionized gas",
+          "weight": 2,
+          "range": [
+            75,
+            76
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fiery energy storm",
+          "weight": 4,
+          "range": [
+            77,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Chaotic meteoroid storm",
+          "weight": 2,
+          "range": [
+            81,
+            82
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Turbulent gravitational wave",
+          "weight": 3,
+          "range": [
+            83,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Dense nebula cloud",
+          "weight": 8,
+          "range": [
+            86,
+            93
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 5,
+          "range": [
+            94,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll three times]",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Space / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "▶️Stellar Object",
+          "weight": 15,
+          "range": [
+            1,
+            15
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Planet",
+          "weight": 20,
+          "range": [
+            16,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Settlement",
+          "weight": 2,
+          "range": [
+            36,
+            37
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Starship",
+          "weight": 2,
+          "range": [
+            38,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Derelict",
+          "weight": 2,
+          "range": [
+            40,
+            41
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Precursor Vault",
+          "weight": 4,
+          "range": [
+            42,
+            45
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Creature",
+          "weight": 4,
+          "range": [
+            46,
+            49
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Descriptor + Focus",
+          "weight": 7,
+          "range": [
+            50,
+            56
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Mineral asteroids",
+          "weight": 5,
+          "range": [
+            57,
+            61
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Frozen asteroids",
+          "weight": 3,
+          "range": [
+            62,
+            64
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Crystalline asteroids",
+          "weight": 2,
+          "range": [
+            65,
+            66
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Creature boneyard",
+          "weight": 2,
+          "range": [
+            67,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Debris field: Metallic wreckage",
+          "weight": 2,
+          "range": [
+            69,
+            70
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Large rogue asteroid",
+          "weight": 2,
+          "range": [
+            71,
+            72
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Comet with a tail of ionized gas",
+          "weight": 2,
+          "range": [
+            73,
+            74
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Fiery energy storm",
+          "weight": 5,
+          "range": [
+            75,
+            79
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Chaotic meteoroid storm",
+          "weight": 2,
+          "range": [
+            80,
+            81
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Turbulent gravitational wave",
+          "weight": 4,
+          "range": [
+            82,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Dense nebula cloud",
+          "weight": 8,
+          "range": [
+            86,
+            93
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 5,
+          "range": [
+            94,
+            98
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll three times]",
+          "weight": 2,
+          "range": [
+            99,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ],
   {
     "name": "Space / Stellar Object",
     "results": [
@@ -32441,5 +37054,895 @@
     "formula": "1d100",
     "replacement": true,
     "displayRoll": true
-  }
+  },
+  [
+    {
+      "name": "Starship / Terminus",
+      "results": [
+        {
+          "type": 0,
+          "text": "Blockade a location",
+          "weight": 3,
+          "range": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Break a blockade",
+          "weight": 3,
+          "range": [
+            4,
+            6
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Collect a resource",
+          "weight": 3,
+          "range": [
+            7,
+            9
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Command others",
+          "weight": 2,
+          "range": [
+            10,
+            11
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct diplomacy",
+          "weight": 3,
+          "range": [
+            12,
+            14
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct espionage",
+          "weight": 3,
+          "range": [
+            15,
+            17
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct piracy",
+          "weight": 3,
+          "range": [
+            18,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct research",
+          "weight": 3,
+          "range": [
+            21,
+            23
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Defend against an attack",
+          "weight": 3,
+          "range": [
+            24,
+            26
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Deliver messages or data",
+          "weight": 3,
+          "range": [
+            27,
+            29
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Establish a settlement",
+          "weight": 3,
+          "range": [
+            30,
+            32
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Evacuate a location",
+          "weight": 3,
+          "range": [
+            33,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Explore a region",
+          "weight": 2,
+          "range": [
+            36,
+            37
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hold prisoners",
+          "weight": 2,
+          "range": [
+            38,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hunt down another ship",
+          "weight": 3,
+          "range": [
+            40,
+            42
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Launch an attack",
+          "weight": 3,
+          "range": [
+            43,
+            45
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Patrol an area",
+          "weight": 3,
+          "range": [
+            46,
+            48
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide medical aid",
+          "weight": 3,
+          "range": [
+            49,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide repairs",
+          "weight": 3,
+          "range": [
+            52,
+            54
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide shelter",
+          "weight": 3,
+          "range": [
+            55,
+            57
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Quarantine a danger",
+          "weight": 2,
+          "range": [
+            58,
+            59
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Raid a settlement",
+          "weight": 3,
+          "range": [
+            60,
+            62
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Resupply a settlement",
+          "weight": 3,
+          "range": [
+            63,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Retrieve salvage",
+          "weight": 3,
+          "range": [
+            66,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Search and rescue",
+          "weight": 3,
+          "range": [
+            69,
+            71
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Smuggle cargo",
+          "weight": 3,
+          "range": [
+            72,
+            74
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Survey a site",
+          "weight": 3,
+          "range": [
+            75,
+            77
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Test a technology",
+          "weight": 2,
+          "range": [
+            78,
+            79
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Transport cargo",
+          "weight": 3,
+          "range": [
+            80,
+            82
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Transport passengers",
+          "weight": 3,
+          "range": [
+            83,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Action + Theme",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Starship / Outlands",
+      "results": [
+        {
+          "type": 0,
+          "text": "Blockade a location",
+          "weight": 2,
+          "range": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Break a blockade",
+          "weight": 2,
+          "range": [
+            3,
+            4
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Collect a resource",
+          "weight": 3,
+          "range": [
+            5,
+            7
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Command others",
+          "weight": 2,
+          "range": [
+            8,
+            9
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct diplomacy",
+          "weight": 2,
+          "range": [
+            10,
+            11
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct espionage",
+          "weight": 2,
+          "range": [
+            12,
+            13
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct piracy",
+          "weight": 3,
+          "range": [
+            14,
+            16
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct research",
+          "weight": 4,
+          "range": [
+            17,
+            20
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Defend against an attack",
+          "weight": 4,
+          "range": [
+            21,
+            24
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Deliver messages or data",
+          "weight": 4,
+          "range": [
+            25,
+            28
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Establish a settlement",
+          "weight": 4,
+          "range": [
+            29,
+            32
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Evacuate a location",
+          "weight": 4,
+          "range": [
+            33,
+            36
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Explore a region",
+          "weight": 4,
+          "range": [
+            37,
+            40
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hold prisoners",
+          "weight": 2,
+          "range": [
+            41,
+            42
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hunt down another ship",
+          "weight": 3,
+          "range": [
+            43,
+            45
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Launch an attack",
+          "weight": 3,
+          "range": [
+            46,
+            48
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Patrol an area",
+          "weight": 2,
+          "range": [
+            49,
+            50
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide medical aid",
+          "weight": 3,
+          "range": [
+            51,
+            53
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide repairs",
+          "weight": 3,
+          "range": [
+            54,
+            56
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide shelter",
+          "weight": 3,
+          "range": [
+            57,
+            59
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Quarantine a danger",
+          "weight": 2,
+          "range": [
+            60,
+            61
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Raid a settlement",
+          "weight": 3,
+          "range": [
+            62,
+            64
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Resupply a settlement",
+          "weight": 4,
+          "range": [
+            65,
+            68
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Retrieve salvage",
+          "weight": 3,
+          "range": [
+            69,
+            71
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Search and rescue",
+          "weight": 2,
+          "range": [
+            72,
+            73
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Smuggle cargo",
+          "weight": 2,
+          "range": [
+            74,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Survey a site",
+          "weight": 3,
+          "range": [
+            76,
+            78
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Test a technology",
+          "weight": 2,
+          "range": [
+            79,
+            80
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Transport cargo",
+          "weight": 3,
+          "range": [
+            81,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Transport passengers",
+          "weight": 2,
+          "range": [
+            84,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Action + Theme",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    },
+    {
+      "name": "Starship / Expanse",
+      "results": [
+        {
+          "type": 0,
+          "text": "Blockade a location",
+          "weight": 2,
+          "range": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Break a blockade",
+          "weight": 2,
+          "range": [
+            3,
+            4
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Collect a resource",
+          "weight": 4,
+          "range": [
+            5,
+            8
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Command others",
+          "weight": 2,
+          "range": [
+            9,
+            10
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct diplomacy",
+          "weight": 2,
+          "range": [
+            11,
+            12
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct espionage",
+          "weight": 2,
+          "range": [
+            13,
+            14
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct piracy",
+          "weight": 2,
+          "range": [
+            15,
+            16
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Conduct research",
+          "weight": 6,
+          "range": [
+            17,
+            22
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Defend against an attack",
+          "weight": 3,
+          "range": [
+            23,
+            25
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Deliver messages or data",
+          "weight": 4,
+          "range": [
+            26,
+            29
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Establish a settlement",
+          "weight": 6,
+          "range": [
+            30,
+            35
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Evacuate a location",
+          "weight": 4,
+          "range": [
+            36,
+            39
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Explore a region",
+          "weight": 6,
+          "range": [
+            40,
+            45
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hold prisoners",
+          "weight": 2,
+          "range": [
+            46,
+            47
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Hunt down another ship",
+          "weight": 2,
+          "range": [
+            48,
+            49
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Launch an attack",
+          "weight": 2,
+          "range": [
+            50,
+            51
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Patrol an area",
+          "weight": 2,
+          "range": [
+            52,
+            53
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide medical aid",
+          "weight": 2,
+          "range": [
+            54,
+            55
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide repairs",
+          "weight": 2,
+          "range": [
+            56,
+            57
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Provide shelter",
+          "weight": 4,
+          "range": [
+            58,
+            61
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Quarantine a danger",
+          "weight": 2,
+          "range": [
+            62,
+            63
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Raid a settlement",
+          "weight": 2,
+          "range": [
+            64,
+            65
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Resupply a settlement",
+          "weight": 4,
+          "range": [
+            66,
+            69
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Retrieve salvage",
+          "weight": 2,
+          "range": [
+            70,
+            71
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Search and rescue",
+          "weight": 2,
+          "range": [
+            72,
+            73
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Smuggle cargo",
+          "weight": 2,
+          "range": [
+            74,
+            75
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Survey a site",
+          "weight": 2,
+          "range": [
+            76,
+            77
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Test a technology",
+          "weight": 2,
+          "range": [
+            78,
+            79
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Transport cargo",
+          "weight": 4,
+          "range": [
+            80,
+            83
+          ]
+        },
+        {
+          "type": 0,
+          "text": "Transport passengers",
+          "weight": 2,
+          "range": [
+            84,
+            85
+          ]
+        },
+        {
+          "type": 0,
+          "text": "▶️Action + Theme",
+          "weight": 5,
+          "range": [
+            86,
+            90
+          ]
+        },
+        {
+          "type": 0,
+          "text": "[Roll twice]",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ]
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true
+    }
+  ]
 ]

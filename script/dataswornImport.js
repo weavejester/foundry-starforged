@@ -57,28 +57,73 @@ function parseMoves(json) {
   })
 }
 
+function getOracleCategoryName(json) {
+  return json.Parent ? `${json.Parent} / ${json.Name}` : json.Name
+}
+
+function getOracleName(table) {
+  return table.Name ??
+    table.Aliases?.shift() ??
+    table.Requires?.Region ??
+    table.Requires?.Location ??
+    table.Requires?.Type ??
+    table.Requires?.Environment
+}
+
+function parseChanceTable(parent, oracle) {
+  let chance = 0
+  const results = oracle.Table.map(row => {
+    const result = {
+      type: 0,
+      text: row.Description,
+      weight: row.Chance - chance,
+      range: [chance + 1, row.Chance]
+    }
+    chance = row.Chance
+    return result
+  })
+
+  return {
+    name: `${getOracleCategoryName(parent)} / ${getOracleName(oracle)}`,
+    results: results,
+    formula: "1d100",
+    replacement: true,
+    displayRoll: true
+  }  
+}
+
+function parseStringTable(parent, oracle) {
+  const results = oracle.Table.map((row, index) => {
+    return {
+      type: 0,
+      text: row,
+      weight: 1,
+      range: [index + 1, index + 1]
+    }
+  })
+
+  return {
+    name: `${getOracleCategoryName(parent)} / ${oracle.Name}`,
+    results: results,
+    formula: `1d${oracle.Table.length}`,
+    replacement: true,
+    displayRoll: true
+  }   
+}
+
 function parseOracles(json) {
   return json.Oracles.
-    filter(oracle => oracle.Table != null).
     map(oracle => {
-      let chance = 0
-      const results = oracle.Table.map(row => {
-        const result = {
-          type: 0,
-          text: row.Description,
-          weight: row.Chance - chance,
-          range: [chance + 1, row.Chance]
+      if (oracle.Table) {
+        if (typeof oracle.Table[0] === 'string') {
+          return parseStringTable(json, oracle)
         }
-        chance = row.Chance
-        return result
-      })
-
-      return {
-        name: `${json.Name} / ${oracle.Name}`,
-        results: results,
-        formula: "1d100",
-        replacement: true,
-        displayRoll: true
+        else {
+          return parseChanceTable(json, oracle)
+        }
+      }
+      else if (oracle.Tables) {
+        return oracle.Tables.flatMap(oracle => parseChanceTable(json, oracle))
       }
     })
 }
@@ -164,7 +209,7 @@ async function doit () {
   ]
 
   const oracles = await Promise.all(oracleURLs.map(url => fetch(url).then(r => r.json()))).
-    then(oracles => [].concat(...oracles.map(parseOracles)))
+    then(oracles => oracles.flatMap(parseOracles))
 
   await fs.writeFile('assets/oracles.json', JSON.stringify(oracles, null, 2))
 }
