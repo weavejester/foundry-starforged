@@ -25,9 +25,11 @@
         <div class="clickable block clearProgress" title="{{localize 'STARFORGED.ClearProgress'}}">
             <i class="fas fa-times-circle"></i>
         </div>
-        {{#each (progressCharacters data.data.current)}}
-        <div class="progress">{{{this}}}</div>
-        {{/each}}
+        <div class="progress-bar">
+            {{#each (progressCharacters data.data.current)}}
+            <div class="progress">{{{this}}}</div>
+            {{/each}}
+        </div>
         <div class="clickable block markProgress" title="{{localize 'STARFORGED.MarkProgress'}}">
             <i class="fas fa-chevron-circle-right"></i>
         </div>

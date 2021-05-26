@@ -390,7 +390,12 @@
   font-size: 16px;
 }
 .ironsworn .progresses .item-row {
-  margin-bottom: 18px;
+  background: white;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 4px 5px 10px 0;
+  box-shadow: #999 1px 1px;
 }
 .ironsworn .progresses .description {
   padding: 0;
@@ -413,6 +418,8 @@
   flex: 0 0 40px;
   height: 40px;
   padding: 2px;
+  border-radius: 4px;
+  margin: 2px;
 }
 .ironsworn .roles .role {
   margin: -6px 4px 6px 32px;
@@ -424,16 +431,26 @@
   font-size: 17px;
 }
 .ironsworn .progress {
-  flex: 0 0 37px;
+  width: 37px;
   height: 37px;
   border: 1px solid black;
   padding: 1px;
-  margin: 2px;
+  margin: 0;
   text-align: center;
   font-size: 24px;
-  border-radius: 4px;
   box-shadow: black 2px 2px;
   background: white;
+  display: block;
+  float: left;
+}
+.ironsworn .progress-bar {
+  flex: 0 0 372px;
+}
+.ironsworn .progress:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.ironsworn .progress:last-child {
+  border-radius: 0 4px 4px 0;
 }
 .ironsworn .resource {
   width: 50%;
