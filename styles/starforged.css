@@ -347,7 +347,7 @@
 .ironsworn label.left-label {
   line-height: 26px;
   flex: 0 1;
-  margin: 2px 0;
+  margin: 2px 5px 0 0;
 }
 .ironsworn label.top-label {
   line-height: 22px;
