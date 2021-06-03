@@ -98,7 +98,8 @@
                                     {{#if separator}}
                                     <h2>{{title}}</h2>
                                     {{else}}
-                                    <li class="item-row {{expandedClass @root.sheet title}}" data-name="{{title}}" data-id="{{title}}">
+                                    <li class="item-row {{expandedClass @root.sheet title}}" id="{{dasherize title}}"
+                                        data-name="{{title}}" data-id="{{title}}">
                                         <div class="move-entry expandable">
                                             <i class="fas expansion-icon"></i> {{title}}
                                         </div>

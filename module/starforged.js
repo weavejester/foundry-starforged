@@ -208,6 +208,10 @@ Handlebars.registerHelper('capitalize', txt => {
   return `${first.toUpperCase()}${rest.join('')}`
 })
 
+Handlebars.registerHelper('dasherize', text => {
+  return text.replaceAll(' ', '-')
+})
+
 Handlebars.registerHelper('progressCharacters', current => {
   const tickChar = ['', '—', '⨉', '🞶'][current % 4]
   let characters = []

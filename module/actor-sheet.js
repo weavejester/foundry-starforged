@@ -74,6 +74,14 @@ export class StarforgedActorSheet extends ActorSheet {
       scroll(this._saveScrollPosition.bind(this)).
       each(this._loadScrollPosition.bind(this))
 
+    // Setup links
+    html.find('a').click(event => {
+      const move = $(event.target.hash)
+      move.addClass('expanded')
+      move[0].scrollIntoView(false)
+      return false
+    })
+
     // Enable editing stats
     html.find('#edit-stats').click(async ev => {
       if (this.actor.getFlag('ironsworn-starforged', 'editStats')) {
