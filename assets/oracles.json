@@ -11713,7 +11713,7 @@
       "results": [
         {
           "type": 0,
-          "text": "Derelict starship",
+          "text": "Starship",
           "weight": 25,
           "range": [
             1,
@@ -11722,7 +11722,7 @@
         },
         {
           "type": 0,
-          "text": "Derelict settlement",
+          "text": "Settlement",
           "weight": 75,
           "range": [
             26,
@@ -11739,7 +11739,7 @@
       "results": [
         {
           "type": 0,
-          "text": "Derelict starship",
+          "text": "Starship",
           "weight": 40,
           "range": [
             1,
@@ -11748,7 +11748,7 @@
         },
         {
           "type": 0,
-          "text": "Derelict settlement",
+          "text": "Settlement",
           "weight": 60,
           "range": [
             41,
@@ -11765,7 +11765,7 @@
       "results": [
         {
           "type": 0,
-          "text": "Derelict starship",
+          "text": "Starship",
           "weight": 75,
           "range": [
             1,
@@ -11774,7 +11774,7 @@
         },
         {
           "type": 0,
-          "text": "Derelict settlement",
+          "text": "Settlement",
           "weight": 25,
           "range": [
             76,
@@ -12245,7 +12245,7 @@
   },
   [
     {
-      "name": "Derelict / Interior / Starship",
+      "name": "Derelict / Interior / undefined",
       "results": [
         {
           "type": 0,
@@ -12316,7 +12316,7 @@
       "displayRoll": true
     },
     {
-      "name": "Derelict / Interior / Settlement",
+      "name": "Derelict / Interior / undefined",
       "results": [
         {
           "type": 0,
@@ -17689,194 +17689,6 @@
     "displayRoll": true
   },
   {
-    "name": "Planet / Desert World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Abalos",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Audun",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Bishop",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Desolation",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Dykuma",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Fallow",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Helios",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Mirage",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Morricone",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nux",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Ordos",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Petra",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Pyla",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sabulo",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Saffron",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sirocco",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sulis",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Torrid",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Umber",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Vermillion",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
     "name": "Planet / Desert World / Atmosphere",
     "results": [
       {
@@ -18394,194 +18206,6 @@
     "displayRoll": true
   },
   {
-    "name": "Planet / Furnace World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Ash",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Azula",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Cinder",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Cyrus",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Draconus",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Effigy",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Ember",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Flint",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Hades",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Hera",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Ignis",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Inferno",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Ishum",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Kresnik",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nemesis",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Obsidian",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Scorch",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Tana",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Vesta",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Vesuvius",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
     "name": "Planet / Furnace World / Atmosphere",
     "results": [
       {
@@ -19090,194 +18714,6 @@
     "displayRoll": true
   },
   {
-    "name": "Planet / Grave World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Anubis",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Banshee",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Barrow",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Cairn",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Cerberus",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Charon",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Elysia",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Keen",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Kur",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Lament",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Mantus",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Morrigan",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Mourn",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Necropolis",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Orcus",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Osiris",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Requim",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Stygia",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Tartarus",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Thrace",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
     "name": "Planet / Grave World / Atmosphere",
     "results": [
       {
@@ -19737,194 +19173,6 @@
       }
     ],
     "formula": "1d100",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
-    "name": "Planet / Ice World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Beira",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Boreas",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Caradhras",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Cicero",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Demetria",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Enten",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Fissure",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Frost",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Gelida",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Jotunn",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Kanna",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Karn",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Kheimon",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Moroz",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nix",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Olwen",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Osolok",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Taiga",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Thule",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Varnholme",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
@@ -20446,194 +19694,6 @@
     "displayRoll": true
   },
   {
-    "name": "Planet / Jovian World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Aether",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Arrokoth",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Esen",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Hanish",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Magnus",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Magonia",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Mistral",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nephele",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nimbus",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nuada",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nubium",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Serein",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Stratus",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Taranis",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Tempest",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Tenzin",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Tyr",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Veil",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Velum",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Zephyr",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
     "name": "Planet / Jovian World / Atmosphere",
     "results": [
       {
@@ -21129,194 +20189,6 @@
       }
     ],
     "formula": "1d100",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
-    "name": "Planet / Jungle World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Acacia",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Aster",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Beryl",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Celadon",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Ceres",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Damu",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Dryad",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Flora",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Iridum",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Iris",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Kishar",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Penumbra",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Roris",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sylva",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Tangle",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Thorn",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Venom",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Verdure",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Veris",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Viridian",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
@@ -21825,194 +20697,6 @@
       }
     ],
     "formula": "1d100",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
-    "name": "Planet / Ocean World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Aegir",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Alon",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Clarion",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Darya",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Eldoris",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Horizon",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Hydra",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Kai",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Larimar",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Lotan",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Mira",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Navini",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nerida",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Oceanus",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Pelagic",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Proteus",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Russalka",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Siren",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Thalassa",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Triton",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
@@ -22660,7 +21344,7 @@
   },
   [
     {
-      "name": "Planet / Lifebearing Planetside Peril",
+      "name": "Planet / Planetside",
       "results": [
         {
           "type": 0,
@@ -22974,7 +21658,7 @@
       "displayRoll": true
     },
     {
-      "name": "Planet / Lifeless Planetside Peril",
+      "name": "Planet / Planetside",
       "results": [
         {
           "type": 0,
@@ -23218,7 +21902,7 @@
   ],
   [
     {
-      "name": "Planet / Lifebearing Planetside Opportunity",
+      "name": "Planet / Planetside",
       "results": [
         {
           "type": 0,
@@ -23451,7 +22135,7 @@
       "displayRoll": true
     },
     {
-      "name": "Planet / Lifeless Planetside Opportunity",
+      "name": "Planet / Planetside",
       "results": [
         {
           "type": 0,
@@ -23639,194 +22323,6 @@
       "displayRoll": true
     }
   ],
-  {
-    "name": "Planet / Rocky World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Aphelion",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Artemis",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Capella",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Cobalt",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Crag",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Dusk",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Eos",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Hecate",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Imbrium",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Latona",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Losna",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Orpheus",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Ory",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Quietus",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Selene",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Silas",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Silex",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Slate",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Themis",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Umbra",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
-    "replacement": true,
-    "displayRoll": true
-  },
   {
     "name": "Planet / Rocky World / Atmosphere",
     "results": [
@@ -24327,194 +22823,6 @@
     "displayRoll": true
   },
   {
-    "name": "Planet / Shattered World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Cavus",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Chrysalis",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Fragment",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Havoc",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Keres",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Lux",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nemain",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Praxis",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Riven",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Schism",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Shell",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Slag",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sliver",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sunder",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Torment",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Vestige",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Vigrid",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Vortex",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Wrath",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Zix",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
     "name": "Planet / Shattered World / Atmosphere",
     "results": [
       {
@@ -24996,194 +23304,6 @@
     "displayRoll": true
   },
   {
-    "name": "Planet / Tainted World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Achlys",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Animus",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Bane",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Blight",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Carrion",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Chitin",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Datura",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Dreck",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Erra",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Febris",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Malacia",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Miasma",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Morbus",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Pathosis",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Pestis",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Scourge",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Telium",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Timoris",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Verus",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Xanthous",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
     "name": "Planet / Tainted World / Atmosphere",
     "results": [
       {
@@ -25643,194 +23763,6 @@
       }
     ],
     "formula": "1d100",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
-    "name": "Planet / Vital World / Name",
-    "results": [
-      {
-        "type": 0,
-        "text": "Chiron",
-        "weight": 1,
-        "range": [
-          1,
-          1
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Demeter",
-        "weight": 1,
-        "range": [
-          2,
-          2
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Erebos",
-        "weight": 1,
-        "range": [
-          3,
-          3
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Erembour",
-        "weight": 1,
-        "range": [
-          4,
-          4
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Feronia",
-        "weight": 1,
-        "range": [
-          5,
-          5
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Fortuna",
-        "weight": 1,
-        "range": [
-          6,
-          6
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Gaia",
-        "weight": 1,
-        "range": [
-          7,
-          7
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Harbinger",
-        "weight": 1,
-        "range": [
-          8,
-          8
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Haven",
-        "weight": 1,
-        "range": [
-          9,
-          9
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Hope",
-        "weight": 1,
-        "range": [
-          10,
-          10
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Morpheus",
-        "weight": 1,
-        "range": [
-          11,
-          11
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Nemus",
-        "weight": 1,
-        "range": [
-          12,
-          12
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sapphire",
-        "weight": 1,
-        "range": [
-          13,
-          13
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Serenity",
-        "weight": 1,
-        "range": [
-          14,
-          14
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sif",
-        "weight": 1,
-        "range": [
-          15,
-          15
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Silva",
-        "weight": 1,
-        "range": [
-          16,
-          16
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Sirona",
-        "weight": 1,
-        "range": [
-          17,
-          17
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Solstice",
-        "weight": 1,
-        "range": [
-          18,
-          18
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Vale",
-        "weight": 1,
-        "range": [
-          19,
-          19
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Valinor",
-        "weight": 1,
-        "range": [
-          20,
-          20
-        ]
-      }
-    ],
-    "formula": "1d20",
     "replacement": true,
     "displayRoll": true
   },
@@ -26316,6 +24248,50 @@
     "displayRoll": true
   },
   {
+    "name": "Planet / Vital World / Diversity",
+    "results": [
+      {
+        "type": 0,
+        "text": "Simple (two biomes)",
+        "weight": 20,
+        "range": [
+          1,
+          20
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Diverse (three biomes)",
+        "weight": 50,
+        "range": [
+          21,
+          70
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Complex (four biomes)",
+        "weight": 20,
+        "range": [
+          71,
+          90
+        ]
+      },
+      {
+        "type": 0,
+        "text": "Garden world (five or more biomes)",
+        "weight": 10,
+        "range": [
+          91,
+          100
+        ]
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true
+  },
+  {
     "name": "Planet / Vital World / Biomes",
     "results": [
       {
@@ -26495,50 +24471,6 @@
         "weight": 5,
         "range": [
           96,
-          100
-        ]
-      }
-    ],
-    "formula": "1d100",
-    "replacement": true,
-    "displayRoll": true
-  },
-  {
-    "name": "Planet / Vital World / Diversity",
-    "results": [
-      {
-        "type": 0,
-        "text": "Simple (two biomes)",
-        "weight": 20,
-        "range": [
-          1,
-          20
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Diverse (three biomes)",
-        "weight": 50,
-        "range": [
-          21,
-          70
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Complex (four biomes)",
-        "weight": 20,
-        "range": [
-          71,
-          90
-        ]
-      },
-      {
-        "type": 0,
-        "text": "Garden world (five or more biomes)",
-        "weight": 10,
-        "range": [
-          91,
           100
         ]
       }
@@ -34077,7 +32009,7 @@
     "displayRoll": true
   },
   {
-    "name": "Space / Sector Name 1st word",
+    "name": "Space / Sector Name Prefix",
     "results": [
       {
         "type": 0,
@@ -34535,7 +32467,7 @@
     "displayRoll": true
   },
   {
-    "name": "Space / Sector Name 2nd word",
+    "name": "Space / Sector Name Suffix",
     "results": [
       {
         "type": 0,
@@ -36448,7 +34380,7 @@
     "displayRoll": true
   },
   {
-    "name": "Starship / Type",
+    "name": "Starship / Starship Type",
     "results": [
       {
         "type": 0,
