@@ -77,9 +77,11 @@ export class StarforgedActorSheet extends ActorSheet {
     // Setup links
     html.find('a').click(event => {
       const move = $(event.target.hash)
-      move.addClass('expanded')
-      move[0].scrollIntoView(false)
-      return false
+      if (move.length) {
+        move.addClass('expanded')
+        move[0].scrollIntoView(false)
+        return false
+      }
     })
 
     // Enable editing stats
