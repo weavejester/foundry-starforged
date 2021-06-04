@@ -44,10 +44,10 @@
                     <h4 class="momentum">{{localize 'STARFORGED.Momentum'}}</h4>
                     {{>stack stat="momentum" from=10 to=-6}}
                     <hr />
-                    <div class="max">{{localize 'STARFORGED.Max'}}: {{data.momentumMax}}</div>
+                    <div class="max">{{localize 'STARFORGED.Max'}}: {{data.data.momentumMax}}</div>
                     <div class="clickable block stack-row" id="burn">
                         <span class="burn">{{localize 'STARFORGED.Burn'}}</span>
-                        <span class="reset">{{localize 'STARFORGED.Reset'}}: {{data.momentumReset}}</span>
+                        <span class="reset">{{localize 'STARFORGED.Reset'}}: {{data.data.momentumReset}}</span>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                     {{#*inline "statEdit"}}
                     <div class="stat block">
                         <h4>{{localize (concat 'STARFORGED.' (capitalize stat))}}</h4>
-                        <input name="data.{{stat}}" value="{{lookup data stat}}" />
+                        <input name="data.data.{{stat}}" value="{{lookup data stat}}" />
                     </div>
                     {{/inline}}
 
@@ -117,7 +117,7 @@
                             {{#*inline "impact"}}
                             <div class="checkbox-item">
                                 <input type="checkbox" name="data.impact.{{name}}" id="data.impact.{{name}}"
-                                    {{checked (lookup data.impact name)}}> 
+                                    {{checked (lookup data.data.impact name)}}> 
                                 <label class="checkbox" for="data.impact.{{name}}">{{capitalize name}}</label>
                             </div>
                             {{/inline}}
@@ -208,20 +208,20 @@
                     </div>
                     <div class="flexrow">
                         <label class="left-label" for="data.pronouns">{{localize 'STARFORGED.Pronouns'}}</label>
-                        <input name="data.pronouns" type="text" value="{{actor.data.pronouns}}" />    
+                        <input name="data.pronouns" type="text" value="{{actor.data.data.pronouns}}" />    
                     </div>
                     <div class="flexrow">
                         <label class="left-label" for="data.callsign">{{localize 'STARFORGED.Callsign'}}</label>
-                        <input name="data.callsign" type="text" value="{{actor.data.callsign}}" />    
+                        <input name="data.callsign" type="text" value="{{actor.data.data.callsign}}" />    
                     </div>
                 </div>
                 <div class="flexcol">
                     <label class="top-label" for="data.characteristics">{{localize 'STARFORGED.Characteristics'}}</label>
-                    <textarea name="data.characteristics">{{actor.data.characteristics}}</textarea>   
+                    <textarea name="data.characteristics">{{actor.data.data.characteristics}}</textarea>   
                 </div>
                 <div class="flexcol">
                     <label class="top-label" for="data.background">{{localize 'STARFORGED.Background'}}</label>
-                    <textarea name="data.background">{{actor.data.background}}</textarea>   
+                    <textarea name="data.background">{{actor.data.data.background}}</textarea>   
                 </div>
                 <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="50" width="50" />
                 <!-- <div class="flexrow xp">
@@ -242,9 +242,9 @@
                 <div class="flexcol">
                     <section class="sheet-area legacy">
                         <h1><span>{{localize 'STARFORGED.Legacy'}}</span></h1>
-                        {{>legacy name="quests" progress=data.legacy.quests}}
-                        {{>legacy name="bonds" progress=data.legacy.bonds}}
-                        {{>legacy name="discoveries" progress=data.legacy.discoveries}}
+                        {{>legacy name="quests" progress=data.data.legacy.quests}}
+                        {{>legacy name="bonds" progress=data.data.legacy.bonds}}
+                        {{>legacy name="discoveries" progress=data.data.legacy.discoveries}}
                     </section>
 
                     <section class="sheet-area progresses">

@@ -8,7 +8,7 @@
   <section class="flexrow nogrow sheet-area">
     <label class="left-label" for="data.rank">{{localize 'STARFORGED.Rank'}}:</label>
     <select id="data.rank" name="data.rank">
-      {{selectOptions ranks selected=data.rank localize=true}}
+      {{selectOptions ranks selected=data.data.rank localize=true}}
     </select>
   </section>
 
@@ -17,7 +17,7 @@
       <i class="fas fa-stop-circle"></i>
     </div>
     <div class="progress-bar">
-      {{#each (progressCharacters data.current)}}
+      {{#each (progressCharacters data.data.current)}}
       <div class="progress block">{{{this}}}</div>
       {{/each}}
     </div>
@@ -31,7 +31,7 @@
 
   <section class="flexcol sheet-area">
     <label class="top-label" for="data.description">{{localize 'STARFORGED.Description'}}:</label>
-    <textarea name="data.description">{{item.data.description}}</textarea>
+    <textarea name="data.description">{{item.data.data.description}}</textarea>
   </section>
 
   <div class="flexrow nogrow sheet-area">
