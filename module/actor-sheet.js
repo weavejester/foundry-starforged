@@ -50,8 +50,6 @@ export class StarforgedActorSheet extends ActorSheet {
     data.connections = this.actor.items.filter(x => x.type === 'connection')
     data.personalItems = this.actor.items.filter(x => x.type === 'personal_item')
 
-    console.log(data)
-
     return data
   }
 

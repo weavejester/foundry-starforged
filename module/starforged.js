@@ -237,7 +237,6 @@ Handlebars.registerHelper('enrichHtml', text => {
 });
 
 Handlebars.registerHelper('expandedClass', (sheet, id) => {
-  console.log(sheet, id);
   return sheet.isExpanded[id] ? 'expanded' : '';
 });
 
