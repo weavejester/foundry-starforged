@@ -63,11 +63,11 @@
                     {{#*inline "statEdit"}}
                     <div class="stat block">
                         <h4>{{localize (concat 'STARFORGED.' (capitalize stat))}}</h4>
-                        <input name="data.data.{{stat}}" value="{{lookup data stat}}" />
+                        <input name="data.{{stat}}" value="{{lookup data.data stat}}" />
                     </div>
                     {{/inline}}
 
-                    {{#if actor.flags.ironsworn-starforged.editStats}}
+                    {{#if actor.data.flags.ironsworn-starforged.editStats}}
                     {{>statEdit stat="edge"}}
                     {{>statEdit stat="heart"}}
                     {{>statEdit stat="iron"}}
