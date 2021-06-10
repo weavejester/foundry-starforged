@@ -120,28 +120,28 @@ export class StarforgedActorSheet extends ActorSheet {
       const itemId = $(ev.target)
         .parents('.item-row')
         .data('id')
-      const item = this.actor.items.find(x => x._id === itemId)
+      const item = this.actor.items.find(x => x.id === itemId)
       return item.markProgress()
     })
     html.find('.fulfillProgress').click(ev => {
       const itemId = $(ev.target)
         .parents('.item-row')
         .data('id')
-      const item = this.actor.items.find(x => x._id === itemId)
+      const item = this.actor.items.find(x => x.id === itemId)
       return item.fulfill()
     })
     html.find('.clearProgress').click(ev => {
       const itemId = $(ev.target)
         .parents('.item-row')
         .data('id')
-      const item = this.actor.items.find(x => x._id === itemId)
+      const item = this.actor.items.find(x => x.id === itemId)
       return item.clearProgress()
     })
     html.find('.edit-item').click(ev => {
       const itemId = $(ev.target)
         .parents('.item-row')
         .data('id')
-      const item = this.actor.items.find(x => x._id === itemId)
+      const item = this.actor.items.find(x => x.id === itemId)
       item.sheet.render(true)
     })
 
@@ -149,7 +149,7 @@ export class StarforgedActorSheet extends ActorSheet {
     html.find('.item-edit').click(ev => {
       ev.preventDefault()
       const li = $(ev.currentTarget).parents('.item')
-      const item = this.actor.getOwnedItem(li.data('itemId'))
+      const item = this.actor.items.get(li.data('itemId'))
       item.sheet.render(true)
     })
 
@@ -165,17 +165,17 @@ export class StarforgedActorSheet extends ActorSheet {
     html.find('.track-target').click(ev => {
       ev.preventDefault()
       const row = $(ev.currentTarget).parents('.item-row')
-      const item = this.actor.getOwnedItem(row.data('id'))
+      const item = this.actor.items.get(row.data('id'))
       const newValue = parseInt(ev.currentTarget.dataset.value)
       return item.update({ 'data.track.current': newValue })
     })
     html.find('.item-row').map((i, el) => {
-      const item = this.actor.getOwnedItem(el.dataset.id)
+      const item = this.actor.items.get(el.dataset.id)
       this._attachInlineRollListeners($(el), item)
     })
     html.find('.roll-asset-track').click(ev => {
       const row = $(ev.currentTarget).parents('.item-row')
-      const item = this.actor.getOwnedItem(row.data('id'))
+      const item = this.actor.items.get(row.data('id'))
       const data = {
         ...this.getData(),
         track: item.data.data.track.current
@@ -265,7 +265,7 @@ export class StarforgedActorSheet extends ActorSheet {
         const pack = game.packs.get('ironsworn-starforged.starforged-tables')
         const index = await pack.getIndex()
         const entry = index.find(x => x.name == tableName)
-        if (entry) table = await pack.getEntity(entry._id)
+        if (entry) table = await pack.getEntity(entry.id)
       }
       if (table) table.draw()
     }
@@ -299,7 +299,7 @@ export class StarforgedActorSheet extends ActorSheet {
     const { momentum, momentumReset } = this.actor.data.data
     if (momentum > momentumReset) {
       await this.actor.update({
-        _id: this.actor.id,
+        id: this.actor.id,
         data: { momentum: momentumReset }
       })
     }

@@ -20,8 +20,8 @@ Hooks.once('init', async function () {
   console.log(`Initializing Starforged System`)
 
   // Define custom Entity classes
-  CONFIG.Actor.entityClass = StarforgedActor
-  CONFIG.Item.entityClass = StarforgedItem
+  CONFIG.Actor.documentClass = StarforgedActor
+  CONFIG.Item.documentClass = StarforgedItem
   CONFIG.Dice.template = 'systems/ironsworn-starforged/templates/chat/roll.hbs'
   // CONFIG.RollTable.resultTemplate =
   //   'systems/ironsworn-starforged/templates/chat/table-draw.hbs'
@@ -48,7 +48,7 @@ Hooks.once('setup', () => {
   Roll.prototype.render = async function (chatOptions = {}) {
     chatOptions = mergeObject(
       {
-        user: game.user._id,
+        user: game.user.id,
         flavor: null,
         template: CONFIG.Dice.template,
         blind: false
@@ -57,7 +57,7 @@ Hooks.once('setup', () => {
     )
     const isPrivate = chatOptions.isPrivate
     // Execute the roll, if needed
-    if (!this._rolled) this.roll()
+    if (!this._evaluated) this.roll()
     // Define chat data
     const chatData = {
       formula: isPrivate ? '???' : this.formula,
