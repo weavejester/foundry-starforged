@@ -1,4 +1,4 @@
-import { StarforgedActorSheet } from './actor-sheet.js'
+import { StarforgedActorSheet } from './actor-sheet.js';
 
 /**
  * Specific sheet for 'shared' type of actors.
@@ -7,6 +7,6 @@ import { StarforgedActorSheet } from './actor-sheet.js'
 export class StarforgedSharedSheet extends StarforgedActorSheet {
   /** @override */
   static get defaultOptions () {
-    return mergeObject(super.defaultOptions, {width: 370})
+    return mergeObject(super.defaultOptions, { width: 370 });
   }
 }

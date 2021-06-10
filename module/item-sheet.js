@@ -3,7 +3,7 @@ import {
   starforgedRollDialog,
   RANKS,
   RANK_INCREMENTS
-} from './starforged.js'
+} from './starforged.js';
 
 /**
  * Extend the basic ItemSheet with some very simple modifications
@@ -16,118 +16,118 @@ export class StarforgedItemSheet extends ItemSheet {
       classes: ['ironsworn', 'sheet', 'item'],
       width: 580,
       height: 470
-    })
+    });
   }
 
   /* -------------------------------------------- */
   /** @override */
   get template () {
-    const path = 'systems/ironsworn-starforged/templates/item'
-    return `${path}/${this.item.data.type}.hbs`
+    const path = 'systems/ironsworn-starforged/templates/item';
+    return `${path}/${this.item.data.type}.hbs`;
   }
 
   /* -------------------------------------------- */
 
   /** @override */
   getData () {
-    const data = super.getData()
+    const data = super.getData();
 
-    data.ranks = RANKS
+    data.ranks = RANKS;
 
-    return data
+    return data;
   }
 
   /* -------------------------------------------- */
 
   /** @override */
   setPosition (options = {}) {
-    const position = super.setPosition(options)
-    const sheetBody = this.element.find('.sheet-body')
-    const bodyHeight = position.height - 82
-    sheetBody.css('height', bodyHeight)
-    return position
+    const position = super.setPosition(options);
+    const sheetBody = this.element.find('.sheet-body');
+    const bodyHeight = position.height - 82;
+    sheetBody.css('height', bodyHeight);
+    return position;
   }
 
   /* -------------------------------------------- */
 
   /** @override */
   activateListeners (html) {
-    super.activateListeners(html)
+    super.activateListeners(html);
 
     // Activate roll links
     html.find('a.sf-inline-roll').on('click', ev => {
-      ev.preventDefault()
-      const el = ev.currentTarget
-      const moveTitle = `${this.object.name} (${el.dataset.param})`
-      const actor = this.object.actor || {}
-      return starforgedRollDialog(actor.data?.data, el.dataset.param, moveTitle)
-    })
+      ev.preventDefault();
+      const el = ev.currentTarget;
+      const moveTitle = `${this.object.name} (${el.dataset.param})`;
+      const actor = this.object.actor || {};
+      return starforgedRollDialog(actor.data?.data, el.dataset.param, moveTitle);
+    });
 
     // Everything below here is only needed if the sheet is editable
-    if (!this.options.editable) return
+    if (!this.options.editable) return;
 
     html.find('.delete-field').click(async ev => {
-      ev.preventDefault()
+      ev.preventDefault();
       const idx = parseInt(
         $(ev.target)
           .parents('.item-row')
           .data('idx')
-      )
-      const fields = Object.values(this.item.data.data.fields)
-      fields.splice(idx, 1)
-      await this.item.update({ 'data.fields': fields })
-    })
+      );
+      const fields = Object.values(this.item.data.data.fields);
+      fields.splice(idx, 1);
+      await this.item.update({ 'data.fields': fields });
+    });
     html.find('.add-field').click(async ev => {
-      const fields = Object.values(this.item.data.data.fields)
-      fields.push({ name: '', value: '' })
-      await this.item.update({ 'data.fields': fields })
-    })
+      const fields = Object.values(this.item.data.data.fields);
+      fields.push({ name: '', value: '' });
+      await this.item.update({ 'data.fields': fields });
+    });
 
     html.find('.track-target').click(async ev => {
-      const newValue = parseInt(ev.currentTarget.dataset.value)
-      await this.item.update({ 'data.track.current': newValue })
-    })
+      const newValue = parseInt(ev.currentTarget.dataset.value);
+      await this.item.update({ 'data.track.current': newValue });
+    });
 
     // Vow progress buttons
     html.find('.markProgress').click(ev => {
-      ev.preventDefault()
-      return this.item.markProgress()
-    })
+      ev.preventDefault();
+      return this.item.markProgress();
+    });
     html.find('.fulfillProgress').click(ev => {
-      ev.preventDefault()
-      return this.item.fulfill()
-    })
+      ev.preventDefault();
+      return this.item.fulfill();
+    });
     html.find('.clearProgress').click(ev => {
-      ev.preventDefault()
-      return this.item.clearProgress()
-    })
+      ev.preventDefault();
+      return this.item.clearProgress();
+    });
     html.find('.delete').click(async ev => {
-      ev.preventDefault()
+      ev.preventDefault();
       await Dialog.confirm({
         title: game.i18n.localize('STARFORGED.DeleteItem'),
         content: `<p>${game.i18n.localize('STARFORGED.ConfirmDelete')}</p>`,
         yes: () => this.item.delete(),
         defaultYes: false
-      })
-    })
+      });
+    });
 
     // Bonds
     html.find('.add-bond').click(ev => {
-      const bonds = Object.values(this.item.data.data.bonds)
-      bonds.push({ name: '', notes: '' })
-      return this.item.update({ 'data.bonds': bonds })
-    })
+      const bonds = Object.values(this.item.data.data.bonds);
+      bonds.push({ name: '', notes: '' });
+      return this.item.update({ 'data.bonds': bonds });
+    });
     html.find('.delete-bond').click(async ev => {
-      ev.preventDefault()
+      ev.preventDefault();
       const idx = parseInt(
         $(ev.target)
           .parents('.item-row')
           .data('idx')
-      )
-      const bonds = Object.values(this.item.data.data.bonds)
-      bonds.splice(idx, 1)
-      await this.item.update({ 'data.bonds': bonds })
-    })
+      );
+      const bonds = Object.values(this.item.data.data.bonds);
+      bonds.splice(idx, 1);
+      await this.item.update({ 'data.bonds': bonds });
+    });
   }
 
   /* -------------------------------------------- */
@@ -138,27 +138,27 @@ export class StarforgedItemSheet extends ItemSheet {
    * @private
    */
   async _onClickAttributeControl (event) {
-    event.preventDefault()
-    const a = event.currentTarget
-    const action = a.dataset.action
-    const attrs = this.object.data.data.attributes
-    const form = this.form
+    event.preventDefault();
+    const a = event.currentTarget;
+    const action = a.dataset.action;
+    const attrs = this.object.data.data.attributes;
+    const form = this.form;
 
     // Add new attribute
     if (action === 'create') {
-      const nk = Object.keys(attrs).length + 1
-      let newKey = document.createElement('div')
-      newKey.innerHTML = `<input type="text" name="data.attributes.attr${nk}.key" value="attr${nk}"/>`
-      newKey = newKey.children[0]
-      form.appendChild(newKey)
-      await this._onSubmit(event)
+      const nk = Object.keys(attrs).length + 1;
+      let newKey = document.createElement('div');
+      newKey.innerHTML = `<input type="text" name="data.attributes.attr${nk}.key" value="attr${nk}"/>`;
+      newKey = newKey.children[0];
+      form.appendChild(newKey);
+      await this._onSubmit(event);
     }
 
     // Remove existing attribute
     else if (action === 'delete') {
-      const li = a.closest('.attribute')
-      li.parentElement.removeChild(li)
-      await this._onSubmit(event)
+      const li = a.closest('.attribute');
+      li.parentElement.removeChild(li);
+      await this._onSubmit(event);
     }
   }
 }

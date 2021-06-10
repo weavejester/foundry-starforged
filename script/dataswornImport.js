@@ -1,7 +1,7 @@
-const marked = require('marked')
-const fetch  = require('node-fetch')
-const fs     = require('fs/promises')
-const util   = require('util')
+const marked = require('marked');
+const fetch = require('node-fetch');
+const fs = require('fs/promises');
+const util = require('util');
 
 function renderHtml (text) {
   return marked(
@@ -10,20 +10,20 @@ function renderHtml (text) {
       '((rollplus $2))'
     ),
     { gfm: true }
-  )
+  );
 }
 
-function parseAssets(json) {
+function parseAssets (json) {
   return json.Assets.map(asset => {
-    const track = {enabled: false, name: '', max: 0, current: 0}
+    const track = { enabled: false, name: '', max: 0, current: 0 };
 
     if (asset.Track) {
-      track.enabled = true
-      track.name    = asset.Track.Name
-      track.max     = asset.Track.Value
-      track.current = asset.Track['Starts At'] ?? track.max
+      track.enabled = true;
+      track.name = asset.Track.Name;
+      track.max = asset.Track.Value;
+      track.current = asset.Track['Starts At'] ?? track.max;
     }
-  
+
     return {
       name: `${asset.Category} / ${asset.Name}`,
       data: {
@@ -33,19 +33,19 @@ function parseAssets(json) {
           value: ''
         })),
         abilities: asset.Abilities.map(x => {
-          const description = x.Name ? `**${x.Name}:** ${x.Text}` : x.Text
+          const description = x.Name ? `**${x.Name}:** ${x.Text}` : x.Text;
           return {
             enabled: x.Enabled || false,
             description: renderHtml(description)
-          }
+          };
         }),
         track
       }
-    }
-  })
+    };
+  });
 }
 
-function parseMoves(json) {
+function parseMoves (json) {
   return json.Moves.map(move => {
     return {
       name: move.Name,
@@ -53,54 +53,54 @@ function parseMoves(json) {
         category: move.Category,
         description: renderHtml(move.Text)
       }
-    }
-  })
+    };
+  });
 }
 
-function getOracleCategoryName(json) {
-  return json.Parent ? `${json.Parent} / ${json.Name}` : json.Name
+function getOracleCategoryName (json) {
+  return json.Parent ? `${json.Parent} / ${json.Name}` : json.Name;
 }
 
-function getOracleName(table) {
+function getOracleName (table) {
   return table.Name ??
     table.Aliases?.shift() ??
     table.Requires?.Region ??
     table.Requires?.Location ??
     table.Requires?.Type ??
-    table.Requires?.Environment
+    table.Requires?.Environment;
 }
 
-function parseChanceTable(parent, oracle) {
-  let chance = 0
+function parseChanceTable (parent, oracle) {
+  let chance = 0;
   const results = oracle.Table.map(row => {
     const result = {
       type: 0,
       text: row.Description,
       weight: row.Chance - chance,
       range: [chance + 1, row.Chance]
-    }
-    chance = row.Chance
-    return result
-  })
+    };
+    chance = row.Chance;
+    return result;
+  });
 
   return {
     name: `${getOracleCategoryName(parent)} / ${getOracleName(oracle)}`,
     results: results,
-    formula: "1d100",
+    formula: '1d100',
     replacement: true,
     displayRoll: true
-  }  
+  };
 }
 
-function parseStringTable(parent, oracle) {
+function parseStringTable (parent, oracle) {
   const results = oracle.Table.map((row, index) => {
     return {
       type: 0,
       text: row,
       weight: 1,
       range: [index + 1, index + 1]
-    }
-  })
+    };
+  });
 
   return {
     name: `${getOracleCategoryName(parent)} / ${oracle.Name}`,
@@ -108,32 +108,30 @@ function parseStringTable(parent, oracle) {
     formula: `1d${oracle.Table.length}`,
     replacement: true,
     displayRoll: true
-  }   
+  };
 }
 
-function parseOracles(json) {
-  return json.Oracles.
-    map(oracle => {
+function parseOracles (json) {
+  return json.Oracles
+    .map(oracle => {
       if (oracle.Table) {
         if (typeof oracle.Table[0] === 'string') {
-          return parseStringTable(json, oracle)
+          return parseStringTable(json, oracle);
+        } else {
+          return parseChanceTable(json, oracle);
         }
-        else {
-          return parseChanceTable(json, oracle)
-        }
+      } else if (oracle.Tables) {
+        return oracle.Tables.flatMap(oracle => parseChanceTable(json, oracle));
       }
-      else if (oracle.Tables) {
-        return oracle.Tables.flatMap(oracle => parseChanceTable(json, oracle))
-      }
-    })
+    });
 }
 
 async function doit () {
-  const assets = await fetch('https://raw.githubusercontent.com/rsek/dataforged/main/assets.json').
-    then(result => result.json()).
-    then(parseAssets)
+  const assets = await fetch('https://raw.githubusercontent.com/rsek/dataforged/main/assets.json')
+    .then(result => result.json())
+    .then(parseAssets);
 
-  await fs.writeFile('assets/assets.json', JSON.stringify(assets, null, 2))
+  await fs.writeFile('assets/assets.json', JSON.stringify(assets, null, 2));
 
   // Moves
   const moveURLs = [
@@ -147,20 +145,20 @@ async function doit () {
     'https://raw.githubusercontent.com/rsek/dataforged/main/moves/recover.json',
     'https://raw.githubusercontent.com/rsek/dataforged/main/moves/suffer.json',
     'https://raw.githubusercontent.com/rsek/dataforged/main/moves/threshold.json'
-  ]
+  ];
 
-  const moves = await fetch('https://raw.githubusercontent.com/rsek/dataforged/main/moves.json').
-    then(result => result.json()).
-    then(parseMoves)
-  
-  await fs.writeFile('assets/moves.json', JSON.stringify(moves, null, 2))
+  const moves = await fetch('https://raw.githubusercontent.com/rsek/dataforged/main/moves.json')
+    .then(result => result.json())
+    .then(parseMoves);
 
-  const en = JSON.parse(await fs.readFile('lang/en.json'))
+  await fs.writeFile('assets/moves.json', JSON.stringify(moves, null, 2));
+
+  const en = JSON.parse(await fs.readFile('lang/en.json'));
   for (const move of moves) {
-    en[`STARFORGED.Moves:${move.name}:title`] = move.name
-    en[`STARFORGED.Moves:${move.name}:description`] = move.data.description
+    en[`STARFORGED.Moves:${move.name}:title`] = move.name;
+    en[`STARFORGED.Moves:${move.name}:description`] = move.data.description;
   }
-  await fs.writeFile('lang/en.json', JSON.stringify(en, null, 2))
+  await fs.writeFile('lang/en.json', JSON.stringify(en, null, 2));
 
   const oracleURLs = [
     'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/campaign.json',
@@ -206,18 +204,18 @@ async function doit () {
     'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/settlement.json',
     'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/space.json',
     'https://raw.githubusercontent.com/rsek/dataforged/main/oracles/starship.json'
-  ]
+  ];
 
-  const oracles = await Promise.all(oracleURLs.map(url => fetch(url).then(r => r.json()))).
-    then(oracles => oracles.flatMap(parseOracles))
+  const oracles = await Promise.all(oracleURLs.map(url => fetch(url).then(r => r.json())))
+    .then(oracles => oracles.flatMap(parseOracles));
 
-  await fs.writeFile('assets/oracles.json', JSON.stringify(oracles, null, 2))
+  await fs.writeFile('assets/oracles.json', JSON.stringify(oracles, null, 2));
 }
 
 doit().then(
   () => process.exit(),
   err => {
-    console.error(err)
-    process.exit(-1)
+    console.error(err);
+    process.exit(-1);
   }
-)
+);
