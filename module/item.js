@@ -1,4 +1,4 @@
-import { RANKS, RANK_INCREMENTS } from './starforged.js';
+import { RANK_INCREMENTS } from './starforged.js';
 
 /**
  * Extend the base Iteem entity
@@ -46,7 +46,7 @@ export class StarforgedItem extends Item {
   }
 
   createAbility () {
-    const abilitiese = this.data.data.abilities;
+    const abilities = this.data.data.abilities;
     abilities.push({
       enabled: false,
       description: ''

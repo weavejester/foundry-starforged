@@ -184,7 +184,7 @@ export class StarforgedActorSheet extends ActorSheet {
     })
   }
 
-  isExpanded = {}
+  isExpanded = {};
 
   _toggleExpandedItem (id) {
     const newValue = !this.isExpanded[id]
@@ -204,7 +204,7 @@ export class StarforgedActorSheet extends ActorSheet {
     }   
   }
 
-  scrollPosition = {}
+  scrollPosition = {};
 
   _saveScrollPosition (event) {
     const element = event.currentTarget

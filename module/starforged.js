@@ -106,7 +106,7 @@ function classesForRoll (r) {
     d?.constructor.name.toLowerCase(),
     d && 'd' + d.faces,
     (d?.total || r.result) <= 1 ? 'min' : null,
-    (d?.total || r.result) == maxRoll ? 'max' : null
+    (d?.total || r.result) === maxRoll ? 'max' : null
   ]
     .filter(x => x)
     .join(' ');

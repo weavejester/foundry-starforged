@@ -1,8 +1,6 @@
 import {
-  starforgedMoveRoll,
   starforgedRollDialog,
-  RANKS,
-  RANK_INCREMENTS
+  RANKS
 } from './starforged.js';
 
 /**
@@ -144,18 +142,16 @@ export class StarforgedItemSheet extends ItemSheet {
     const attrs = this.object.data.data.attributes;
     const form = this.form;
 
-    // Add new attribute
     if (action === 'create') {
+      // Add new attribute
       const nk = Object.keys(attrs).length + 1;
       let newKey = document.createElement('div');
       newKey.innerHTML = `<input type="text" name="data.attributes.attr${nk}.key" value="attr${nk}"/>`;
       newKey = newKey.children[0];
       form.appendChild(newKey);
       await this._onSubmit(event);
-    }
-
-    // Remove existing attribute
-    else if (action === 'delete') {
+    } else if (action === 'delete') {
+      // Remove existing attribute
       const li = a.closest('.attribute');
       li.parentElement.removeChild(li);
       await this._onSubmit(event);

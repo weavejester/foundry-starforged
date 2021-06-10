@@ -1,7 +1,6 @@
 const marked = require('marked');
 const fetch = require('node-fetch');
 const fs = require('fs/promises');
-const util = require('util');
 
 function renderHtml (text) {
   return marked(
@@ -123,6 +122,7 @@ function parseOracles (json) {
       } else if (oracle.Tables) {
         return oracle.Tables.flatMap(oracle => parseChanceTable(json, oracle));
       }
+      return null;
     });
 }
 
@@ -134,19 +134,6 @@ async function doit () {
   await fs.writeFile('assets/assets.json', JSON.stringify(assets, null, 2));
 
   // Moves
-  const moveURLs = [
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/adventure.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/combat.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/connection.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/exploration.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/fate.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/legacy.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/quest.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/recover.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/suffer.json',
-    'https://raw.githubusercontent.com/rsek/dataforged/main/moves/threshold.json'
-  ];
-
   const moves = await fetch('https://raw.githubusercontent.com/rsek/dataforged/main/moves.json')
     .then(result => result.json())
     .then(parseMoves);
