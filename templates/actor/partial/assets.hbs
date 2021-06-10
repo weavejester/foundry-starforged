@@ -2,7 +2,7 @@
 <div class="flexcol item-list save-scroll" id="asset-list">
     <ol>
         {{#each assets}}
-        <li class="item-row {{expandedClass @root.sheet _id}}" data-id="{{_id}}">
+        <li class="item-row {{expandedClass @root.sheet id}}" data-id="{{id}}">
             <div class="asset-entry expandable">
                 <div class="flexrow">
                     <span><i class="fas expansion-icon"></i> {{name}}</span>
