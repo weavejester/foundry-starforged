@@ -8,7 +8,7 @@ export async function importFromDatasworn () {
   for (const key of packs) {
     const pack = game.packs.get(key);
     await pack.render(true);
-    const idsToDelete = await pack.getIndex().then(idx => idx.map(x => x.id));
+    const idsToDelete = await pack.getIndex().then(idx => idx.map(x => x._id));
     for (const id of idsToDelete) {
       await pack.deleteEntity(id);
     }
