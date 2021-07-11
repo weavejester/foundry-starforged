@@ -20,7 +20,7 @@ export class StarforgedActor extends Actor {
   }
 
   async addDefaultItems () {
-    await this.createOwnedItem({ type: 'vow', name: 'Background Vow', data: { rank: 'epic' } });
+    await Item.create({type: 'vow', name: 'Background Vow', data: {rank: 'epic'}}, {parent: this});
   }
 
   updateLegacy (legacyName, delta) {
