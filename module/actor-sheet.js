@@ -74,7 +74,7 @@ export class StarforgedActorSheet extends ActorSheet {
 
     // Setup links
     html.find('a').click(event => {
-      const move = $(event.target.hash)
+      const move = $(event.target).parents('.window-app').find(event.target.hash)
       if (move.length) {
         move.addClass('expanded')
         move[0].scrollIntoView(false)
